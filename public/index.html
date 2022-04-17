@@ -8,6 +8,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="shortcut icon" href="../img/favicon.ico" />
     <title>MILL</title>
+
 </head>
 <body>
     <header class="flex items-end bg-lime-600 p-3 place-content-center sm:place-content-start ">
@@ -22,13 +23,30 @@
     </header>
     <main>
         <section>
-            <h2 class="text-center mt-4 text-4xl ">Mill Bistro</h2>
+            <h2 class="text-center mt-4 text-4xl ">Mill</h2>
             <div>
-                <ul class="flex pt-4 place-content-center sm:place-content-start ">
-                    <li class="m-1 shadow p-3 cursor-pointer">Desayunos</li>
-                    <li class="m-1 shadow p-3 cursor-pointer">Almuerzos</li>
-                    <li class="m-1 shadow p-3 cursor-pointer">Bebidas</li>
+                <ul class="flex
+                    pt-4
+                    place-content-center
+                    sm:place-content-start
+                    grid gap-4
+                    grid-cols-3"
+                >
+                    <!--<li class="m-1 shadow p-3 cursor-pointer hover:bg-lime-400 hover:font-bold rounded-xl">Desayunos</li>
+                    <li class="m-1 shadow p-3 cursor-pointer hover:bg-lime-400 hover:font-bold rounded-xl">Almuerzos</li>
+                    <li class="m-1 shadow p-3 cursor-pointer hover:bg-lime-400 hover:font-bold rounded-xl">Bebidas</li>-->
+                    <li class="border border-slate-200 p-2 cursor-pointer hover:bg-lime-400 hover:font-bold text-center">Desayunos</li>
+                    <li class="border border-slate-200 p-2 cursor-pointer hover:bg-lime-400 hover:font-bold text-center">Almuerzos</li>
+                    <li class="border border-slate-200 p-2 cursor-pointer hover:bg-lime-400 hover:font-bold text-center">Bebidas</li>
                 </ul>
+            </div>
+            <div class="flex pt-5">
+                <p class="text-center flex columns-1">Cafe c/leche<span>$160.00</span></p>
+                <picture class="flex  place-content-end m-auto">
+                    <source media="(min-width: 751px)" srcset="../img/cafe-con-leche.jpg">
+                    <source media="(min-width: 380px)" srcset="../img/cafe-con-leche.jpg">
+                    <img src="../img/cafe-con-leche.jpg" class="w-48 h-32 " alt="Mi imagen responsive">
+                </picture>
             </div>
         </section>
     </main>
