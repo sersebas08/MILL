@@ -11,7 +11,7 @@
 
 </head>
 <body>
-    <header class="flex items-end bg-red-600 p-3 place-content-center lg:place-content-start ">
+    <header class="flex items-end bg-red-600 p-3 justify-between ">
         <nav>
           <picture class="">
               <source media="(min-width: 751px)" srcset="../img/molino.png">
@@ -19,29 +19,31 @@
               <img src="../img/molino.png" class="w-10 header__img   rounded-full" alt="Mi imagen responsive">
           </picture>
         </nav>
-
+        <a href="#" id="desa" class="flex md:hidden relative ">Menu</a>
         <h1 class="hidden  ">MILL</h1>
+        <div class="hidden md:flex relative "  id="menu">
+            <ul class="  pt-4  grid  grid-cols-3 ">
+                <!--<li class="m-1 shadow p-3 cursor-pointer hover:bg-lime-400 hover:font-bold rounded-xl">Desayunos</li>
+                <li class="m-1 shadow p-3 cursor-pointer hover:bg-lime-400 hover:font-bold rounded-xl">Almuerzos</li>
+                <li class="m-1 shadow p-3 cursor-pointer hover:bg-lime-400 hover:font-bold rounded-xl">Bebidas</li>-->
+                <li class="flex-1 m-2 py-2.5 cursor-pointer font-bold text-center font-serif">Desayunos</li>
+                <li class="flex-1 m-2 py-2.5 cursor-pointer font-bold text-center font-serif">Almuerzos</li>
+                <li class="flex-1 m-2 py-2.5 cursor-pointer font-bold text-center font-serif">Bebidas</li>
+            </ul>
+        </div>
     </header>
-    <div id="menu" class="bg-red-500 w-full absolute hidden p-4 duración-1000">
+    <div class="bg-red-500 w-full absolute hidden p-4 transition delay-1000 duration-1000 ease-in-out">
         <ul>
             <li class="m-3">Inicio</li>
             <li class="m-3">Inicio</li>
             <li class="m-3">Inicio</li>
         </ul>
     </div>
+
     <main>
         <section>
             <h2 class="flex pl-4 mt-4 text-4xl place-content-center lg:place-content-start font-serif">Mill</h2>
-            <div>
-                <ul class="flex-1 pt-4 place-content-center sm:place-content-start grid  grid-cols-3 lg:w-1/2">
-                    <!--<li class="m-1 shadow p-3 cursor-pointer hover:bg-lime-400 hover:font-bold rounded-xl">Desayunos</li>
-                    <li class="m-1 shadow p-3 cursor-pointer hover:bg-lime-400 hover:font-bold rounded-xl">Almuerzos</li>
-                    <li class="m-1 shadow p-3 cursor-pointer hover:bg-lime-400 hover:font-bold rounded-xl">Bebidas</li>-->
-                    <li class="flex-1 py-2.5 cursor-pointer hover:font-bold text-center font-serif" id="desa">Desayunos</li>
-                    <li class="flex-1 py-2.5 cursor-pointer hover:font-bold text-center font-serif">Almuerzos</li>
-                    <li class="flex-1 py-2.5 cursor-pointer hover:font-bold text-center font-serif">Bebidas</li>
-                </ul>
-            </div>
+
             <section class="flex-wrap md:flex m-auto place-content-center pt-5 font-sans">
                 <div class="flex place-content-center">
                     <div class="m-1 pt-5 border border-slate-200 cursor-pointer hover:shadow-xl w-48">
