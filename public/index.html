@@ -5,24 +5,27 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="shortcut icon" href="../img/favicon.ico" />
     <title>MILL</title>
 
 </head>
 <body>
-    <header class="flex items-end bg-red-600 p-3 justify-between ">
-        <nav>
-          <picture class="">
+    <header class="bg-red-600">
+        <nav class="flex items-end items-center p-3 justify-between  ">
+          <picture class="w-full">
               <source media="(min-width: 751px)" srcset="../img/molino.png">
               <source media="(min-width: 380px)" srcset="../img/molino.png">
               <img src="../img/molino.png" class="w-10 header__img   rounded-full" alt="Mi imagen responsive">
           </picture>
+
+            <a href="#" id="desa" class="flex md:hidden p-3 "><i class="bi bi-list"></i></a>
+            <h1 class="hidden">MILL</h1>
+
         </nav>
-        <a href="#" id="desa" class="flex md:hidden relative ">Menu</a>
-        <h1 class="hidden  ">MILL</h1>
-        <div class="hidden md:flex relative "  id="menu">
-            <ul class="  pt-4  grid  grid-cols-3 ">
+        <div class="hidden md:flex space-x-10 absolute w-full bg-red-600"  id="menu">
+            <ul class="flex flex-col md:inline-flex">
                 <!--<li class="m-1 shadow p-3 cursor-pointer hover:bg-lime-400 hover:font-bold rounded-xl">Desayunos</li>
                 <li class="m-1 shadow p-3 cursor-pointer hover:bg-lime-400 hover:font-bold rounded-xl">Almuerzos</li>
                 <li class="m-1 shadow p-3 cursor-pointer hover:bg-lime-400 hover:font-bold rounded-xl">Bebidas</li>-->
@@ -32,13 +35,13 @@
             </ul>
         </div>
     </header>
-    <div class="bg-red-500 w-full absolute hidden p-4 transition delay-1000 duration-1000 ease-in-out">
+    <!--<div class="bg-red-500 w-full absolute hidden p-4 transition delay-1000 duration-1000 ease-in-out">
         <ul>
             <li class="m-3">Inicio</li>
             <li class="m-3">Inicio</li>
             <li class="m-3">Inicio</li>
         </ul>
-    </div>
+    </div>-->
 
     <main>
         <section>

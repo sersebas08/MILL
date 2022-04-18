@@ -1,9 +1,19 @@
 const desayuno = document.getElementById('desa');
 desayuno.onclick = cambio;
-desayuno.style.border = '2px solid red';
 
-
+let sentido = 0;
 function cambio (){
     const menu = document.getElementById('menu');
-    menu.style.display = 'flex';
+
+    if (sentido === 0) {
+        menu.style.display = 'flex';
+        sentido = 1;
+    } else{
+        menu.style.display = 'none';
+        sentido = 0;
+    }
+
+
+
 }
+
