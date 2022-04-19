@@ -13,8 +13,8 @@
 </head>
 <body>
     <header class="bg-red-600">
-        <nav class="flex items-end items-center p-3 justify-between  ">
-          <picture class="w-full">
+        <nav class="flex items-end items-center  justify-between">
+          <picture class="w-full p-3">
               <source media="(min-width: 751px)" srcset="../img/molino.png">
               <source media="(min-width: 380px)" srcset="../img/molino.png">
               <img src="../img/molino.png" class="w-10 header__img   rounded-full" alt="Mi imagen responsive">
@@ -22,18 +22,18 @@
 
             <a href="#" id="desa" class="flex md:hidden p-3 "><i class="bi bi-list"></i></a>
             <h1 class="hidden">MILL</h1>
-
+            <div class="hidden md:contents flex-col absolute w-full bg-red-600 mt-36"  id="menu">
+                <ul class="flex md:inline-flex">
+                    <!--<li class="m-1 shadow p-3 cursor-pointer hover:bg-lime-400 hover:font-bold rounded-xl">Desayunos</li>
+                    <li class="m-1 shadow p-3 cursor-pointer hover:bg-lime-400 hover:font-bold rounded-xl">Almuerzos</li>
+                    <li class="m-1 shadow p-3 cursor-pointer hover:bg-lime-400 hover:font-bold rounded-xl">Bebidas</li>-->
+                    <li class="flex-1 m-2 py-2.5 cursor-pointer font-bold text-center font-serif">Desayunos</li>
+                    <li class="flex-1 m-2 py-2.5 cursor-pointer font-bold text-center font-serif">Almuerzos</li>
+                    <li class="flex-1 m-2 py-2.5 cursor-pointer font-bold text-center font-serif">Bebidas</li>
+                </ul>
+            </div>
         </nav>
-        <div class="hidden md:flex space-x-10 absolute w-full bg-red-600"  id="menu">
-            <ul class="flex flex-col md:inline-flex">
-                <!--<li class="m-1 shadow p-3 cursor-pointer hover:bg-lime-400 hover:font-bold rounded-xl">Desayunos</li>
-                <li class="m-1 shadow p-3 cursor-pointer hover:bg-lime-400 hover:font-bold rounded-xl">Almuerzos</li>
-                <li class="m-1 shadow p-3 cursor-pointer hover:bg-lime-400 hover:font-bold rounded-xl">Bebidas</li>-->
-                <li class="flex-1 m-2 py-2.5 cursor-pointer font-bold text-center font-serif">Desayunos</li>
-                <li class="flex-1 m-2 py-2.5 cursor-pointer font-bold text-center font-serif">Almuerzos</li>
-                <li class="flex-1 m-2 py-2.5 cursor-pointer font-bold text-center font-serif">Bebidas</li>
-            </ul>
-        </div>
+
     </header>
     <!--<div class="bg-red-500 w-full absolute hidden p-4 transition delay-1000 duration-1000 ease-in-out">
         <ul>
