@@ -12,7 +12,7 @@
 
 </head>
 <body>
-    <header class="bg-red-600">
+    <header class="bg-red-600 drop-shadow-lg">
         <nav class="flex items-end items-center  justify-between">
           <picture class="w-full p-3">
               <source media="(min-width: 751px)" srcset="../img/molino.png">
@@ -20,18 +20,18 @@
               <img src="../img/molino.png" class="w-10 header__img   rounded-full" alt="Mi imagen responsive">
           </picture>
 
-            <a href="#" id="desa" class="flex p-3 text-4xl"><i class="bi bi-list"></i></a>
+            <!--<a href="#" id="desa" class="flex p-3 text-4xl"><i class="bi bi-list"></i></a>-->
             <h1 class="hidden">MILL</h1>
-            <div class="hidden md:contents flex-col absolute w-full bg-red-600 mt-36"  id="menu">
+           <!-- <div class="hidden md:contents flex-col absolute w-full bg-red-600 mt-36"  id="menu">
                 <ul class="flex md:inline-flex z-40">
-                    <!--<li class="m-1 shadow p-3 cursor-pointer hover:bg-lime-400 hover:font-bold rounded-xl">Desayunos</li>
+                    &lt;!&ndash;<li class="m-1 shadow p-3 cursor-pointer hover:bg-lime-400 hover:font-bold rounded-xl">Desayunos</li>
                     <li class="m-1 shadow p-3 cursor-pointer hover:bg-lime-400 hover:font-bold rounded-xl">Almuerzos</li>
-                    <li class="m-1 shadow p-3 cursor-pointer hover:bg-lime-400 hover:font-bold rounded-xl">Bebidas</li>-->
+                    <li class="m-1 shadow p-3 cursor-pointer hover:bg-lime-400 hover:font-bold rounded-xl">Bebidas</li>&ndash;&gt;
                     <li class="flex-1 m-2 py-2.5 cursor-pointer font-bold text-center font-serif">Desayunos</li>
                     <li class="flex-1 m-2 py-2.5 cursor-pointer font-bold text-center font-serif">Almuerzos</li>
                     <li class="flex-1 m-2 py-2.5 cursor-pointer font-bold text-center font-serif">Bebidas</li>
                 </ul>
-            </div>
+            </div>-->
         </nav>
 
     </header>
@@ -48,166 +48,116 @@
             <h2 class="flex pl-4 mt-4 text-4xl place-content-center lg:place-content-start font-serif">Mill</h2>
 
             <section class="flex-wrap md:flex m-auto place-content-center pt-5 font-sans">
-                <div class="flex place-content-center">
-                    <div class="m-1 pt-5 border border-slate-200 cursor-pointer hover:shadow-xl w-48">
-                        <picture class="flex p-3 place-content-end m-auto">
+                <div class="flex flex-wrap md:flex lg:flex xl:flex place-content-center m-4 ">
+                    <div class="m-4  border border-slate-200  hover:shadow-xl hover:bg-gray-50 w-44">
+                        <picture class="flex  place-content-end m-auto">
                             <source media="(min-width: 751px)" srcset="../img/cafe-con-leche.jpg">
                             <source media="(min-width: 380px)" srcset="../img/cafe-con-leche.jpg">
-                            <img src="../img/cafe-con-leche.jpg" class="w-48 h-32 " alt="Mi imagen responsive">
+                            <img src="../img/cafe-con-leche.jpg" class="w-full h-32 " alt="Mi imagen responsive">
                         </picture>
-                        <p class="text-center grid columns-3 m-auto align-middle p-2 ">Cafe c/leche + dos medialunas<span>$500.00</span></p>
+                        <p class="text-center grid columns-3 m-auto align-middle p-2 m-4 ">Cafe c/leche + dos medialunas <span>$500.00</span></p>
+                        <div class="text-center p-3 border border border-slate-200">
+                            <a href="#" title="Me Gusta" class="cursor-pointer hover:shadow-xl m-2"><i class="bi bi-heart"></i></a>
+                            <a href="#" title="Compartir" class="cursor-pointer hover:shadow-xl m-2"><i class="bi bi-share-fill"></i></a>
+                            <a href="#" title="Comentarios" class="cursor-pointer hover:shadow-xl m-2"><i class="bi bi-chat"></i></a>
+                        </div>
                     </div>
-                    <div class="m-1 pt-5 border border-slate-200 cursor-pointer hover:shadow-xl w-48">
-                        <picture class="flex p-3 place-content-end m-auto">
+                    <div class="m-4  border border-slate-200  hover:shadow-xl hover:bg-gray-50 w-44">
+                        <picture class="flex  place-content-end m-auto">
                             <source media="(min-width: 751px)" srcset="../img/cafe-con-leche.jpg">
                             <source media="(min-width: 380px)" srcset="../img/cafe-con-leche.jpg">
-                            <img src="../img/cafe-con-leche.jpg" class="w-48 h-32 " alt="Mi imagen responsive">
+                            <img src="../img/cafe-con-leche.jpg" class="w-full h-32 " alt="Mi imagen responsive">
                         </picture>
-                        <p class="text-center grid columns-3 m-auto align-middle p-2">Cafe c/leche + tostadas + queso crema + mermelada<span>$550.00</span></p>
-                    </div>
-                </div>
-                <div class="flex place-content-center">
-                    <div class="m-1 pt-5 border border-slate-200 cursor-pointer hover:shadow-xl w-48">
-                        <picture class="flex p-3 place-content-end m-auto">
-                            <source media="(min-width: 751px)" srcset="../img/cafe-con-leche.jpg">
-                            <source media="(min-width: 380px)" srcset="../img/cafe-con-leche.jpg">
-                            <img src="../img/cafe-con-leche.jpg" class="w-48 h-28 " alt="Mi imagen responsive">
-                        </picture>
-                        <p class="text-center grid columns-3 m-auto align-middle p-2">Cafe + arabe tostado de jamon y queso<span>$550.00</span></p>
-                    </div>
-                    <div class="m-1 pt-5 border border-slate-200 cursor-pointer hover:shadow-xl w-48">
-                        <picture class="flex p-3 place-content-end m-auto">
-                            <source media="(min-width: 751px)" srcset="../img/cafe-con-leche.jpg">
-                            <source media="(min-width: 380px)" srcset="../img/cafe-con-leche.jpg">
-                            <img src="../img/cafe-con-leche.jpg" class="w-48 h-28 " alt="Mi imagen responsive">
-                        </picture>
-                        <p class="text-center grid columns-3 m-auto align-middle p-2">Cafe c/leche + arabe tostado de jamon y queso<span>$600.00</span></p>
+                        <p class="text-center grid columns-3 m-auto align-middle p-2 m-4 ">Cafe c/leche + dos medialunas <span>$500.00</span></p>
+                        <div class="text-center p-3 border border border-slate-200">
+                            <a href="#" title="Me Gusta" class="cursor-pointer hover:shadow-xl m-2"><i class="bi bi-heart"></i></a>
+                            <a href="#" title="Compartir" class="cursor-pointer hover:shadow-xl m-2"><i class="bi bi-share-fill"></i></a>
+                            <a href="#" title="Comentarios" class="cursor-pointer hover:shadow-xl m-2"><i class="bi bi-chat"></i></a>
+                        </div>
                     </div>
                 </div>
-                <div class="flex place-content-center">
-                    <div class="m-1 pt-5 border border-slate-200 cursor-pointer hover:shadow-xl w-48">
-                        <picture class="flex p-3 place-content-end m-auto">
+                <div class="flex flex-wrap md:flex lg:flex xl:flex place-content-center m-4 ">
+                    <div class="m-4  border border-slate-200  hover:shadow-xl hover:bg-gray-50 w-44">
+                        <picture class="flex  place-content-end m-auto">
                             <source media="(min-width: 751px)" srcset="../img/cafe-con-leche.jpg">
                             <source media="(min-width: 380px)" srcset="../img/cafe-con-leche.jpg">
-                            <img src="../img/cafe-con-leche.jpg" class="w-48 h-28 " alt="Mi imagen responsive">
+                            <img src="../img/cafe-con-leche.jpg" class="w-full h-32 " alt="Mi imagen responsive">
                         </picture>
-                        <p class="text-center grid columns-3 m-auto align-middle p-2">Cafe + arabe tostado de jamon y queso<span>$550.00</span></p>
+                        <p class="text-center grid columns-3 m-auto align-middle p-2 m-4 ">Cafe c/leche + dos medialunas <span>$500.00</span></p>
+                        <div class="text-center p-3 border border border-slate-200">
+                            <a href="#" title="Me Gusta" class="cursor-pointer hover:shadow-xl m-2"><i class="bi bi-heart"></i></a>
+                            <a href="#" title="Compartir" class="cursor-pointer hover:shadow-xl m-2"><i class="bi bi-share-fill"></i></a>
+                            <a href="#" title="Comentarios" class="cursor-pointer hover:shadow-xl m-2"><i class="bi bi-chat"></i></a>
+                        </div>
                     </div>
-                    <div class="m-1 pt-5 border border-slate-200 cursor-pointer hover:shadow-xl w-48">
-                        <picture class="flex p-3 place-content-end m-auto">
+                    <div class="m-4  border border-slate-200  hover:shadow-xl hover:bg-gray-50 w-44">
+                        <picture class="flex  place-content-end m-auto">
                             <source media="(min-width: 751px)" srcset="../img/cafe-con-leche.jpg">
                             <source media="(min-width: 380px)" srcset="../img/cafe-con-leche.jpg">
-                            <img src="../img/cafe-con-leche.jpg" class="w-48 h-28 " alt="Mi imagen responsive">
+                            <img src="../img/cafe-con-leche.jpg" class="w-full h-32 " alt="Mi imagen responsive">
                         </picture>
-                        <p class="text-center grid columns-3 m-auto align-middle p-2">Cafe c/leche + arabe tostado de jamon y queso<span>$600.00</span></p>
-                    </div>
-                </div>
-                <div class="flex place-content-center">
-                    <div class="m-1 pt-5 border border-slate-200 cursor-pointer hover:shadow-xl w-48">
-                        <picture class="flex p-3 place-content-end m-auto">
-                            <source media="(min-width: 751px)" srcset="../img/cafe-con-leche.jpg">
-                            <source media="(min-width: 380px)" srcset="../img/cafe-con-leche.jpg">
-                            <img src="../img/cafe-con-leche.jpg" class="w-48 h-28 " alt="Mi imagen responsive">
-                        </picture>
-                        <p class="text-center grid columns-3 m-auto align-middle p-2">Cafe + arabe tostado de jamon y queso<span>$550.00</span></p>
-                    </div>
-                    <div class="m-1 pt-5 border border-slate-200 cursor-pointer hover:shadow-xl w-48">
-                        <picture class="flex p-3 place-content-end m-auto">
-                            <source media="(min-width: 751px)" srcset="../img/cafe-con-leche.jpg">
-                            <source media="(min-width: 380px)" srcset="../img/cafe-con-leche.jpg">
-                            <img src="../img/cafe-con-leche.jpg" class="w-48 h-28 " alt="Mi imagen responsive">
-                        </picture>
-                        <p class="text-center grid columns-3 m-auto align-middle p-2">Cafe c/leche + arabe tostado de jamon y queso<span>$600.00</span></p>
+                        <p class="text-center grid columns-3 m-auto align-middle p-2 m-4 ">Cafe c/leche + dos medialunas <span>$500.00</span></p>
+                        <div class="text-center p-3 border border border-slate-200">
+                            <a href="#" title="Me Gusta" class="cursor-pointer hover:shadow-xl m-2"><i class="bi bi-heart"></i></a>
+                            <a href="#" title="Compartir" class="cursor-pointer hover:shadow-xl m-2"><i class="bi bi-share-fill"></i></a>
+                            <a href="#" title="Comentarios" class="cursor-pointer hover:shadow-xl m-2"><i class="bi bi-chat"></i></a>
+                        </div>
                     </div>
                 </div>
-                <div class="flex place-content-center">
-                    <div class="m-1 pt-5 border border-slate-200 cursor-pointer hover:shadow-xl w-48">
-                        <picture class="flex p-3 place-content-end m-auto">
+                <div class="flex flex-wrap md:flex lg:flex xl:flex place-content-center m-4 ">
+                    <div class="m-4  border border-slate-200  hover:shadow-xl hover:bg-gray-50 w-44">
+                        <picture class="flex  place-content-end m-auto">
                             <source media="(min-width: 751px)" srcset="../img/cafe-con-leche.jpg">
                             <source media="(min-width: 380px)" srcset="../img/cafe-con-leche.jpg">
-                            <img src="../img/cafe-con-leche.jpg" class="w-48 h-28 " alt="Mi imagen responsive">
+                            <img src="../img/cafe-con-leche.jpg" class="w-full h-32 " alt="Mi imagen responsive">
                         </picture>
-                        <p class="text-center grid columns-3 m-auto align-middle p-2">Cafe + arabe tostado de jamon y queso<span>$550.00</span></p>
+                        <p class="text-center grid columns-3 m-auto align-middle p-2 m-4 ">Cafe c/leche + dos medialunas <span>$500.00</span></p>
+                        <div class="text-center p-3 border border border-slate-200">
+                            <a href="#" title="Me Gusta" class="cursor-pointer hover:shadow-xl m-2"><i class="bi bi-heart"></i></a>
+                            <a href="#" title="Compartir" class="cursor-pointer hover:shadow-xl m-2"><i class="bi bi-share-fill"></i></a>
+                            <a href="#" title="Comentarios" class="cursor-pointer hover:shadow-xl m-2"><i class="bi bi-chat"></i></a>
+                        </div>
                     </div>
-                    <div class="m-1 pt-5 border border-slate-200 cursor-pointer hover:shadow-xl w-48">
-                        <picture class="flex p-3 place-content-end m-auto">
+                    <div class="m-4  border border-slate-200  hover:shadow-xl hover:bg-gray-50 w-44">
+                        <picture class="flex  place-content-end m-auto">
                             <source media="(min-width: 751px)" srcset="../img/cafe-con-leche.jpg">
                             <source media="(min-width: 380px)" srcset="../img/cafe-con-leche.jpg">
-                            <img src="../img/cafe-con-leche.jpg" class="w-48 h-28 " alt="Mi imagen responsive">
+                            <img src="../img/cafe-con-leche.jpg" class="w-full h-32 " alt="Mi imagen responsive">
                         </picture>
-                        <p class="text-center grid columns-3 m-auto align-middle p-2">Cafe c/leche + arabe tostado de jamon y queso<span>$600.00</span></p>
-                    </div>
-                </div>
-                <div class="flex place-content-center">
-                    <div class="m-1 pt-5 border border-slate-200 cursor-pointer hover:shadow-xl w-48">
-                        <picture class="flex p-3 place-content-end m-auto">
-                            <source media="(min-width: 751px)" srcset="../img/cafe-con-leche.jpg">
-                            <source media="(min-width: 380px)" srcset="../img/cafe-con-leche.jpg">
-                            <img src="../img/cafe-con-leche.jpg" class="w-48 h-28 " alt="Mi imagen responsive">
-                        </picture>
-                        <p class="text-center grid columns-3 m-auto align-middle p-2">Cafe + arabe tostado de jamon y queso<span>$550.00</span></p>
-                    </div>
-                    <div class="m-1 pt-5 border border-slate-200 cursor-pointer hover:shadow-xl w-48">
-                        <picture class="flex p-3 place-content-end m-auto">
-                            <source media="(min-width: 751px)" srcset="../img/cafe-con-leche.jpg">
-                            <source media="(min-width: 380px)" srcset="../img/cafe-con-leche.jpg">
-                            <img src="../img/cafe-con-leche.jpg" class="w-48 h-28 " alt="Mi imagen responsive">
-                        </picture>
-                        <p class="text-center grid columns-3 m-auto align-middle p-2">Cafe c/leche + arabe tostado de jamon y queso<span>$600.00</span></p>
+                        <p class="text-center grid columns-3 m-auto align-middle p-2 m-4 ">Cafe c/leche + dos medialunas <span>$500.00</span></p>
+                        <div class="text-center p-3 border border border-slate-200">
+                            <a href="#" title="Me Gusta" class="cursor-pointer hover:shadow-xl m-2"><i class="bi bi-heart"></i></a>
+                            <a href="#" title="Compartir" class="cursor-pointer hover:shadow-xl m-2"><i class="bi bi-share-fill"></i></a>
+                            <a href="#" title="Comentarios" class="cursor-pointer hover:shadow-xl m-2"><i class="bi bi-chat"></i></a>
+                        </div>
                     </div>
                 </div>
-                <div class="flex place-content-center">
-                    <div class="m-1 pt-5 border border-slate-200 cursor-pointer hover:shadow-xl w-48">
-                        <picture class="flex p-3 place-content-end m-auto">
+                <div class="flex flex-wrap md:flex lg:flex xl:flex place-content-center m-4 ">
+                    <div class="m-4  border border-slate-200  hover:shadow-xl hover:bg-gray-50 w-44">
+                        <picture class="flex  place-content-end m-auto">
                             <source media="(min-width: 751px)" srcset="../img/cafe-con-leche.jpg">
                             <source media="(min-width: 380px)" srcset="../img/cafe-con-leche.jpg">
-                            <img src="../img/cafe-con-leche.jpg" class="w-48 h-28 " alt="Mi imagen responsive">
+                            <img src="../img/cafe-con-leche.jpg" class="w-full h-32 " alt="Mi imagen responsive">
                         </picture>
-                        <p class="text-center grid columns-3 m-auto align-middle p-2">Cafe + arabe tostado de jamon y queso<span>$550.00</span></p>
+                        <p class="text-center grid columns-3 m-auto align-middle p-2 m-4 ">Cafe c/leche + dos medialunas <span>$500.00</span></p>
+                        <div class="text-center p-3 border border border-slate-200">
+                            <a href="#" title="Me Gusta" class="cursor-pointer hover:shadow-xl m-2"><i class="bi bi-heart"></i></a>
+                            <a href="#" title="Compartir" class="cursor-pointer hover:shadow-xl m-2"><i class="bi bi-share-fill"></i></a>
+                            <a href="#" title="Comentarios" class="cursor-pointer hover:shadow-xl m-2"><i class="bi bi-chat"></i></a>
+                        </div>
                     </div>
-                    <div class="m-1 pt-5 border border-slate-200 cursor-pointer hover:shadow-xl w-48">
-                        <picture class="flex p-3 place-content-end m-auto">
+                    <div class="m-4  border border-slate-200  hover:shadow-xl hover:bg-gray-50 w-44">
+                        <picture class="flex  place-content-end m-auto">
                             <source media="(min-width: 751px)" srcset="../img/cafe-con-leche.jpg">
                             <source media="(min-width: 380px)" srcset="../img/cafe-con-leche.jpg">
-                            <img src="../img/cafe-con-leche.jpg" class="w-48 h-28 " alt="Mi imagen responsive">
+                            <img src="../img/cafe-con-leche.jpg" class="w-full h-32 " alt="Mi imagen responsive">
                         </picture>
-                        <p class="text-center grid columns-3 m-auto align-middle p-2">Cafe c/leche + arabe tostado de jamon y queso<span>$600.00</span></p>
-                    </div>
-                </div>
-                <div class="flex place-content-center">
-                    <div class="m-1 pt-5 border border-slate-200 cursor-pointer hover:shadow-xl w-48">
-                        <picture class="flex p-3 place-content-end m-auto">
-                            <source media="(min-width: 751px)" srcset="../img/cafe-con-leche.jpg">
-                            <source media="(min-width: 380px)" srcset="../img/cafe-con-leche.jpg">
-                            <img src="../img/cafe-con-leche.jpg" class="w-48 h-28 " alt="Mi imagen responsive">
-                        </picture>
-                        <p class="text-center grid columns-3 m-auto align-middle p-2">Cafe + arabe tostado de jamon y queso<span>$550.00</span></p>
-                    </div>
-                    <div class="m-1 pt-5 border border-slate-200 cursor-pointer hover:shadow-xl w-48">
-                        <picture class="flex p-3 place-content-end m-auto">
-                            <source media="(min-width: 751px)" srcset="../img/cafe-con-leche.jpg">
-                            <source media="(min-width: 380px)" srcset="../img/cafe-con-leche.jpg">
-                            <img src="../img/cafe-con-leche.jpg" class="w-48 h-28 " alt="Mi imagen responsive">
-                        </picture>
-                        <p class="text-center grid columns-3 m-auto align-middle p-2">Cafe c/leche + arabe tostado de jamon y queso<span>$600.00</span></p>
-                    </div>
-                </div>
-                <div class="flex place-content-center">
-                    <div class="m-1 pt-5 border border-slate-200 cursor-pointer hover:shadow-xl w-48">
-                        <picture class="flex p-3 place-content-end m-auto">
-                            <source media="(min-width: 751px)" srcset="../img/cafe-con-leche.jpg">
-                            <source media="(min-width: 380px)" srcset="../img/cafe-con-leche.jpg">
-                            <img src="../img/cafe-con-leche.jpg" class="w-48 h-28 " alt="Mi imagen responsive">
-                        </picture>
-                        <p class="text-center grid columns-3 m-auto align-middle p-2">Cafe + arabe tostado de jamon y queso<span>$550.00</span></p>
-                    </div>
-                    <div class="m-1 pt-5 border border-slate-200 cursor-pointer hover:shadow-xl w-48">
-                        <picture class="flex p-3 place-content-end m-auto">
-                            <source media="(min-width: 751px)" srcset="../img/cafe-con-leche.jpg">
-                            <source media="(min-width: 380px)" srcset="../img/cafe-con-leche.jpg">
-                            <img src="../img/cafe-con-leche.jpg" class="w-48 h-28 " alt="Mi imagen responsive">
-                        </picture>
-                        <p class="text-center grid columns-3 m-auto align-middle p-2">Cafe c/leche + arabe tostado de jamon y queso<span>$600.00</span></p>
+                        <p class="text-center grid columns-3 m-auto align-middle p-2 m-4 ">Cafe c/leche + dos medialunas <span>$500.00</span></p>
+                        <div class="text-center p-3 border border border-slate-200">
+                            <a href="#" title="Me Gusta" class="cursor-pointer hover:shadow-xl m-2"><i class="bi bi-heart"></i></a>
+                            <a href="#" title="Compartir" class="cursor-pointer hover:shadow-xl m-2"><i class="bi bi-share-fill"></i></a>
+                            <a href="#" title="Comentarios" class="cursor-pointer hover:shadow-xl m-2"><i class="bi bi-chat"></i></a>
+                        </div>
                     </div>
                 </div>
             </section>
