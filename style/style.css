@@ -7,18 +7,33 @@ https://coolors.co/palette/2b2d42-8d99ae-edf2f4-ef233c-d90429
     padding: 0;
     box-sizing: border-box;
 }
-
+section h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 1rem;
+    text-align: center;
+}
 .divProductos {
     background-color: #d90429;
     display: flex;
     margin: 1rem auto;
     width: 90%;
 }
-
+.divProductos__h3 {
+    font-size: 1rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.divProductos__p {
+    text-align: center;
+    margin: 1rem;
+    font-weight: 700;
+}
 @media (min-width: 400px) and (max-width: 500px){
     .divProductos {
-        background-color: #8d99ae;
-
+        background-color: #edf2f4;
         width: 90%;
     }
 }
@@ -26,7 +41,7 @@ https://coolors.co/palette/2b2d42-8d99ae-edf2f4-ef233c-d90429
 @media (min-width: 501px) and (max-width: 600px){
     .divProductos {
         background-color: #edf2f4;
-        width: 60%;
+        width: 80%;
     }
 }
 @media (min-width: 601px) and (max-width: 700px){

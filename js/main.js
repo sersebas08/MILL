@@ -41,11 +41,11 @@ function log () {
 function leerProductos(data){
    let dataAppi = {
       nombre: data.title,
-      intro: data.intro
+      precio: data.precio
    }
    console.log(dataAppi.nombre);
     const leerJson = document.querySelector('.leerJson');
-    leerJson.innerHTML += `<div class="divProductos">
+    leerJson.innerHTML += `<div class="divProductos drop-shadow-lg">
                                 <div class="w-3/6">
                                     <picture class="flex m-auto">
                                         <source media="(min-width: 751px)" srcset="img/cafe-con-leche.jpg">
@@ -53,9 +53,9 @@ function leerProductos(data){
                                         <img src="img/cafe-con-leche.jpg" class="w-full h-32 " alt="Mi imagen responsive">
                                     </picture>
                                 </div>
-                                <div class="w-3/6">
-                                    <h3 class="m-2">${dataAppi.nombre}</h3>
-                                    <p class="m-2">${dataAppi.intro}</p>
+                                <div class="divProductos__div w-3/6">
+                                    <h3 class="divProductos__h3">${dataAppi.nombre}</h3>
+                                    <p class="divProductos__p"><span>Precio: $</span>${dataAppi.precio}</p>
                                 </div>
                             </div>`;
 

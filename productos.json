@@ -1,13 +1,11 @@
 [{
   "id_productos":1,
-  "title":"Torpedo IPA",
-  "intro":"Cerveza IPA Torpedo",
-  "definicion":" 7.2\u00ba | 65 IBU",
+  "title":"Cafe c/leche + dos medialunas",
   "text":"Cafe c/leche + dos medialunas",
-  "precio":"260",
+  "precio":"500.00",
   "img-big":"ipa-160x160-0001.jpg",
   "img-small":"ipa-160x160-0000.jpg",
-  "img-alt":"Cerveza Artesanal Patagonica"
+  "img-alt":"Cafe c/leche + dos medialunas"
 },
   {
     "id_productos":2,
