@@ -29,3 +29,9 @@ https://coolors.co/palette/2b2d42-8d99ae-edf2f4-ef233c-d90429
         width: 60%;
     }
 }
+@media (min-width: 601px) and (max-width: 700px){
+    .divProductos {
+        background-color: #ef233c;
+        width: 60%;
+    }
+}
