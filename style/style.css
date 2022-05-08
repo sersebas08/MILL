@@ -1,0 +1,20 @@
+/*
+https://coolors.co/palette/2b2d42-8d99ae-edf2f4-ef233c-d90429
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.divProductos {
+    background-color: #d90429;
+    display: flex;
+    margin: 1rem auto;
+    width: 90%;
+}
+
+@media (min-width: 400px) and (max-width: 500px){
+    
+}
