@@ -2,7 +2,7 @@
 
 export function cafeteria () {
 
-    fetch('productos.json')
+    fetch('./json/cafeteria.json')
         .then(response => response.json())
         .then(data => {
             data.forEach(data => {
@@ -17,16 +17,17 @@ export function cafeteria () {
 export  function leerProductos(data){
     let dataAppi = {
         nombre: data.title,
-        precio: data.precio
+        precio: data.precio,
+        imgBig: data.imgBig
     }
     console.log(dataAppi.nombre);
     const leerJson = document.querySelector('.leerJson');
     leerJson.innerHTML += `<div class="divProductos drop-shadow-lg">
                                 <div class="w-3/6">
                                     <picture class="flex m-auto">
-                                        <source media="(min-width: 751px)" srcset="img/cafe-con-leche.jpg">
-                                        <source media="(min-width: 380px)" srcset="img/cafe-con-leche.jpg">
-                                        <img src="img/cafe-con-leche.jpg" class="w-full h-32 " alt="Mi imagen responsive">
+                                        <source media="(min-width: 751px)" srcset="${dataAppi.imgBig}">
+                                        <source media="(min-width: 380px)" srcset="${dataAppi.imgBig}">
+                                        <img src="${dataAppi.imgBig}" class="w-full h-32 " alt="Mi imagen responsive">
                                     </picture>
                                 </div>
                                 <div class="divProductos__div w-3/6">
