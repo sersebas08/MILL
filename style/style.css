@@ -18,3 +18,10 @@ https://coolors.co/palette/2b2d42-8d99ae-edf2f4-ef233c-d90429
 @media (min-width: 400px) and (max-width: 500px){
     
 }
+
+@media (min-width: 501px) and (max-width: 600px){
+    .divProductos {
+
+        width: 60%;
+    }
+}
