@@ -1,4 +1,4 @@
-const desayuno = document.getElementById('desa');
+/*const desayuno = document.getElementById('desa');
 desayuno.onclick = cambio;
 
 let sentido = 0;
@@ -14,5 +14,5 @@ function cambio (){
 
 
 
-}
+}*/
 
