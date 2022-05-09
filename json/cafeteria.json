@@ -1,80 +1,53 @@
 [{
   "id_productos":1,
-  "title":"Cafe c/leche + dos medialunas",
-  "text":"Cafe c/leche + dos medialunas",
-  "precio":"500.00",
+  "title":"Cafe chico",
+  "text":"Cafe chico",
+  "precio":"200.00",
   "imgBig":"../img/cafe-con-leche.jpg",
   "imgSmall":"../img/cafe-con-leche.jpg",
   "imgAlt":"Cafe c/leche + dos medialunas"
 },
   {
     "id_productos":2,
-    "title":"Cafe c/leche + dos medialunas",
-    "text":"Cafe c/leche + dos medialunas",
-    "precio":"500.00",
+    "title":"Americano",
+    "text":"Americano",
+    "precio":"250.00",
     "imgBig":"../img/cafe-con-leche.jpg",
     "imgSmall":"../img/cafe-con-leche.jpg",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
     "id_productos":3,
-    "title":"Cafe c/leche + dos medialunas",
-    "text":"Cafe c/leche + dos medialunas",
-    "precio":"500.00",
+    "title":"Doble",
+    "text":"Doble",
+    "precio":"400.00",
     "imgBig":"../img/cafe-con-leche.jpg",
     "imgSmall":"../img/cafe-con-leche.jpg",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
+    "title":"Cafe c/leche",
+    "text":"Cafe c/leche",
+    "precio":"300.00",
     "id_productos":4,
-    "title":"Cafe c/leche + dos medialunas",
-    "text":"Cafe c/leche + dos medialunas",
-    "precio":"500.00",
     "imgBig":"../img/cafe-con-leche.jpg",
     "imgSmall":"../img/cafe-con-leche.jpg",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
     "id_productos":5,
-    "title":"Cafe c/leche + dos medialunas",
-    "text":"Cafe c/leche + dos medialunas",
-    "precio":"500.00",
+    "title":"Te",
+    "text":"Te",
+    "precio":"250.00",
     "imgBig":"../img/cafe-con-leche.jpg",
     "imgSmall":"../img/cafe-con-leche.jpg",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
     "id_productos":6,
-    "title":"Cafe c/leche + dos medialunas",
-    "text":"Cafe c/leche + dos medialunas",
-    "precio":"500.00",
-    "imgBig":"../img/cafe-con-leche.jpg",
-    "imgSmall":"../img/cafe-con-leche.jpg",
-    "imgAlt":"Cafe c/leche + dos medialunas"
-  },
-  {
-    "id_productos":7,
-    "title":"Cafe c/leche + dos medialunas",
-    "text":"Cafe c/leche + dos medialunas",
-    "precio":"500.00",
-    "imgBig":"../img/cafe-con-leche.jpg",
-    "imgSmall":"../img/cafe-con-leche.jpg",
-    "imgAlt":"Cafe c/leche + dos medialunas"
-  },
-  {
-    "id_productos":8,
-    "title":"Cafe c/leche + dos medialunas",
-    "text":"Cafe c/leche + dos medialunas",
-    "precio":"500.00",
-    "imgBig":"../img/cafe-con-leche.jpg",
-    "imgSmall":"../img/cafe-con-leche.jpg",
-    "imgAlt":"Cafe c/leche + dos medialunas"
-  },
-  {
-    "id_productos":9,
-    "title":"Cafe c/leche + dos medialunas",
-    "text":"Cafe c/leche + dos medialunas",
-    "precio":"500.00",
+    "title":"Te especiales",
+    "text":"Te especiales",
+    "precio":"280.00",
     "imgBig":"../img/cafe-con-leche.jpg",
     "imgSmall":"../img/cafe-con-leche.jpg",
     "imgAlt":"Cafe c/leche + dos medialunas"
