@@ -9,11 +9,11 @@
 },
   {
     "id_productos":2,
-    "title":"Cafe c/leche + dos medialunas",
-    "text":"Cafe c/leche + dos medialunas",
-    "precio":"500.00",
-    "imgBig":"../img/cafe-con-leche.jpg",
-    "imgSmall":"../img/cafe-con-leche.jpg",
+    "title":"Crepes de calabaza y queso c/ salsa filetto o bolognesa",
+    "text":"Crepes de calabaza y queso c/ salsa filetto o bolognesa",
+    "precio":"750.00",
+    "imgBig":"../img/crepesCalabaza.jpg",
+    "imgSmall":"../img/crepesCalabaza.jpg",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
