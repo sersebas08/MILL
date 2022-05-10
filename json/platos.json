@@ -1,8 +1,8 @@
 [{
   "id_productos":1,
-  "title":"platos del dia",
-  "text":"Cafe c/leche + dos medialunas",
-  "precio":"500.00",
+  "title":"Crepes de epinaca, ricota y queso c/ salsa filetto o bolognesa",
+  "text":"Crepes de epinaca, ricota y queso c/ salsa filetto o bolognesa",
+  "precio":"750.00",
   "imgBig":"../img/cafe-con-leche.jpg",
   "imgSmall":"../img/cafe-con-leche.jpg",
   "imgAlt":"Cafe c/leche + dos medialunas"
