@@ -18,11 +18,11 @@
   },
   {
     "id_productos":3,
-    "title":"Cafe c/leche + dos medialunas",
-    "text":"Cafe c/leche + dos medialunas",
+    "title":"Fusillis con vegetales al wok",
+    "text":"Fusillis con vegetales al wok",
     "precio":"500.00",
-    "imgBig":"../img/cafe-con-leche.jpg",
-    "imgSmall":"../img/cafe-con-leche.jpg",
+    "imgBig":"../img/fusillisVegetales.jpg",
+    "imgSmall":"../img/fusillisVegetales.jpg",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
