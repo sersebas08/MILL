@@ -1,10 +1,10 @@
 [{
   "id_productos":1,
-  "title":"Crepes de epinaca, ricota y queso c/ salsa filetto o bolognesa",
-  "text":"Crepes de epinaca, ricota y queso c/ salsa filetto o bolognesa",
+  "title":"Crepes de espinaca, ricota y queso c/ salsa filetto o bolognesa",
+  "text":"Crepes de espinaca, ricota y queso c/ salsa filetto o bolognesa",
   "precio":"750.00",
-  "imgBig":"../img/cafe-con-leche.jpg",
-  "imgSmall":"../img/cafe-con-leche.jpg",
+  "imgBig":"../img/crepes.jpg",
+  "imgSmall":"../img/crepes.jpg",
   "imgAlt":"Cafe c/leche + dos medialunas"
 },
   {
