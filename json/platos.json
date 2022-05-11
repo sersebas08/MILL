@@ -14,7 +14,7 @@
     "precio":"750.00",
     "imgBig":"../img/crepesCalabaza.jpg",
     "imgSmall":"../img/crepesCalabaza.jpg",
-    "imgAlt":"Cafe c/leche + dos medialunas"
+    "imgAlt":"Crepes de calabaza y queso c/ salsa filetto o bolognesa"
   },
   {
     "id_productos":3,
@@ -23,21 +23,21 @@
     "precio":"500.00",
     "imgBig":"../img/fusillisVegetales.jpg",
     "imgSmall":"../img/fusillisVegetales.jpg",
-    "imgAlt":"Cafe c/leche + dos medialunas"
+    "imgAlt":"Fusillis con vegetales al wok"
   },
   {
     "id_productos":4,
-    "title":"Cafe c/leche + dos medialunas",
-    "text":"Cafe c/leche + dos medialunas",
-    "precio":"500.00",
+    "title":"Fusillis con salsa bolognesa",
+    "text":"Fusillis con salsa bolognesa",
+    "precio":"750.00",
     "imgBig":"../img/cafe-con-leche.jpg",
     "imgSmall":"../img/cafe-con-leche.jpg",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
     "id_productos":5,
-    "title":"Cafe c/leche + dos medialunas",
-    "text":"Cafe c/leche + dos medialunas",
+    "title":"Fusillis con quesos varios y rucula",
+    "text":"Fusillis con quesos varios y rucula",
     "precio":"500.00",
     "imgBig":"../img/cafe-con-leche.jpg",
     "imgSmall":"../img/cafe-con-leche.jpg",
