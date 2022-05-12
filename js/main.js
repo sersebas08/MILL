@@ -3,6 +3,8 @@ import {bebidas} from "./bebidas.js";
 import {desayunosMeriendas} from "./desayunosMeriendas.js";
 import {platos} from "./platos.js";
 import {cafeteria} from "./cafeteria.js";
+import {leerProductos} from "./cafeteria.js";
+
 
 window.addEventListener('DOMContentLoaded', (e) => {
     desayunosMeriendas();
@@ -11,11 +13,17 @@ window.addEventListener('DOMContentLoaded', (e) => {
     platos();
 
 })
+
+
+
 const button = document.querySelector('.button');
 let ventanaHombres = document.querySelector('#ventanaHombres');
-button.addEventListener('click', (e) => {
-    e.preventDefault();
+button.onclick = modal;
+/*button.addEventListener('click', (e) => {
+    e.preventDefault();*/
+function modal(){
 
+    console.log('esta es la data de cafeteria: ' , bebidas);
     ventanaHombres.classList.add("modalHombre");
     ventanaHombres.classList.remove("hidden");
 
@@ -33,7 +41,7 @@ button.addEventListener('click', (e) => {
     ventanaHombres.appendChild(a);
     console.log('hola mundo')
 
-})
+}
 
 
 

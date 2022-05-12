@@ -3,17 +3,17 @@
   "title":"Crepes de espinaca, ricota y queso c/ salsa filetto o bolognesa",
   "text":"Crepes de espinaca, ricota y queso c/ salsa filetto o bolognesa",
   "precio":"750.00",
-  "imgBig":"../img/crepes.jpg",
-  "imgSmall":"../img/crepes.jpg",
+  "imgBig":"../img/crepes02.png",
+  "imgSmall":"../img/crepes02.png",
   "imgAlt":"Cafe c/leche + dos medialunas"
 },
   {
     "id_productos":2,
-    "title":"Crepes de calabaza y queso c/ salsa filetto o bolognesa",
+    "title":"Crepes de calabaza, queso c/ salsa filetto o bolognesa",
     "text":"Crepes de calabaza y queso c/ salsa filetto o bolognesa",
     "precio":"750.00",
-    "imgBig":"../img/crepesCalabaza.jpg",
-    "imgSmall":"../img/crepesCalabaza.jpg",
+    "imgBig":"../img/crepes02.png",
+    "imgSmall":"../img/crepes02.png",
     "imgAlt":"Crepes de calabaza y queso c/ salsa filetto o bolognesa"
   },
   {
