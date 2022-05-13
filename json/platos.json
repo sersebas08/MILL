@@ -3,8 +3,8 @@
   "title":"Crepes de espinaca, ricota y queso c/ salsa filetto o bolognesa",
   "text":"Crepes de espinaca, ricota y queso c/ salsa filetto o bolognesa",
   "precio":"750.00",
-  "imgBig":"img/crepes02.png",
-  "imgSmall":"img/crepes02.png",
+  "imgBig":"img/crepes.jpg",
+  "imgSmall":"img/crepes.jpg",
   "imgAlt":"Cafe c/leche + dos medialunas"
 },
   {
@@ -12,8 +12,8 @@
     "title":"Crepes de calabaza, queso c/ salsa filetto o bolognesa",
     "text":"Crepes de calabaza y queso c/ salsa filetto o bolognesa",
     "precio":"750.00",
-    "imgBig":"img/crepes02.png",
-    "imgSmall":"img/crepes02.png",
+    "imgBig":"img/crepes.jpg",
+    "imgSmall":"img/crepes.jpg",
     "imgAlt":"Crepes de calabaza y queso c/ salsa filetto o bolognesa"
   },
   {
@@ -30,8 +30,8 @@
     "title":"Fusillis con salsa bolognesa",
     "text":"Fusillis con salsa bolognesa",
     "precio":"750.00",
-    "imgBig":"img/cafe-con-leche.jpg",
-    "imgSmall":"img/cafe-con-leche.jpg",
+    "imgBig":"img/crepes03.png",
+    "imgSmall":"img/crepes03.png",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
