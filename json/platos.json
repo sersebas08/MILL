@@ -30,8 +30,8 @@
     "title":"Fusillis con salsa bolognesa",
     "text":"Fusillis con salsa bolognesa",
     "precio":"750.00",
-    "imgBig":"img/crepes03.png",
-    "imgSmall":"img/crepes03.png",
+    "imgBig":"img/crepes.jpg",
+    "imgSmall":"img/crepes.jpg",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
@@ -39,8 +39,8 @@
     "title":"Fusillis con quesos varios y rucula",
     "text":"Fusillis con quesos varios y rucula",
     "precio":"500.00",
-    "imgBig":"img/cafe-con-leche.jpg",
-    "imgSmall":"img/cafe-con-leche.jpg",
+    "imgBig":"img/crepes.jpg",
+    "imgSmall":"img/crepes.jpg",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
@@ -48,8 +48,8 @@
     "title":"Cafe c/leche + dos medialunas",
     "text":"Cafe c/leche + dos medialunas",
     "precio":"500.00",
-    "imgBig":"img/cafe-con-leche.jpg",
-    "imgSmall":"img/cafe-con-leche.jpg",
+    "imgBig":"img/crepes.jpg",
+    "imgSmall":"img/crepes.jpg",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
@@ -57,8 +57,8 @@
     "title":"Cafe c/leche + dos medialunas",
     "text":"Cafe c/leche + dos medialunas",
     "precio":"500.00",
-    "imgBig":"img/cafe-con-leche.jpg",
-    "imgSmall":"img/cafe-con-leche.jpg",
+    "imgBig":"img/crepes.jpg",
+    "imgSmall":"img/crepes.jpg",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
@@ -66,8 +66,8 @@
     "title":"Cafe c/leche + dos medialunas",
     "text":"Cafe c/leche + dos medialunas",
     "precio":"500.00",
-    "imgBig":"img/cafe-con-leche.jpg",
-    "imgSmall":"img/cafe-con-leche.jpg",
+    "imgBig":"img/crepes.jpg",
+    "imgSmall":"img/crepes.jpg",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
@@ -75,8 +75,8 @@
     "title":"Cafe c/leche + dos medialunas",
     "text":"Cafe c/leche + dos medialunas",
     "precio":"500.00",
-    "imgBig":"img/cafe-con-leche.jpg",
-    "imgSmall":"img/cafe-con-leche.jpg",
+    "imgBig":"img/crepes.jpg",
+    "imgSmall":"img/crepes.jpg",
     "imgAlt":"Cafe c/leche + dos medialunas"
   }
 ]

@@ -25,6 +25,10 @@ section h2 {
     margin: 1rem auto;
     width: 90%;
 }
+.divProductos__div {
+    display: flex;
+    flex-direction: column;
+}
 .divProductos__h3 {
     font-size: 1rem;
     margin: .5rem;
