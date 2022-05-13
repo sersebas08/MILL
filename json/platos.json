@@ -3,8 +3,8 @@
   "title":"Crepes de espinaca, ricota y queso c/ salsa filetto o bolognesa",
   "text":"Crepes de espinaca, ricota y queso c/ salsa filetto o bolognesa",
   "precio":"750.00",
-  "imgBig":"../img/crepes02.png",
-  "imgSmall":"../img/crepes02.png",
+  "imgBig":"img/crepes02.png",
+  "imgSmall":"img/crepes02.png",
   "imgAlt":"Cafe c/leche + dos medialunas"
 },
   {
@@ -12,8 +12,8 @@
     "title":"Crepes de calabaza, queso c/ salsa filetto o bolognesa",
     "text":"Crepes de calabaza y queso c/ salsa filetto o bolognesa",
     "precio":"750.00",
-    "imgBig":"../img/crepes02.png",
-    "imgSmall":"../img/crepes02.png",
+    "imgBig":"img/crepes02.png",
+    "imgSmall":"img/crepes02.png",
     "imgAlt":"Crepes de calabaza y queso c/ salsa filetto o bolognesa"
   },
   {
@@ -21,8 +21,8 @@
     "title":"Fusillis con vegetales al wok",
     "text":"Fusillis con vegetales al wok",
     "precio":"500.00",
-    "imgBig":"../img/fusillisVegetales.jpg",
-    "imgSmall":"../img/fusillisVegetales.jpg",
+    "imgBig":"img/fusillisVegetales.jpg",
+    "imgSmall":"img/fusillisVegetales.jpg",
     "imgAlt":"Fusillis con vegetales al wok"
   },
   {
@@ -30,8 +30,8 @@
     "title":"Fusillis con salsa bolognesa",
     "text":"Fusillis con salsa bolognesa",
     "precio":"750.00",
-    "imgBig":"../img/cafe-con-leche.jpg",
-    "imgSmall":"../img/cafe-con-leche.jpg",
+    "imgBig":"img/cafe-con-leche.jpg",
+    "imgSmall":"img/cafe-con-leche.jpg",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
@@ -39,8 +39,8 @@
     "title":"Fusillis con quesos varios y rucula",
     "text":"Fusillis con quesos varios y rucula",
     "precio":"500.00",
-    "imgBig":"../img/cafe-con-leche.jpg",
-    "imgSmall":"../img/cafe-con-leche.jpg",
+    "imgBig":"img/cafe-con-leche.jpg",
+    "imgSmall":"img/cafe-con-leche.jpg",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
@@ -48,8 +48,8 @@
     "title":"Cafe c/leche + dos medialunas",
     "text":"Cafe c/leche + dos medialunas",
     "precio":"500.00",
-    "imgBig":"../img/cafe-con-leche.jpg",
-    "imgSmall":"../img/cafe-con-leche.jpg",
+    "imgBig":"img/cafe-con-leche.jpg",
+    "imgSmall":"img/cafe-con-leche.jpg",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
@@ -57,8 +57,8 @@
     "title":"Cafe c/leche + dos medialunas",
     "text":"Cafe c/leche + dos medialunas",
     "precio":"500.00",
-    "imgBig":"../img/cafe-con-leche.jpg",
-    "imgSmall":"../img/cafe-con-leche.jpg",
+    "imgBig":"img/cafe-con-leche.jpg",
+    "imgSmall":"img/cafe-con-leche.jpg",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
@@ -66,8 +66,8 @@
     "title":"Cafe c/leche + dos medialunas",
     "text":"Cafe c/leche + dos medialunas",
     "precio":"500.00",
-    "imgBig":"../img/cafe-con-leche.jpg",
-    "imgSmall":"../img/cafe-con-leche.jpg",
+    "imgBig":"img/cafe-con-leche.jpg",
+    "imgSmall":"img/cafe-con-leche.jpg",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
@@ -75,8 +75,8 @@
     "title":"Cafe c/leche + dos medialunas",
     "text":"Cafe c/leche + dos medialunas",
     "precio":"500.00",
-    "imgBig":"../img/cafe-con-leche.jpg",
-    "imgSmall":"../img/cafe-con-leche.jpg",
+    "imgBig":"img/cafe-con-leche.jpg",
+    "imgSmall":"img/cafe-con-leche.jpg",
     "imgAlt":"Cafe c/leche + dos medialunas"
   }
 ]
