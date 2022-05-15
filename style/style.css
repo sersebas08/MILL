@@ -24,22 +24,23 @@ section h2 {
     display: flex;
     flex-wrap: wrap;
     margin: 1rem auto;
-    width: 60%;
+    width: 90%;
     border-radius: 10px;
 }
 .divProductos__div {
-    width: 50%;
+    width: 65%;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: auto;
 }
 .divProductos__img {
-    width: 50%;
+    width: 35%;
 }
 .divProductos__img picture img {
     width: auto;
-    height: 192px;
+    height: 136px;
+    border-radius: 10px 0px 0px 10px;
 }
 .divProductos__h3 {
     font-size: 1rem;
@@ -104,13 +105,12 @@ section h2 {
 }
 
 @media (min-width: 400px) and (max-width: 500px){
-    .divProductos {
 
-        width: 80%;
+    .divProductos__img {
+        width: 35%;
     }
-    .divProductos__img,
     .divProductos__div {
-        width: 50%;
+        width: 65%;
     }
 }
 
