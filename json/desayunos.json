@@ -1,16 +1,16 @@
 [{
   "id_productos":1,
-  "title":"Cafe c/leche + tostadas, queso y mermelada",
-  "text":"Cafe c/leche con tostadas, queso y mermelada",
+  "title":"Cafe con leche + tostadas, queso y mermelada",
+  "text":"Cafe con leche con tostadas, queso y mermelada",
   "precio":"550.00",
-  "imgBig":"img/cafe-con-leche.jpg",
-  "imgSmall":"img/cafe-con-leche.jpg",
+  "imgBig":"img/comboSaludable.jpg",
+  "imgSmall":"img/comboSaludable.jpg",
   "imgAlt":"Cafe c/leche + dos medialunas"
 },
   {
     "id_productos":2,
-    "title":"Cafe c/leche + dos medialunas",
-    "text":"Cafe c/leche + dos medialunas",
+    "title":"Cafe con leche + dos medialunas",
+    "text":"Cafe con leche + dos medialunas",
     "precio":"500.00",
     "imgBig":"img/cafe-con-leche.jpg",
     "imgSmall":"img/cafe-con-leche.jpg",
@@ -27,8 +27,8 @@
   },
   {
     "id_productos":4,
-    "title":"Cafe c/leche + arabe tostado de jamon y queso",
-    "text":"Cafe c/leche + arabe tostado de jamon y queso",
+    "title":"Cafe con leche + arabe tostado de jamon y queso",
+    "text":"Cafe con leche + arabe tostado de jamon y queso",
     "precio":"600.00",
     "imgBig":"img/cafe-con-leche.jpg",
     "imgSmall":"img/cafe-con-leche.jpg",
@@ -45,8 +45,8 @@
   },
   {
     "id_productos":6,
-    "title":"Granola con yogurt + cafe c/leche",
-    "text":"Granola con yogurt + cafe c/leche",
+    "title":"Granola con yogurt + cafe con leche",
+    "text":"Granola con yogurt + cafe con leche",
     "precio":"550.00",
     "imgBig":"img/cafe-con-leche.jpg",
     "imgSmall":"img/cafe-con-leche.jpg",
@@ -147,17 +147,17 @@
     "title":"Tarta de manzana",
     "text":"Tarta de manzana",
     "precio":"350.00",
-    "imgBig":"img/cafe-con-leche.jpg",
-    "imgSmall":"img/cafe-con-leche.jpg",
-    "imgAlt":"Cafe c/leche + dos medialunas"
+    "imgBig":"img/tartaManzana.jpg",
+    "imgSmall":"img/tartaManzana.jpg",
+    "imgAlt":"Porcion de tarta de manzana"
   },
   {
     "id_productos":18,
     "title":"Pasta frola",
     "text":"Pasta frola",
     "precio":"300.00",
-    "imgBig":"img/cafe-con-leche.jpg",
-    "imgSmall":"img/cafe-con-leche.jpg",
-    "imgAlt":"Cafe c/leche + dos medialunas"
+    "imgBig":"img/pastaFrola.jpg",
+    "imgSmall":"img/pastaFrola.jpg",
+    "imgAlt":"Porcion de pasta frola"
   }
 ]
