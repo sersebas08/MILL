@@ -20,7 +20,7 @@ export  function leerProductos(data){
     }
     console.log(dataAppi.nombre);
     const leerPlatos = document.querySelector('.leerPlatos');
-    leerPlatos.innerHTML += `    <a href="">
+    leerPlatos.innerHTML += `    <a href="#">
                                     <div class="divProductos drop-shadow-lg h-38">
                                         <div class="divProductos__img">
                                             <picture class="flex m-auto">

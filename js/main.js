@@ -23,7 +23,7 @@ button.onclick = modal;
     e.preventDefault();*/
 function modal(){
 
-    console.log('esta es la data de cafeteria: ' , bebidas);
+   /* console.log('esta es la data de cafeteria: ' , );*/
     ventanaHombres.classList.add("modalHombre");
     ventanaHombres.classList.remove("hidden");
 
