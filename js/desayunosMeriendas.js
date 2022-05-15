@@ -25,7 +25,7 @@ export  function leerProductos(data){
     leerJson.innerHTML += `<div class="divProductos drop-shadow-lg">
                                 <div class="divProductos__img">
                                     <picture class="flex m-auto">
-                                        <source media="(min-width: 751px)" srcset="${dataAppi.imgBig}">
+                                        <source media="(max-width: 751px)" srcset="${dataAppi.imgBig}">
                                         <source media="(min-width: 380px)" srcset="${dataAppi.imgBig}">
                                         <img src="${dataAppi.imgBig}" class="w-full" alt="Mi imagen responsive">
                                     </picture>
