@@ -20,9 +20,9 @@ export function platos () {
 function leerProductos(data){
 
 
- /*   for (let i = 0; i < aProductos.length; i++) {
-
-    }*/
+    // for (let i = 0; i < data.length; i++) {
+    //
+    // }
     let dataAppi = {
         nombre: data.title,
         precio: data.precio,
