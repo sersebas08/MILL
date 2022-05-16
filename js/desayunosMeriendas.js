@@ -9,7 +9,7 @@ export function desayunosMeriendas () {
                 leerProductos(data);
             })
             /*leerProductos(data);*/
-            console.log(data)
+            // console.log(data)
         })
         .catch(function (err){console.log("este es el error", err);})
 }
@@ -20,7 +20,7 @@ export  function leerProductos(data){
         precio: data.precio,
         imgBig: data.imgBig
     }
-    console.log(dataAppi.nombre);
+    // console.log(dataAppi.nombre);
     const leerJson = document.querySelector('.leerJson');
     leerJson.innerHTML += `<div class="divProductos drop-shadow-lg">
                                 <div class="divProductos__img">
