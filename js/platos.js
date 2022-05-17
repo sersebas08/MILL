@@ -20,15 +20,13 @@ export function platos () {
 function leerProductos(data){
 
 
-    // for (let i = 0; i < data.length; i++) {
-    //
-    // }
+
     let dataAppi = {
         nombre: data.title,
         precio: data.precio,
         imgBig: data.imgBig
     }
-    console.log(dataAppi.nombre);
+   /* console.log(dataAppi.nombre);*/
     const leerPlatos = document.querySelector('.leerPlatos');
     leerPlatos.innerHTML += ` <a href="#">
                                 <div class="divProductos drop-shadow-lg h-38">

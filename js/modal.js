@@ -1,5 +1,6 @@
+
 export function modal(){
-    console.log('hasta llego');
+    console.log('hasta llego: ' );
 
     /* console.log('esta es la data de cafeteria: ' , );*/
     ventanaHombres.classList.add("modalHombre");

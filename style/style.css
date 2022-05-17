@@ -39,15 +39,16 @@ section h2 {
 }
 .divProductos__img picture img {
     width: auto;
-    height: 136px;
+    height: 178px;
     border-radius: 10px 0px 0px 10px;
 }
 .divProductos__h3 {
-    font-size: 1rem;
+    font-size: .9rem;
     margin: 1rem;
     display: flex;
     justify-content: center;
     text-align: center;
+    color: gray;
 }
 .divProductos__p {
     text-align: center;
