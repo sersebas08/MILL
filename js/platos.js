@@ -24,17 +24,18 @@ function leerProductos(data){
     let dataAppi = {
         nombre: data.title,
         precio: data.precio,
-        imgBig: data.imgBig
+        imgBig: data.imgBig,
+        imgSmall: data.imgSmall
     }
    /* console.log(dataAppi.nombre);*/
     const leerPlatos = document.querySelector('.leerPlatos');
     leerPlatos.innerHTML += `<div class="divProductos drop-shadow-lg">
                                     <div class="divProductos__img">
-                                        <picture class="flex m-auto">
+                                        <!--<picture class="flex m-auto">
                                             <source media="(min-width: 751px)" srcset="${dataAppi.imgBig}">
-                                            <source media="(min-width: 380px)" srcset="${dataAppi.imgBig}">
+                                            <source media="(min-width: 380px)" srcset="${dataAppi.imgSmall}">
                                             <img src="${dataAppi.imgBig}" class="" alt="Mi imagen responsive">
-                                        </picture>
+                                        </picture>-->
                                     </div>
                                     <div class="divProductos__div">
                                         <h3 class="divProductos__h3">${dataAppi.nombre}</h3>
