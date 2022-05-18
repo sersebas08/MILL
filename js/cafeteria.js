@@ -25,7 +25,7 @@ export  function leerProductos(data){
                                     <picture class="flex m-auto">
                                         <source media="(min-width: 751px)" srcset="${dataAppi.imgBig}">
                                         <source media="(min-width: 380px)" srcset="${dataAppi.imgBig}">
-                                        <img src="${dataAppi.imgBig}" class="w-full" alt="Mi imagen responsive">
+                                        <img src="${dataAppi.imgBig}" class="" alt="Mi imagen responsive">
                                     </picture>
                                 </div>
                                 <div class="divProductos__div">

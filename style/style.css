@@ -183,3 +183,29 @@ section h2 {
         flex-wrap: wrap;
     }
 }
+@media (min-width: 1201px) {
+    .divProductos {
+        background-color: #eba622;
+        width: 15%;
+    }
+    section {
+        width: 80%;
+        margin: auto;
+    }
+    .divProductos__img picture img {
+        width: 100%;
+        height: 165px;
+        border-radius: 10px 0px 0px 10px;
+    }
+    .divProductos__img,
+    .divProductos__div {
+        width: 100%;
+    }
+    .leerJson,
+    .leerCafeteria,
+    .leerBebidas,
+    .leerPlatos {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
