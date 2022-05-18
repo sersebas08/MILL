@@ -38,13 +38,13 @@ section h2 {
     width: 35%;
 }
 .divProductos__img picture img {
-    width: auto;
-    height: 178px;
+    /*width: auto;*/
+    /*height: 178px;*/
     border-radius: 10px 0px 0px 10px;
 }
 .divProductos__h3 {
     font-size: .9rem;
-    margin: 1rem;
+    margin: .8rem;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -52,7 +52,7 @@ section h2 {
 }
 .divProductos__p {
     text-align: center;
-    margin: 1rem;
+    margin: .8rem;
     font-weight: 700;
 }
 .modalHombre {
@@ -89,10 +89,10 @@ section h2 {
     text-decoration: none;
     margin: 0.5rem;
 }
-.divProductos__img,
-.divProductos__div {
-    width: 100%;
-}
+/*.divProductos__img,*/
+/*.divProductos__div {*/
+/*    width: 100%;*/
+/*}*/
 
 
 
@@ -108,10 +108,10 @@ section h2 {
 @media (min-width: 400px) and (max-width: 500px){
 
     .divProductos__img {
-        width: 35%;
+        width: 40%;
     }
     .divProductos__div {
-        width: 65%;
+        width: 60%;
     }
 }
 
@@ -124,7 +124,10 @@ section h2 {
     .divProductos__div {
         width: 100%;
     }
-    .leerJson {
+    .leerJson,
+    .leerCafeteria,
+    .leerBebidas,
+    .leerPlatos {
         display: flex;
         flex-wrap: wrap;
     }

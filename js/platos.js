@@ -28,8 +28,7 @@ function leerProductos(data){
     }
    /* console.log(dataAppi.nombre);*/
     const leerPlatos = document.querySelector('.leerPlatos');
-    leerPlatos.innerHTML += ` <a href="#">
-                                <div class="divProductos drop-shadow-lg h-38">
+    leerPlatos.innerHTML += `<div class="divProductos drop-shadow-lg">
                                     <div class="divProductos__img">
                                         <picture class="flex m-auto">
                                             <source media="(min-width: 751px)" srcset="${dataAppi.imgBig}">
@@ -42,7 +41,6 @@ function leerProductos(data){
                                         <p class="divProductos__p"><span>Precio: $</span>${dataAppi.precio}</p>
                                     </div>
 <!--                                    <button class="button" type="submit">button</button>-->
-                                </div>
-                            </a>`;
+                                </div>`;
 
 }
