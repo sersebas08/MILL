@@ -168,10 +168,10 @@ section h2 {
         width: 30%;
     }
     .divProductos__img {
-        width: 40%;
+        width: 100%;
     }
     .divProductos__div {
-        width: 60%;
+        width: 100%;
     }
     .leerJson,
     .leerCafeteria,
@@ -187,10 +187,10 @@ section h2 {
         width: 30%;
     }
     .divProductos__img {
-        width: 40%;
+        width: 100%;
     }
     .divProductos__div {
-        width: 60%;
+        width: 100%;
     }
     .leerJson,
     .leerCafeteria,
@@ -202,7 +202,6 @@ section h2 {
 }
 @media (min-width: 1201px) {
     .divProductos {
-        background-color: #eba622;
         width: 15%;
     }
     section {
@@ -215,10 +214,10 @@ section h2 {
         border-radius: 10px 0px 0px 10px;
     }
     .divProductos__img {
-        width: 40%;
+        width: 100%;
     }
     .divProductos__div {
-        width: 60%;
+        width: 100%;
     }
     .leerJson,
     .leerCafeteria,
