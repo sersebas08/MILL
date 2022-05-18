@@ -134,8 +134,12 @@ section h2 {
 }
 @media (min-width: 601px) and (max-width: 700px){
     .divProductos {
-        background-color: #ef233c;
-        width: 60%;
+        /*background-color: #ef233c;*/
+        width: 40%;
+    }
+    .divProductos__img,
+    .divProductos__div {
+        width: 100%;
     }
     .leerJson,
     .leerCafeteria,
@@ -147,8 +151,12 @@ section h2 {
 }
 @media (min-width: 701px) and (max-width: 800px){
     .divProductos {
-        background-color: #eba622;
-        width: 60%;
+        /*background-color: #eba622;*/
+        width: 40%;
+    }
+    .divProductos__img,
+    .divProductos__div {
+        width: 100%;
     }
     .leerJson,
     .leerCafeteria,
@@ -160,8 +168,12 @@ section h2 {
 }
 @media (min-width: 801px) and (max-width: 1200px){
     .divProductos {
-        background-color: #eba622;
-        width: 60%;
+        /*background-color: #eba622;*/
+        width: 40%;
+    }
+    .divProductos__img,
+    .divProductos__div {
+        width: 100%;
     }
     .leerJson,
     .leerCafeteria,
