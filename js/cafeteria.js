@@ -22,11 +22,11 @@ export  function leerProductos(data){
     const leerCafeteria = document.querySelector('.leerCafeteria');
     leerCafeteria.innerHTML += `<div class="divProductos drop-shadow-lg">
                                 <div class="divProductos__img">
-                                    <!--<picture class="flex m-auto">
+                                    <picture class="">
                                         <source media="(min-width: 751px)" srcset="${dataAppi.imgBig}">
                                         <source media="(min-width: 380px)" srcset="${dataAppi.imgBig}">
                                         <img src="${dataAppi.imgBig}" class="" alt="Mi imagen responsive">
-                                    </picture>-->
+                                    </picture>
                                 </div>
                                 <div class="divProductos__div">
                                     <h3 class="divProductos__h3">${dataAppi.nombre}</h3>

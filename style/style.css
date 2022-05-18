@@ -23,46 +23,69 @@ section h2 {
     margin: 1.5rem;
     text-align: center;
 }
+.leerJson {
+    display: grid;
+
+}
 .divProductos {
-    background-color: #edf2f4;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     margin: 1rem auto;
+    background-color: #edf2f4;
     border-radius: 10px;
 }
-.divProductos__div {
-    width: 65%;
+.divProductos__div{
     display: flex;
     flex-direction: column;
-    /*align-items: center;*/
-    /*margin: auto;*/
     justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
 }
-.divProductos__img {
-    background-image: url("../img/crepess.jpg");
-    background-size: cover;
-    background-position: center;
-    width: 35%;
-    height: 12rem;
-}
-.divProductos__img picture img {
-    /*width: auto;*/
-    /*height: 178px;*/
-    border-radius: 10px 0px 0px 10px;
-}
+
 .divProductos__h3 {
     font-size: .9rem;
-    margin: .8rem;
-    display: flex;
-    justify-content: center;
-    text-align: center;
     color: gray;
 }
 .divProductos__p {
     text-align: center;
-    margin: .8rem;
     font-weight: 700;
+    margin-top: .5rem;
 }
+.divProductos__img {
+
+}
+.divProductos__img picture img {
+
+}
+/*.divProductos {*/
+/*    background-color: #edf2f4;*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    margin: 1rem auto;*/
+/*    border-radius: 10px;*/
+/*}*/
+/*.divProductos__div {*/
+/*    width: 65%;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    !*align-items: center;*!*/
+/*    !*margin: auto;*!*/
+/*    justify-content: space-between;*/
+/*}*/
+/*.divProductos__img {*/
+/*    !*background-image: url("../img/crepess.jpg");*!*/
+/*    background-size: cover;*/
+/*    background-position: center;*/
+/*    width: 35%;*/
+/*    height: 12rem;*/
+/*}*/
+/*.divProductos__img picture img {*/
+/*    !*width: auto;*!*/
+/*    !*height: 178px;*!*/
+/*    border-radius: 10px 0px 0px 10px;*/
+/*}*/
+
 .modalHombre {
     position: fixed;
     z-index: 1032;
@@ -115,12 +138,12 @@ section h2 {
 
 @media (min-width: 400px) and (max-width: 500px){
 
-    .divProductos__img {
-        width: 40%;
-    }
-    .divProductos__div {
-        width: 60%;
-    }
+    /*.divProductos__img {*/
+    /*    width: 40%;*/
+    /*}*/
+    /*.divProductos__div {*/
+    /*    width: 60%;*/
+    /*}*/
 }
 
 @media (min-width: 501px) and (max-width: 600px){
