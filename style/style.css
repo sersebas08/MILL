@@ -34,15 +34,16 @@ section h2 {
     width: 65%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin: auto;
+    /*align-items: center;*/
+    /*margin: auto;*/
+    justify-content: space-between;
 }
 .divProductos__img {
     background-image: url("../img/crepess.jpg");
     background-size: cover;
     background-position: center;
     width: 35%;
-    height: 12rem;
+    height: 10rem;
 }
 .divProductos__img picture img {
     /*width: auto;*/
