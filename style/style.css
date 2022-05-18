@@ -137,10 +137,37 @@ section h2 {
         background-color: #ef233c;
         width: 60%;
     }
+    .leerJson,
+    .leerCafeteria,
+    .leerBebidas,
+    .leerPlatos {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 @media (min-width: 701px) and (max-width: 800px){
     .divProductos {
         background-color: #eba622;
         width: 60%;
+    }
+    .leerJson,
+    .leerCafeteria,
+    .leerBebidas,
+    .leerPlatos {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media (min-width: 801px) and (max-width: 1200px){
+    .divProductos {
+        background-color: #eba622;
+        width: 60%;
+    }
+    .leerJson,
+    .leerCafeteria,
+    .leerBebidas,
+    .leerPlatos {
+        display: flex;
+        flex-wrap: wrap;
     }
 }
