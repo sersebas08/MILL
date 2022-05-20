@@ -27,13 +27,13 @@ section h2 {
     display: grid;
 
 }
-.divProductos {
+/*.divProductos {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 1rem auto;
     background-color: #edf2f4;
     border-radius: 10px;
-}
+}*/
 .divProductos__div{
     display: flex;
     flex-direction: column;
@@ -52,39 +52,39 @@ section h2 {
     font-weight: 700;
     margin-top: .5rem;
 }
-.divProductos__img {
+/*.divProductos__img {
 
 }
 .divProductos__img picture img {
 
+}*/
+.divProductos {
+    background-color: #edf2f4;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem auto;
+    border-radius: 10px;
 }
-/*.divProductos {*/
-/*    background-color: #edf2f4;*/
-/*    display: flex;*/
-/*    flex-wrap: wrap;*/
-/*    margin: 1rem auto;*/
-/*    border-radius: 10px;*/
-/*}*/
-/*.divProductos__div {*/
-/*    width: 65%;*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    !*align-items: center;*!*/
-/*    !*margin: auto;*!*/
-/*    justify-content: space-between;*/
-/*}*/
-/*.divProductos__img {*/
-/*    !*background-image: url("../img/crepess.jpg");*!*/
-/*    background-size: cover;*/
-/*    background-position: center;*/
-/*    width: 35%;*/
-/*    height: 12rem;*/
-/*}*/
-/*.divProductos__img picture img {*/
-/*    !*width: auto;*!*/
-/*    !*height: 178px;*!*/
-/*    border-radius: 10px 0px 0px 10px;*/
-/*}*/
+.divProductos__div {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    /*margin: auto;*/
+    justify-content: space-between;
+}
+.divProductos__img {
+    /*background-image: url("../img/crepess.jpg");*/
+    background-size: cover;
+    background-position: center;
+    width: 35%;
+    height: 12rem;
+}
+.divProductos__img picture img {
+    /*width: auto;*/
+    /*height: 178px;*/
+    border-radius: 10px 0px 0px 10px;
+}
 
 .modalHombre {
     position: fixed;
