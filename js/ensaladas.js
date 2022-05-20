@@ -7,22 +7,22 @@ export function ensaladas () {
         .then(response => response.json())
         .then(data => {
             data.forEach(data => {
-                leerBebidas(data);
+                leerEnsaladas(data);
             })
             /*leerProductos(data);*/
             // console.log(data)
         })
         .catch(function (err){console.log("este es el error", err);})
 }
-export function leerBebidas(data){
+export function leerEnsaladas(data){
     let dataAppi = {
         nombre: data.title,
         precio: data.precio,
         imgBig: data.imgBig
     }
     // console.log(dataAppi.nombre);
-    const leerBebidas = document.querySelector('.leerBebidas');
-    leerBebidas.innerHTML += `<div class="divProductos drop-shadow-lg ">
+    const leerEnsaladas = document.querySelector('.leerEnsaladas');
+    leerEnsaladas.innerHTML += `<div class="divProductos drop-shadow-lg ">
                                 <div class="divProductos__img">
                                     <picture class="">
                                         <source media="(min-width: 751px)" srcset="${dataAppi.imgBig}">

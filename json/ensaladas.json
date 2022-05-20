@@ -1,73 +1,163 @@
 [{
   "id_productos":1,
-  "title":"Agua c/s gas",
-  "text":"Agua c/s gas",
-  "precio":"250.00",
-  "imgBig":"img/cocacola-lata.png",
-  "imgSmall":"img/cocacola-lata.png",
-  "imgAlt":"marca de lata de gaseosa"
-  },
+  "title":"Cafe con leche + tostadas, queso y mermelada",
+  "text":"Cafe con leche con tostadas, queso y mermelada",
+  "precio":"550.00",
+  "imgBig":"img/crepesCalabaza02.jpg",
+  "imgSmall":"img/crepesCalabaza02.jpg",
+  "imgAlt":"Cafe c/leche + dos medialunas"
+},
   {
     "id_productos":2,
-    "title":"Gaseosas ",
-    "text":"Gaseosas ",
-    "precio":"250.00",
-    "imgBig":"img/sprite.png",
-    "imgSmall":"img/sprite.png",
-    "imgAlt":"marca de lata de gaseosa"
+    "title":"Cafe con leche + dos medialunas",
+    "text":"Cafe con leche + dos medialunas",
+    "precio":"500.00",
+    "imgBig":"img/crepesCalabaza02.jpg",
+    "imgSmall":"img/crepesCalabaza02.jpg",
+    "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
     "id_productos":3,
-    "title":"Copa de vino",
-    "text":"Copa de vino",
-    "precio":"400.00",
-    "imgBig":"img/sprite.png",
-    "imgSmall":"img/sprite.png",
-    "imgAlt":"marca de lata de gaseosa"
+    "title":"Cafe + arabe tostado de jamon y queso",
+    "text":"Cafe + arabe tostado de jamon y queso",
+    "precio":"550.00",
+    "imgBig":"img/crepesCalabaza02.jpg",
+    "imgSmall":"img/crepesCalabaza02.jpg",
+    "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
     "id_productos":4,
-    "title":"Exprimido de naranjas",
-    "text":"Exprimido de naranjas",
-    "precio":"350.00",
-    "imgBig":"img/cocacola-lata.png",
-    "imgSmall":"img/cocacola-lata.png",
-    "imgAlt":"marca de lata de gaseosa"
+    "title":"Cafe con leche + arabe tostado de jamon y queso",
+    "text":"Cafe con leche + arabe tostado de jamon y queso",
+    "precio":"600.00",
+    "imgBig":"img/crepesCalabaza02.jpg",
+    "imgSmall":"img/crepesCalabaza02.jpg",
+    "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
     "id_productos":5,
-    "title":"Limonada + menta y jengibre",
-    "text":"Limonada + menta y jengibre",
-    "precio":"270.00",
-    "imgBig":"img/cocacola-lata.png",
-    "imgSmall":"img/cocacola-lata.png",
-    "imgAlt":"marca de lata de gaseosa"
+    "title":"Granola con yogurt + cafe",
+    "text":"Granola con yogurt + cafe",
+    "precio":"500.00",
+    "imgBig":"img/crepesCalabaza02.jpg",
+    "imgSmall":"img/crepesCalabaza02.jpg",
+    "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
     "id_productos":6,
-    "title":"Lata de cerveza 473cm3",
-    "text":"Lata de cerveza 473cm3",
-    "precio":"400.00",
-    "imgBig":"img/cocacola-lata.png",
-    "imgSmall":"img/cocacola-lata.png",
-    "imgAlt":"marca de lata de gaseosa"
+    "title":"Granola con yogurt + cafe con leche",
+    "text":"Granola con yogurt + cafe con leche",
+    "precio":"550.00",
+    "imgBig":"img/crepesCalabaza02.jpg",
+    "imgSmall":"img/crepesCalabaza02.jpg",
+    "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
     "id_productos":7,
-    "title":"Licuado de frutas",
-    "text":"Licuado de frutas",
-    "precio":"350.00",
-    "imgBig":"img/cocacola-lata.png",
-    "imgSmall":"img/cocacola-lata.png",
-    "imgAlt":"marca de lata de gaseosa"
+    "title":"Tostado arabe de jamon y queso",
+    "text":"Tostado arabe de jamon y queso",
+    "precio":"400.00",
+    "imgBig":"img/crepesCalabaza02.jpg",
+    "imgSmall":"img/crepesCalabaza02.jpg",
+    "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
     "id_productos":8,
-    "title":"Chocolatada",
-    "text":"Chocolatada",
+    "title":"Arabe de queso, tomate y huevo duro",
+    "text":"Arabe de queso, tomate y huevo duro",
+    "precio":"450.00",
+    "imgBig":"img/cafe-con-leche.jpg",
+    "imgBig":"img/crepesCalabaza02.jpg",
+    "imgSmall":"img/crepesCalabaza02.jpg"
+  },
+  {
+    "id_productos":9,
+    "title":"Arabe de queso, huevo duro y aceitunas",
+    "text":"Arabe de queso, huevo duro y aceitunas",
+    "precio":"450.00",
+    "imgBig":"img/crepesCalabaza02.jpg",
+    "imgSmall":"img/crepesCalabaza02.jpg",
+    "imgAlt":"Cafe c/leche + dos medialunas"
+  },
+  {
+    "id_productos":10,
+    "title":"Huevos revueltos + toston de pan casero",
+    "text":"Huevos revueltos + toston de pan casero",
+    "precio":"500.00",
+    "imgBig":"img/crepesCalabaza02.jpg",
+    "imgSmall":"img/crepesCalabaza02.jpg",
+    "imgAlt":"Cafe c/leche + dos medialunas"
+  },
+  {
+    "id_productos":11,
+    "title":"Huevos revueltos + panceta",
+    "text":"Huevos revueltos + panceta",
+    "precio":"750.00",
+    "imgBig":"img/crepesCalabaza02.jpg",
+    "imgSmall":"img/crepesCalabaza02.jpg",
+    "imgAlt":"Cafe c/leche + dos medialunas"
+  },
+  {
+    "id_productos":12,
+    "title":"Scons",
+    "text":"Scons",
     "precio":"250.00",
-    "imgBig":"img/cocacola-lata.png",
-    "imgSmall":"img/cocacola-lata.png",
-    "imgAlt":"marca de lata de gaseosa"
+    "imgBig":"img/crepesCalabaza02.jpg",
+    "imgSmall":"img/crepesCalabaza02.jpg",
+    "imgAlt":"Cafe c/leche + dos medialunas"
+  },
+  {
+    "id_productos":13,
+    "title":"Brownie",
+    "text":"Brownie",
+    "precio":"300.00",
+    "imgBig":"img/crepesCalabaza02.jpg",
+    "imgSmall":"img/crepesCalabaza02.jpg",
+    "imgAlt":"Cafe c/leche + dos medialunas"
+  },
+  {
+    "id_productos":14,
+    "title":"Medialuna",
+    "text":"Medialuna",
+    "precio":"120.00",
+    "imgBig":"img/crepesCalabaza02.jpg",
+    "imgSmall":"img/crepesCalabaza02.jpg",
+    "imgAlt":"Cafe c/leche + dos medialunas"
+  },
+  {
+    "id_productos":15,
+    "title":"Medialuna + jamon y queso",
+    "text":"Medialuna + jamon y queso",
+    "precio":"280.00",
+    "imgBig":"img/crepesCalabaza02.jpg",
+    "imgSmall":"img/crepesCalabaza02.jpg",
+    "imgAlt":"Cafe c/leche + dos medialunas"
+  },
+  {
+    "id_productos":16,
+    "title":"Budin (naranja, limon con amapola o marmolado)",
+    "text":"Budin (naranja, limon con amapola o marmolado)",
+    "precio":"300.00",
+    "imgBig":"img/crepesCalabaza02.jpg",
+    "imgSmall":"img/crepesCalabaza02.jpg",
+    "imgAlt":"Cafe c/leche + dos medialunas"
+  },
+  {
+    "id_productos":17,
+    "title":"Tarta de manzana",
+    "text":"Tarta de manzana",
+    "precio":"350.00",
+    "imgBig":"img/crepesCalabaza02.jpg",
+    "imgSmall":"img/crepesCalabaza02.jpg",
+    "imgAlt":"Porcion de tarta de manzana"
+  },
+  {
+    "id_productos":18,
+    "title":"Pasta frola",
+    "text":"Pasta frola",
+    "precio":"300.00",
+    "imgBig":"img/crepesCalabaza02.jpg",
+    "imgSmall":"img/crepesCalabaza02.jpg",
+    "imgAlt":"Porcion de pasta frola"
   }
 ]
