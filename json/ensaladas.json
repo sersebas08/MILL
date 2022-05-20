@@ -1,0 +1,73 @@
+[{
+  "id_productos":1,
+  "title":"Agua c/s gas",
+  "text":"Agua c/s gas",
+  "precio":"250.00",
+  "imgBig":"img/cocacola-lata.png",
+  "imgSmall":"img/cocacola-lata.png",
+  "imgAlt":"marca de lata de gaseosa"
+  },
+  {
+    "id_productos":2,
+    "title":"Gaseosas ",
+    "text":"Gaseosas ",
+    "precio":"250.00",
+    "imgBig":"img/sprite.png",
+    "imgSmall":"img/sprite.png",
+    "imgAlt":"marca de lata de gaseosa"
+  },
+  {
+    "id_productos":3,
+    "title":"Copa de vino",
+    "text":"Copa de vino",
+    "precio":"400.00",
+    "imgBig":"img/sprite.png",
+    "imgSmall":"img/sprite.png",
+    "imgAlt":"marca de lata de gaseosa"
+  },
+  {
+    "id_productos":4,
+    "title":"Exprimido de naranjas",
+    "text":"Exprimido de naranjas",
+    "precio":"350.00",
+    "imgBig":"img/cocacola-lata.png",
+    "imgSmall":"img/cocacola-lata.png",
+    "imgAlt":"marca de lata de gaseosa"
+  },
+  {
+    "id_productos":5,
+    "title":"Limonada + menta y jengibre",
+    "text":"Limonada + menta y jengibre",
+    "precio":"270.00",
+    "imgBig":"img/cocacola-lata.png",
+    "imgSmall":"img/cocacola-lata.png",
+    "imgAlt":"marca de lata de gaseosa"
+  },
+  {
+    "id_productos":6,
+    "title":"Lata de cerveza 473cm3",
+    "text":"Lata de cerveza 473cm3",
+    "precio":"400.00",
+    "imgBig":"img/cocacola-lata.png",
+    "imgSmall":"img/cocacola-lata.png",
+    "imgAlt":"marca de lata de gaseosa"
+  },
+  {
+    "id_productos":7,
+    "title":"Licuado de frutas",
+    "text":"Licuado de frutas",
+    "precio":"350.00",
+    "imgBig":"img/cocacola-lata.png",
+    "imgSmall":"img/cocacola-lata.png",
+    "imgAlt":"marca de lata de gaseosa"
+  },
+  {
+    "id_productos":8,
+    "title":"Chocolatada",
+    "text":"Chocolatada",
+    "precio":"250.00",
+    "imgBig":"img/cocacola-lata.png",
+    "imgSmall":"img/cocacola-lata.png",
+    "imgAlt":"marca de lata de gaseosa"
+  }
+]
