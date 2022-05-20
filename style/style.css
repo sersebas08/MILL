@@ -34,23 +34,26 @@ section h2 {
 }
 .divLista div p {
     background-color: #edf2f4;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 0.5rem;
     font-size: .8rem;
     border-radius: 5px;
+    margin: 0.5rem;
+    color: gray;
 }
 .Mañanas {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     justify-content: center;
     margin: 0.5rem;
 }
-.tardes {
+/*.tardes {
     display: flex;
     width: 100%;
     justify-content: center;
     margin: 0.5rem;
-}
+}*/
 
 .uno,
 .dos,
