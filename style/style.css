@@ -27,13 +27,13 @@ section h2 {
     display: grid;
 
 }
-/*.divProductos {
+/**/.divProductos {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 1rem auto;
     background-color: #edf2f4;
     border-radius: 10px;
-}*/
+}
 .divProductos__div{
     display: flex;
     flex-direction: column;
@@ -50,6 +50,7 @@ section h2 {
 .divProductos__p {
     text-align: center;
     font-weight: 700;
+    font-size: .8rem;
     margin-top: .5rem;
 }
 /*.divProductos__img {
@@ -58,15 +59,15 @@ section h2 {
 .divProductos__img picture img {
 
 }*/
-.divProductos {
-    background-color: #edf2f4;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 1rem auto;
-    border-radius: 10px;
-}
+/*.divProductos {*/
+/*    background-color: #edf2f4;*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    margin: 1rem auto;*/
+/*    border-radius: 10px;*/
+/*}*/
 .divProductos__div {
-    width: 65%;
+    /*width: 65%;*/
     display: flex;
     flex-direction: column;
     /*align-items: center;*/
@@ -77,8 +78,8 @@ section h2 {
     /*background-image: url("../img/crepess.jpg");*/
     background-size: cover;
     background-position: center;
-    width: 35%;
-    height: 12rem;
+    /*width: 35%;*/
+    height: auto;
 }
 .divProductos__img picture img {
     /*width: auto;*/
@@ -150,14 +151,15 @@ section h2 {
 
 
     .divProductos {
-        width: 100%;
+        grid-template-columns: 1fr;
+        width: 30%;
     }
-    .divProductos__img {
-        width: 40%;
-    }
-    .divProductos__div {
-        width: 60%;
-    }
+    /*.divProductos__img {*/
+    /*    width: 40%;*/
+    /*}*/
+    /*.divProductos__div {*/
+    /*    width: 60%;*/
+    /*}*/
     .leerJson,
     .leerCafeteria,
     .leerBebidas,
@@ -167,8 +169,11 @@ section h2 {
     }
 }
 @media (min-width: 601px) and (max-width: 700px){
+
+
     .divProductos {
         /*background-color: #ef233c;*/
+        grid-template-columns: 1fr;
         width: 30%;
     }
     .divProductos__img {
@@ -176,6 +181,7 @@ section h2 {
     }
     .divProductos__div{
         width: 100%;
+        padding: .5rem;
     }
 
     .leerJson,
@@ -188,14 +194,16 @@ section h2 {
 }
 @media (min-width: 701px) and (max-width: 800px){
     .divProductos {
-        /*background-color: #eba622;*/
-        width: 30%;
+        grid-template-columns: 1fr;
+        width: 22%;
+        gap: 10px;
     }
     .divProductos__img {
         width: 100%;
     }
     .divProductos__div {
         width: 100%;
+        padding: .5rem;
     }
     .leerJson,
     .leerCafeteria,
@@ -205,16 +213,59 @@ section h2 {
         flex-wrap: wrap;
     }
 }
-@media (min-width: 801px) and (max-width: 1200px){
+@media (min-width: 801px) and (max-width: 900px){
     .divProductos {
-        /*background-color: #eba622;*/
-        width: 30%;
+        grid-template-columns: 1fr;
+        width: 22%;
+        gap: 10px;
     }
     .divProductos__img {
         width: 100%;
     }
     .divProductos__div {
         width: 100%;
+        padding: .5rem;
+    }
+    .leerJson,
+    .leerCafeteria,
+    .leerBebidas,
+    .leerPlatos {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media (min-width: 901px) and (max-width: 1000px){
+    .divProductos {
+        grid-template-columns: 1fr;
+        width: 22%;
+        gap: 10px;
+    }
+    .divProductos__img {
+        width: 100%;
+    }
+    .divProductos__div {
+        width: 100%;
+        padding: .5rem;
+    }
+    .leerJson,
+    .leerCafeteria,
+    .leerBebidas,
+    .leerPlatos {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media (min-width: 1001px) and (max-width: 1200px){
+    .divProductos {
+        grid-template-columns: 1fr;
+        width: 22%;
+    }
+    .divProductos__img {
+        width: 100%;
+    }
+    .divProductos__div {
+        width: 100%;
+        padding: .5rem;
     }
     .leerJson,
     .leerCafeteria,
@@ -226,6 +277,7 @@ section h2 {
 }
 @media (min-width: 1201px) {
     .divProductos {
+        grid-template-columns: 1fr;
         width: 15%;
     }
     section {
