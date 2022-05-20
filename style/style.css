@@ -32,7 +32,7 @@ section h2 {
     background-color: rgb(255 255 255 / 90%);
     border: 1px solid #edf2f4;
     padding: 0.5rem;
-    font-size: .8rem;
+    font-size: 1.2rem;
     /* border-radius: 5px; */
     margin: 0.5rem 0;
     color: gray;
@@ -40,9 +40,9 @@ section h2 {
 .Mañanas {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 90%;
     justify-content: center;
-    /*margin: 0.5rem;*/
+    margin: auto;
 }
 /*.tardes {
     display: flex;
