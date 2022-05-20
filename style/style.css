@@ -27,6 +27,40 @@ section h2 {
     display: grid;
 
 }
+.divLista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.divLista div p {
+    background-color: #edf2f4;
+    border: 1px solid black;
+    padding: 0.5rem;
+    font-size: .8rem;
+    border-radius: 5px;
+}
+.Mañanas {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 0.5rem;
+}
+.tardes {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 0.5rem;
+}
+
+.uno,
+.dos,
+.tres,
+.cuatro,
+.cinco {
+    cursor: pointer;
+    /*display: flex;
+    flex-direction: column;*/
+}
 /**/.divProductos {
     display: grid;
     grid-template-columns: 1fr 1fr;
