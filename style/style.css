@@ -152,7 +152,7 @@ section h2 {
 
     .divProductos {
         grid-template-columns: 1fr;
-        width: 30%;
+        width: 40%;
     }
     /*.divProductos__img {*/
     /*    width: 40%;*/
