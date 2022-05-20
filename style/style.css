@@ -27,18 +27,14 @@ section h2 {
     display: grid;
 
 }
-.divLista {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.divLista div p {
-    background-color: #edf2f4;
-    /* border: 1px solid black; */
+
+.Mañanas p {
+    background-color: rgb(255 255 255 / 90%);
+    border: 1px solid #edf2f4;
     padding: 0.5rem;
     font-size: .8rem;
-    border-radius: 5px;
-    margin: 0.5rem;
+    /* border-radius: 5px; */
+    margin: 0;
     color: gray;
 }
 .Mañanas {
@@ -46,7 +42,7 @@ section h2 {
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
-    margin: 0.5rem;
+    /*margin: 0.5rem;*/
 }
 /*.tardes {
     display: flex;
