@@ -40,19 +40,21 @@ section h2 {
 
 
 .Mañanas {
-    display: flex;
-    flex-wrap: wrap;
-    /* width: 90%; */
-    justify-content: center;
-    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.MañanasDos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 
-.Mañanas p {
+.Mañanas p, .MañanasDos p {
     background-color: rgb(255 255 255 / 90%);
     border: 1px solid #edf2f4;
     padding: 0.5rem;
     font-size: 1.2rem;
+    text-align: center;
     /* border-radius: 5px; */
     margin: 0;
     color: gray;
