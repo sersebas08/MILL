@@ -27,7 +27,26 @@ section h2 {
 .leerJson {
     display: grid;
 
+
 }
+/*.botones {
+    display: flex;
+    flex-wrap: wrap;
+}
+.botones .btn1 {
+    padding: .5rem;
+    border: 1px solid red;
+}*/
+
+
+.Mañanas {
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 90%; */
+    justify-content: center;
+    margin: auto;
+}
+
 
 .Mañanas p {
     background-color: rgb(255 255 255 / 90%);
@@ -38,13 +57,7 @@ section h2 {
     margin: 0;
     color: gray;
 }
-.Mañanas {
-    display: flex;
-    flex-wrap: wrap;
-    /* width: 90%; */
-    justify-content: center;
-    margin: auto;
-}
+
 /*.tardes {
     display: flex;
     width: 100%;
