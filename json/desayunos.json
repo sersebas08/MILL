@@ -3,8 +3,8 @@
   "title":"Cafe con leche + tostadas, queso y mermelada",
   "text":"Cafe con leche con tostadas, queso y mermelada",
   "precio":"550.00",
-  "imgBig":"img/cafe-con-leche.jpg",
-  "imgSmall":"img/cafe-con-leche.jpg",
+  "imgBig":"img/cafe-con-leche-tostadas.jpg",
+  "imgSmall":"img/cafe-con-leche-tostadas.jpg",
   "imgAlt":"Cafe c/leche + dos medialunas"
 },
   {
@@ -12,8 +12,8 @@
     "title":"Cafe con leche + dos medialunas",
     "text":"Cafe con leche + dos medialunas",
     "precio":"500.00",
-    "imgBig":"img/crepesCalabaza02.jpg",
-    "imgSmall":"img/crepesCalabaza02.jpg",
+    "imgBig":"img/cafe-con-leche-medialunas.jpg",
+    "imgSmall":"img/cafe-con-leche-medialunas.jpg",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
