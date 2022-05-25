@@ -21,36 +21,36 @@
     "title":"Cafe + arabe tostado de jamon y queso",
     "text":"Cafe + arabe tostado de jamon y queso",
     "precio":"550.00",
-    "imgBig":"img/crepesCalabaza02.jpg",
-    "imgSmall":"img/crepesCalabaza02.jpg",
-    "imgAlt":"Cafe c/leche + dos medialunas"
+    "imgBig":"img/tostadoCafe.jpg",
+    "imgSmall":"img/tostadoCafe.jpg",
+    "imgAlt":"cafe con tostado pan arabe jamon y queso"
   },
   {
     "id_productos":4,
     "title":"Cafe con leche + arabe tostado de jamon y queso",
     "text":"Cafe con leche + arabe tostado de jamon y queso",
     "precio":"600.00",
-    "imgBig":"img/crepesCalabaza02.jpg",
-    "imgSmall":"img/crepesCalabaza02.jpg",
-    "imgAlt":"Cafe c/leche + dos medialunas"
+    "imgBig":"img/tostadoCafe.jpg",
+    "imgSmall":"img/tostadoCafe.jpg",
+    "imgAlt":"cafe con tostado pan arabe jamon y queso"
   },
   {
     "id_productos":5,
     "title":"Granola con yogurt + cafe",
     "text":"Granola con yogurt + cafe",
     "precio":"500.00",
-    "imgBig":"img/crepesCalabaza02.jpg",
-    "imgSmall":"img/crepesCalabaza02.jpg",
-    "imgAlt":"Cafe c/leche + dos medialunas"
+    "imgBig":"img/granola01.jpg",
+    "imgSmall":"img/granola01.jpg",
+    "imgAlt":"pocillo de granola con un cafe con leche"
   },
   {
     "id_productos":6,
     "title":"Granola con yogurt + cafe con leche",
     "text":"Granola con yogurt + cafe con leche",
     "precio":"550.00",
-    "imgBig":"img/crepesCalabaza02.jpg",
-    "imgSmall":"img/crepesCalabaza02.jpg",
-    "imgAlt":"Cafe c/leche + dos medialunas"
+    "imgBig":"img/granola01.jpg",
+    "imgSmall":"img/granola01.jpg",
+    "imgAlt":"pocillo de granola con un cafe con leche"
   },
   {
     "id_productos":7,
@@ -66,18 +66,18 @@
     "title":"Arabe de queso, tomate y huevo duro",
     "text":"Arabe de queso, tomate y huevo duro",
     "precio":"450.00",
-    "imgBig":"img/cafe-con-leche.jpg",
-    "imgSmall":"img/crepesCalabaza02.jpg",
-    "imgAlt":"img/crepesCalabaza02.jpg"
+    "imgBig":"img/arabeJamonToamte.jpg",
+    "imgSmall":"img/arabeJamonToamte.jpg",
+    "imgAlt":"sandwich de pan arabe con jamon queso y tomate"
   },
   {
     "id_productos":9,
     "title":"Arabe de queso, huevo duro y aceitunas",
     "text":"Arabe de queso, huevo duro y aceitunas",
     "precio":"450.00",
-    "imgBig":"img/crepesCalabaza02.jpg",
-    "imgSmall":"img/crepesCalabaza02.jpg",
-    "imgAlt":"Cafe c/leche + dos medialunas"
+    "imgBig":"img/arabeJamonToamte.jpg",
+    "imgSmall":"img/arabeJamonToamte.jpg",
+    "imgAlt":"sandwich de pan Arabe de queso, huevo duro y aceitunas"
   },
   {
     "id_productos":10,
@@ -102,45 +102,45 @@
     "title":"Scons",
     "text":"Scons",
     "precio":"250.00",
-    "imgBig":"img/crepesCalabaza02.jpg",
-    "imgSmall":"img/crepesCalabaza02.jpg",
-    "imgAlt":"Cafe c/leche + dos medialunas"
+    "imgBig":"img/scons.jpg",
+    "imgSmall":"img/scons.jpg",
+    "imgAlt":"scons"
   },
   {
     "id_productos":13,
     "title":"Brownie",
     "text":"Brownie",
     "precio":"300.00",
-    "imgBig":"img/crepesCalabaza02.jpg",
-    "imgSmall":"img/crepesCalabaza02.jpg",
-    "imgAlt":"Cafe c/leche + dos medialunas"
+    "imgBig":"img/brownie.jpg",
+    "imgSmall":"img/brownie.jpg",
+    "imgAlt":"brownie de chocolate"
   },
   {
     "id_productos":14,
     "title":"Medialuna",
     "text":"Medialuna",
     "precio":"120.00",
-    "imgBig":"img/crepesCalabaza02.jpg",
-    "imgSmall":"img/crepesCalabaza02.jpg",
-    "imgAlt":"Cafe c/leche + dos medialunas"
+    "imgBig":"img/mediaLunasSolas.jpg",
+    "imgSmall":"img/mediaLunasSolas.jpg",
+    "imgAlt":"Media lunas solas"
   },
   {
     "id_productos":15,
     "title":"Medialuna + jamon y queso",
     "text":"Medialuna + jamon y queso",
     "precio":"280.00",
-    "imgBig":"img/crepesCalabaza02.jpg",
-    "imgSmall":"img/crepesCalabaza02.jpg",
-    "imgAlt":"Cafe c/leche + dos medialunas"
+    "imgBig":"img/mediaLunas.jpg",
+    "imgSmall":"img/mediaLunas.jpg",
+    "imgAlt":"Medialunas con jamon y queso"
   },
   {
     "id_productos":16,
     "title":"Budin (naranja, limon con amapola o marmolado)",
     "text":"Budin (naranja, limon con amapola o marmolado)",
     "precio":"300.00",
-    "imgBig":"img/crepesCalabaza02.jpg",
-    "imgSmall":"img/crepesCalabaza02.jpg",
-    "imgAlt":"Cafe c/leche + dos medialunas"
+    "imgBig":"img/budin.jpg",
+    "imgSmall":"img/budin.jpg",
+    "imgAlt":"Porcion de udin con amapolas"
   },
   {
     "id_productos":17,
