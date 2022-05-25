@@ -34,7 +34,7 @@ function leerProductos(data){
                                         <picture class="">
                                             <source media="(min-width: 751px)" srcset="${dataAppi.imgBig}">
                                             <source media="(min-width: 380px)" srcset="${dataAppi.imgSmall}">
-                                            <img src="${dataAppi.imgBig}" class="" alt="Mi imagen responsive">
+                                            <img src="${dataAppi.imgBig}" class="picture__img" alt="Mi imagen responsive">
                                         </picture>
                                     </div>
                                     <div class="divProductos__div">

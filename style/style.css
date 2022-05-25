@@ -135,6 +135,11 @@ section h2 {
     /*height: 178px;*/
     border-radius: 10px 0px 0px 10px;
 }
+.divProductos .divProductos__img .picture .picture__img:nth-child(6) {
+    /*width: auto;*/
+    height: 188px;
+    border-radius: 10px 0px 0px 10px;
+}
 
 .modalHombre {
     position: fixed;

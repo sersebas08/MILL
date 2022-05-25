@@ -57,9 +57,9 @@
     "title":"Tostado arabe de jamon y queso",
     "text":"Tostado arabe de jamon y queso",
     "precio":"400.00",
-    "imgBig":"img/crepesCalabaza02.jpg",
-    "imgSmall":"img/crepesCalabaza02.jpg",
-    "imgAlt":"Cafe c/leche + dos medialunas"
+    "imgBig":"img/tostadoArabe.jpg",
+    "imgSmall":"img/tostadoArabe.jpg",
+    "imgAlt":"sandwich pan arabe jamon y queso"
   },
   {
     "id_productos":8,
@@ -67,8 +67,8 @@
     "text":"Arabe de queso, tomate y huevo duro",
     "precio":"450.00",
     "imgBig":"img/cafe-con-leche.jpg",
-    "imgBig":"img/crepesCalabaza02.jpg",
-    "imgSmall":"img/crepesCalabaza02.jpg"
+    "imgSmall":"img/crepesCalabaza02.jpg",
+    "imgAlt":"img/crepesCalabaza02.jpg"
   },
   {
     "id_productos":9,
@@ -84,18 +84,18 @@
     "title":"Huevos revueltos + toston de pan casero",
     "text":"Huevos revueltos + toston de pan casero",
     "precio":"500.00",
-    "imgBig":"img/crepesCalabaza02.jpg",
-    "imgSmall":"img/crepesCalabaza02.jpg",
-    "imgAlt":"Cafe c/leche + dos medialunas"
+    "imgBig":"img/huevoRevuelto.jpg",
+    "imgSmall":"img/huevoRevuelto.jpg",
+    "imgAlt":"huevos revueltos sobre un pan tostado"
   },
   {
     "id_productos":11,
     "title":"Huevos revueltos + panceta",
     "text":"Huevos revueltos + panceta",
     "precio":"750.00",
-    "imgBig":"img/crepesCalabaza02.jpg",
-    "imgSmall":"img/crepesCalabaza02.jpg",
-    "imgAlt":"Cafe c/leche + dos medialunas"
+    "imgBig":"img/huevoRevueltoPanceta.jpg",
+    "imgSmall":"img/huevoRevueltoPanceta.jpg",
+    "imgAlt":"huevos rvueltos con panceta"
   },
   {
     "id_productos":12,
@@ -147,8 +147,8 @@
     "title":"Tarta de manzana",
     "text":"Tarta de manzana",
     "precio":"350.00",
-    "imgBig":"img/crepesCalabaza02.jpg",
-    "imgSmall":"img/crepesCalabaza02.jpg",
+    "imgBig":"img/tartaManzana.jpg",
+    "imgSmall":"img/tartaManzana.jpg",
     "imgAlt":"Porcion de tarta de manzana"
   },
   {
@@ -156,8 +156,8 @@
     "title":"Pasta frola",
     "text":"Pasta frola",
     "precio":"300.00",
-    "imgBig":"img/crepesCalabaza02.jpg",
-    "imgSmall":"img/crepesCalabaza02.jpg",
+    "imgBig":"img/pastaFrola.jpg",
+    "imgSmall":"img/pastaFrola.jpg",
     "imgAlt":"Porcion de pasta frola"
   }
 ]
