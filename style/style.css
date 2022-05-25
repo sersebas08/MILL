@@ -78,8 +78,8 @@ section h2 {
 }
 /**/.divProductos {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 1rem auto;
+    grid-template-columns: 1fr 2fr;
+    margin: .8rem auto;
     background-color: #edf2f4;
     border-radius: 10px;
 }
