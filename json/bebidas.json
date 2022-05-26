@@ -3,71 +3,71 @@
   "title":"Agua c/s gas",
   "text":"Agua c/s gas",
   "precio":"250.00",
-  "imgBig":"img/cocacola-lata.png",
-  "imgSmall":"img/cocacola-lata.png",
-  "imgAlt":"marca de lata de gaseosa"
+  "imgBig":"img/aguaSinG.jpg",
+  "imgSmall":"img/aguaSinG.jpg",
+  "imgAlt":"botella agua sin gas"
   },
   {
     "id_productos":2,
     "title":"Gaseosas ",
     "text":"Gaseosas ",
     "precio":"250.00",
-    "imgBig":"img/sprite.png",
-    "imgSmall":"img/sprite.png",
-    "imgAlt":"marca de lata de gaseosa"
+    "imgBig":"img/gaseosas.jpg",
+    "imgSmall":"img/gaseosas.jpg",
+    "imgAlt":"latas de gaseosas linea coca cola"
   },
   {
     "id_productos":3,
     "title":"Copa de vino",
     "text":"Copa de vino",
     "precio":"400.00",
-    "imgBig":"img/sprite.png",
-    "imgSmall":"img/sprite.png",
-    "imgAlt":"marca de lata de gaseosa"
+    "imgBig":"img/copa-de-vino.jpg",
+    "imgSmall":"img/copa-de-vino.jpg",
+    "imgAlt":"copa de vino"
   },
   {
     "id_productos":4,
     "title":"Exprimido de naranjas",
     "text":"Exprimido de naranjas",
     "precio":"350.00",
-    "imgBig":"img/cocacola-lata.png",
-    "imgSmall":"img/cocacola-lata.png",
-    "imgAlt":"marca de lata de gaseosa"
+    "imgBig":"img/exprimido.jpg",
+    "imgSmall":"img/exprimido.jpg",
+    "imgAlt":"vaso de exprimido de naranja"
   },
   {
     "id_productos":5,
     "title":"Limonada + menta y jengibre",
     "text":"Limonada + menta y jengibre",
     "precio":"270.00",
-    "imgBig":"img/cocacola-lata.png",
-    "imgSmall":"img/cocacola-lata.png",
-    "imgAlt":"marca de lata de gaseosa"
+    "imgBig":"img/limonada.jpg",
+    "imgSmall":"img/limonada.jpg",
+    "imgAlt":"vaso de limonada con menta y limon"
   },
   {
     "id_productos":6,
     "title":"Lata de cerveza 473cm3",
     "text":"Lata de cerveza 473cm3",
     "precio":"400.00",
-    "imgBig":"img/cocacola-lata.png",
-    "imgSmall":"img/cocacola-lata.png",
-    "imgAlt":"marca de lata de gaseosa"
+    "imgBig":"img/lata.jpg",
+    "imgSmall":"img/lata.jpg",
+    "imgAlt":"lata de cerveza stella artois"
   },
   {
     "id_productos":7,
     "title":"Licuado de frutas",
     "text":"Licuado de frutas",
     "precio":"350.00",
-    "imgBig":"img/cocacola-lata.png",
-    "imgSmall":"img/cocacola-lata.png",
-    "imgAlt":"marca de lata de gaseosa"
+    "imgBig":"img/licuados.jpg",
+    "imgSmall":"img/licuados.jpg",
+    "imgAlt":"vasos de licuados de frutas"
   },
   {
     "id_productos":8,
     "title":"Chocolatada",
     "text":"Chocolatada",
     "precio":"250.00",
-    "imgBig":"img/cocacola-lata.png",
-    "imgSmall":"img/cocacola-lata.png",
-    "imgAlt":"marca de lata de gaseosa"
+    "imgBig":"img/chocolatada.jpg",
+    "imgSmall":"img/chocolatada.jpg",
+    "imgAlt":"chocolatada nesquik "
   }
 ]

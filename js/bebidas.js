@@ -18,7 +18,8 @@ export function leerBebidas(data){
     let dataAppi = {
         nombre: data.title,
         precio: data.precio,
-        imgBig: data.imgBig
+        imgBig: data.imgBig,
+        imgAlt: data.imgAlt
     }
     // console.log(dataAppi.nombre);
     const leerBebidas = document.querySelector('.leerBebidas');
@@ -27,7 +28,7 @@ export function leerBebidas(data){
                                     <picture class="">
                                         <source media="(min-width: 751px)" srcset="${dataAppi.imgBig}">
                                         <source media="(min-width: 380px)" srcset="${dataAppi.imgBig}">
-                                        <img src="${dataAppi.imgBig}" class="" alt="Mi imagen responsive">
+                                        <img src="${dataAppi.imgBig}" class="" alt="${dataAppi.imgAlt}">
                                     </picture>
                                 </div>
                                 <div class="divProductos__div">
