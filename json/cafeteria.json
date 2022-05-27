@@ -12,18 +12,18 @@
     "title":"Americano",
     "text":"Americano",
     "precio":"250.00",
-    "imgBig":"img/cafe-con-leche.jpg",
-    "imgSmall":"img/cafe-con-leche.jpg",
-    "imgAlt":"Cafe c/leche + dos medialunas"
+    "imgBig":"img/americano.jpg",
+    "imgSmall":"img/americano.jpg",
+    "imgAlt":"pocillo de cafe americano"
   },
   {
     "id_productos":3,
     "title":"Doble",
     "text":"Doble",
     "precio":"400.00",
-    "imgBig":"img/cafe-con-leche.jpg",
-    "imgSmall":"img/cafe-con-leche.jpg",
-    "imgAlt":"Cafe c/leche + dos medialunas"
+    "imgBig":"img/doble.jpg",
+    "imgSmall":"img/doble.jpg",
+    "imgAlt":"pocillo de cafe doble"
   },
   {
     "title":"Cafe c/leche",
@@ -39,8 +39,8 @@
     "title":"Te",
     "text":"Te",
     "precio":"250.00",
-    "imgBig":"img/cafe-con-leche.jpg",
-    "imgSmall":"img/cafe-con-leche.jpg",
+    "imgBig":"img/te.jpg",
+    "imgSmall":"img/te.jpg",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
