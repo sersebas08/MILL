@@ -33,12 +33,12 @@ export  function leerProductos(data){
                                 <div class="divProductos__div">
                                     <h3 class="divProductos__h3">${data[i].title}</h3>
                                     <p class="divProductos__p"><span>Precio: $</span>${data[i].precio}</p>
+                                    <button title="Ver Mas"class="btnVerMas m-2" 
+                                            data-name="${data[i].title}" 
+                                            data-precio="${data[i].precio}"
+                                            data-img="${data[i].imgBig}"
+                                            ><i class="bi bi-eye-fill mr-2 perri3"></i>Ver Mas</button>
                                 </div>
-                                <button title="Ver Mas"class="btnVerMas m-2" 
-                                        data-name="${data[i].title}" 
-                                        data-precio="${data[i].precio}"
-                                        data-img="${data[i].imgBig}"
-                                        ><i class="bi bi-eye-fill mr-2 perri3"></i>Ver Mas</button>
                             </div>`;
 
     }
