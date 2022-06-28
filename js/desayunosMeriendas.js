@@ -22,7 +22,11 @@ export  function leerProductos(data){
 
     let jsonDesayuno = '';
     for (let i = 0; i < data.length; i++) {
-        jsonDesayuno += `<div class="divProductos drop-shadow-lg">
+        jsonDesayuno += `<button title="Ver Mas"class="btnVerMas m-2 divProductos drop-shadow-lg" 
+                                            data-name="${data[i].title}" 
+                                            data-precio="${data[i].precio}"
+                                            data-img="${data[i].imgBig}"
+                                            >
                                 <div class="divProductos__img">
                                     <picture class="">
                                         <source media="(max-width: 751px)" srcset="${data[i].imgBig}">
@@ -33,13 +37,8 @@ export  function leerProductos(data){
                                 <div class="divProductos__div">
                                     <h3 class="divProductos__h3">${data[i].title}</h3>
                                     <p class="divProductos__p"><span>Precio: $</span>${data[i].precio}</p>
-                                    <button title="Ver Mas"class="btnVerMas m-2" 
-                                            data-name="${data[i].title}" 
-                                            data-precio="${data[i].precio}"
-                                            data-img="${data[i].imgBig}"
-                                            ><i class="bi bi-eye-fill mr-2 perri3"></i>Ver Mas</button>
                                 </div>
-                            </div>`;
+                        </button>`;
 
     }
     leerJson.innerHTML = `<div class="leerJson">${jsonDesayuno}</div>`;

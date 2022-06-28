@@ -87,13 +87,17 @@ section h2 {
     margin: .8rem auto;
 }
 .divProductos {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
     margin: .8rem auto;
+    display: flex;
+    flex-wrap: wrap;
     background-color: #edf2f4;
     border-radius: 10px;
 }
 .divProductos__div{
+    width: 65%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -103,11 +107,12 @@ section h2 {
 }
 
 .divProductos__h3 {
-   /* white-space: nowrap;
+    white-space: nowrap;
     text-overflow: ellipsis;
-    overflow: hidden;*/
+    overflow: hidden;
     font-size: .9rem;
     color: gray;
+    width: 90%;
 }
 .divProductos__p {
     text-align: center;
@@ -115,10 +120,12 @@ section h2 {
     font-size: .8rem;
     margin-top: .5rem;
 }
-/*.divProductos__img {
-
+.divProductos__img {
+    background-size: cover;
+    background-position: center;
+    width: 30%;
 }
-.divProductos__img picture img {
+/*.divProductos__img picture img {
 
 }*/
 /*.divProductos {*/
@@ -128,31 +135,31 @@ section h2 {
 /*    margin: 1rem auto;*/
 /*    border-radius: 10px;*/
 /*}*/
-.divProductos__div {
-    /*width: 65%;*/
+/*.divProductos__div {
+    !*width: 65%;*!
     display: flex;
     flex-direction: column;
-    /*align-items: center;*/
-    /*margin: auto;*/
+    !*align-items: center;*!
+    !*margin: auto;*!
     justify-content: space-between;
-}
-.divProductos__img {
-    /*background-image: url("../img/crepess.jpg");*/
+}*/
+/*.divProductos__img {
+    !*background-image: url("../img/crepess.jpg");*!
     background-size: cover;
     background-position: center;
-    /*width: 35%;*/
+    !*width: 35%;*!
     height: auto;
 }
 .divProductos__img picture img {
-    /*width: auto;*/
-    /*height: 178px;*/
+    !*width: auto;*!
+    !*height: 178px;*!
     border-radius: 10px 0px 0px 10px;
 }
 .divProductos .divProductos__img .picture .picture__img:nth-child(6) {
-    /*width: auto;*/
+    !*width: auto;*!
     height: 188px;
     border-radius: 10px 0px 0px 10px;
-}
+}*/
 .productoModal {
     background-color: #edf2f4;
 }
