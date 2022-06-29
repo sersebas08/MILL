@@ -85,7 +85,7 @@ section h2 {
     margin: auto;
     background-color: #edf2f4;
     border-radius: 10px;
-    width: 90%;
+    width: 85%;
 }
 .divProductosModal__h3 {
     margin: 0.8rem auto;
@@ -99,10 +99,11 @@ section h2 {
     font-weight: 800;
 }
 .divProductosModal picture {
-    width: 75%;
     margin: auto;
 }
-
+.divProductosModal picture img{
+    border-radius: 5px;
+}
 
 
 
@@ -258,8 +259,8 @@ section h2 {
 
 
     .divProductos {
-        grid-template-columns: 1fr;
-        width: 40%;
+        /*grid-template-columns: 1fr;*/
+        width: 100%;
     }
     /*.divProductos__img {*/
     /*    width: 40%;*/

@@ -25,7 +25,7 @@ export  function leerProductos(data){
         jsonDesayuno += `<button title="Ver Mas"class="btnVerMas m-2 divProductos drop-shadow-lg" 
                                             data-name="${data[i].title}" 
                                             data-precio="${data[i].precio}"
-                                            data-img="${data[i].imgBig}"
+                                            data-img="${data[i].imgBigModal}"
                                             >
                                 <div class="divProductos__img">
                                     <picture class="">
