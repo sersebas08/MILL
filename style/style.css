@@ -76,16 +76,39 @@ section h2 {
     /*display: flex;
     flex-direction: column;*/
 }
+
+/*------------------ Ventana modal desayunos y meriendas ---------------*/
+
 .divProductosModal {
     display: flex;
     flex-direction: column;
     margin: auto;
     background-color: #edf2f4;
     border-radius: 10px;
+    width: 90%;
 }
 .divProductosModal__h3 {
-    margin: .8rem auto;
+    margin: 0.8rem auto;
+    width: 75%;
+    text-align: center;
+    font-weight: 400;
 }
+
+.divProductosModal__h4 {
+    margin: .8rem auto;
+    font-weight: 800;
+}
+.divProductosModal picture {
+    width: 75%;
+    margin: auto;
+}
+
+
+
+
+
+
+
 .divProductos {
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -100,24 +123,24 @@ section h2 {
     width: 65%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 1rem;
+    /*padding: 1rem;*/
     text-align: center;
+    margin: auto;
 }
 
 .divProductos__h3 {
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
-    font-size: .9rem;
+    font-weight: 600;
     color: gray;
     width: 90%;
 }
 .divProductos__p {
     text-align: center;
     font-weight: 700;
-    font-size: .8rem;
     margin-top: .5rem;
 }
 .divProductos__img {

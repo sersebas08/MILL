@@ -68,13 +68,13 @@ export function modal(data){
     let html = '';
 
     html += `<div class="divProductosModal drop-shadow-lg">
-                    <picture class="w-full p-3">
+                    <picture>
                       <source media="(min-width: 751px)" srcset="${data.image}">
                       <source media="(min-width: 380px)" srcset="${data.image}">
                       <img src="${data.image}" class=" " alt="Mi imagen responsive">
                     </picture>
                     <h3  class="divProductosModal__h3">${data.name}</h3>
-                    <h4  class="divProductosModal__h3"><span>$ </span>${data.precio}</h4>
+                    <h4  class="divProductosModal__h4"><span>$ </span>${data.precio}</h4>
                 </div>`;
 
     ventanaHombreModal.innerHTML = html;
