@@ -4,6 +4,7 @@
   "text":"Crepes de espinaca, ricota y queso con salsa filetto o bolognesa",
   "precio":"750.00",
   "imgBig":"img/crepesCalabaza02.jpg",
+  "imgBigModal":"img/cafe-con-leche-tostadas-modal.jpg",
   "imgSmall":"img/crepesCalabaza02.jpg",
   "imgAlt":"Cafe c/leche + dos medialunas"
 },
@@ -13,7 +14,8 @@
     "text":"Crepes de calabaza y queso con salsa filetto o bolognesa",
     "precio":"750.00",
     "imgBig":"img/crepesCalabaza02.jpg",
-  "imgSmall":"img/crepesCalabaza02.jpg",
+    "imgBigModal":"img/cafe-con-leche-tostadas-modal.jpg",
+    "imgSmall":"img/crepesCalabaza02.jpg",
     "imgAlt":"Crepes de calabaza y queso c/salsa filetto o bolognesa"
   },
   {
@@ -22,7 +24,8 @@
     "text":"Fusillis con vegetales al wok",
     "precio":"500.00",
     "imgBig":"img/crepesCalabaza02.jpg",
-  "imgSmall":"img/crepesCalabaza02.jpg",
+    "imgBigModal":"img/cafe-con-leche-tostadas-modal.jpg",
+    "imgSmall":"img/crepesCalabaza02.jpg",
     "imgAlt":"Fusillis con vegetales al wok"
   },
   {
@@ -31,7 +34,8 @@
     "text":"Fusillis con salsa bolognesa",
     "precio":"750.00",
     "imgBig":"img/crepesCalabaza02.jpg",
-  "imgSmall":"img/crepesCalabaza02.jpg",
+    "imgBigModal":"img/cafe-con-leche-tostadas-modal.jpg",
+    "imgSmall":"img/crepesCalabaza02.jpg",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
@@ -40,7 +44,8 @@
     "text":"Fusillis con quesos varios y rucula",
     "precio":"500.00",
     "imgBig":"img/crepesCalabaza02.jpg",
-  "imgSmall":"img/crepesCalabaza02.jpg",
+    "imgBigModal":"img/cafe-con-leche-tostadas-modal.jpg",
+    "imgSmall":"img/crepesCalabaza02.jpg",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
@@ -49,7 +54,8 @@
     "text":"Discos de polenta horneada con salsa de pollo, tomates secos, hongos secos, berenjenas, cebolla y aceitunas a la crema",
     "precio":"900.00",
     "imgBig":"img/crepesCalabaza02.jpg",
-  "imgSmall":"img/crepesCalabaza02.jpg",
+    "imgBigModal":"img/cafe-con-leche-tostadas-modal.jpg",
+    "imgSmall":"img/crepesCalabaza02.jpg",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
@@ -58,7 +64,8 @@
     "text":"Deditos de polenta con hiervas, morrones, tomates confitados, hongos secos y pollo al oliva",
     "precio":"850.00",
     "imgBig":"img/crepesCalabaza02.jpg",
-  "imgSmall":"img/crepesCalabaza02.jpg",
+    "imgBigModal":"img/cafe-con-leche-tostadas-modal.jpg",
+    "imgSmall":"img/crepesCalabaza02.jpg",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
@@ -67,7 +74,8 @@
     "text":"Polenta horneada con bolognesa",
     "precio":"750.00",
     "imgBig":"img/crepesCalabaza02.jpg",
-  "imgSmall":"img/crepesCalabaza02.jpg",
+    "imgBigModal":"img/cafe-con-leche-tostadas-modal.jpg",
+    "imgSmall":"img/crepesCalabaza02.jpg",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
@@ -76,7 +84,8 @@
     "text":"Polenta horneada bañada en vegetales al wok",
     "precio":"650.00",
     "imgBig":"img/crepesCalabaza02.jpg",
-  "imgSmall":"img/crepesCalabaza02.jpg",
+    "imgBigModal":"img/cafe-con-leche-tostadas-modal.jpg",
+    "imgSmall":"img/crepesCalabaza02.jpg",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
@@ -85,7 +94,8 @@
     "text":"Wrap de pollo, queso, vegetales y tomates secos con ensalada",
     "precio":"650.00",
     "imgBig":"img/crepesCalabaza02.jpg",
-  "imgSmall":"img/crepesCalabaza02.jpg",
+    "imgBigModal":"img/cafe-con-leche-tostadas-modal.jpg",
+    "imgSmall":"img/crepesCalabaza02.jpg",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
@@ -94,7 +104,8 @@
     "text":"Wrap de jamon y queso, tomate y rucula con ensalada",
     "precio":"600.00",
     "imgBig":"img/crepesCalabaza02.jpg",
-  "imgSmall":"img/crepesCalabaza02.jpg",
+    "imgBigModal":"img/cafe-con-leche-tostadas-modal.jpg",
+    "imgSmall":"img/crepesCalabaza02.jpg",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
@@ -103,7 +114,8 @@
     "text":"Tiritas de pollo al curry con arroz yamani",
     "precio":"750.00",
     "imgBig":"img/crepesCalabaza02.jpg",
-  "imgSmall":"img/crepesCalabaza02.jpg",
+    "imgBigModal":"img/cafe-con-leche-tostadas-modal.jpg",
+    "imgSmall":"img/crepesCalabaza02.jpg",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
@@ -112,7 +124,8 @@
     "text":"Tiritas de pollo a la mostaza con pure de papas",
     "precio":"750.00",
     "imgBig":"img/crepesCalabaza02.jpg",
-  "imgSmall":"img/crepesCalabaza02.jpg",
+    "imgBigModal":"img/cafe-con-leche-tostadas-modal.jpg",
+    "imgSmall":"img/crepesCalabaza02.jpg",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
@@ -121,7 +134,8 @@
     "text":"Wok de vegetales surtidos y arroz yamani integral",
     "precio":"650.00",
     "imgBig":"img/crepesCalabaza02.jpg",
-  "imgSmall":"img/crepesCalabaza02.jpg",
+    "imgBigModal":"img/cafe-con-leche-tostadas-modal.jpg",
+    "imgSmall":"img/crepesCalabaza02.jpg",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
@@ -130,7 +144,8 @@
     "text":"Wok de vegetales surtidos y pasta corta (fusilli)",
     "precio":"650.00",
     "imgBig":"img/crepesCalabaza02.jpg",
-  "imgSmall":"img/crepesCalabaza02.jpg",
+    "imgBigModal":"img/cafe-con-leche-tostadas-modal.jpg",
+    "imgSmall":"img/crepesCalabaza02.jpg",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
@@ -139,7 +154,8 @@
     "text":"Wok de pollo y vegetales con o sin arroz yamani",
     "precio":"750.00",
     "imgBig":"img/crepesCalabaza02.jpg",
-  "imgSmall":"img/crepesCalabaza02.jpg",
+    "imgBigModal":"img/cafe-con-leche-tostadas-modal.jpg",
+    "imgSmall":"img/crepesCalabaza02.jpg",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
@@ -148,7 +164,8 @@
     "text":"Milanesa de pollo con queso y rúcula con puré de papas",
     "precio":"750.00",
     "imgBig":"img/crepesCalabaza02.jpg",
-  "imgSmall":"img/crepesCalabaza02.jpg",
+    "imgBigModal":"img/cafe-con-leche-tostadas-modal.jpg",
+    "imgSmall":"img/crepesCalabaza02.jpg",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
@@ -157,7 +174,8 @@
     "text":"Milanesa de peceto con puré de papas o ensalada",
     "precio":"900.00",
     "imgBig":"img/crepesCalabaza02.jpg",
-  "imgSmall":"img/crepesCalabaza02.jpg",
+    "imgBigModal":"img/cafe-con-leche-tostadas-modal.jpg",
+    "imgSmall":"img/crepesCalabaza02.jpg",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
@@ -166,7 +184,8 @@
     "text":"Milanesa de berenjena y ensalada",
     "precio":"700.00",
     "imgBig":"img/crepesCalabaza02.jpg",
-  "imgSmall":"img/crepesCalabaza02.jpg",
+    "imgBigModal":"img/cafe-con-leche-tostadas-modal.jpg",
+    "imgSmall":"img/crepesCalabaza02.jpg",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
@@ -175,7 +194,8 @@
     "text":"Omelette de jamon y queso con mix de verdes",
     "precio":"550.00",
     "imgBig":"img/crepesCalabaza02.jpg",
-  "imgSmall":"img/crepesCalabaza02.jpg",
+    "imgBigModal":"img/cafe-con-leche-tostadas-modal.jpg",
+    "imgSmall":"img/crepesCalabaza02.jpg",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
@@ -184,7 +204,8 @@
     "text":"Omelette de espinaca y queso con ensaladilla de zanahoria",
     "precio":"550.00",
     "imgBig":"img/crepesCalabaza02.jpg",
-  "imgSmall":"img/crepesCalabaza02.jpg",
+    "imgBigModal":"img/cafe-con-leche-tostadas-modal.jpg",
+    "imgSmall":"img/crepesCalabaza02.jpg",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
@@ -193,7 +214,8 @@
     "text":"Huevos revueltos con toston de pan de campo",
     "precio":"500.00",
     "imgBig":"img/crepesCalabaza02.jpg",
-  "imgSmall":"img/crepesCalabaza02.jpg",
+    "imgBigModal":"img/cafe-con-leche-tostadas-modal.jpg",
+    "imgSmall":"img/crepesCalabaza02.jpg",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
@@ -202,7 +224,8 @@
     "text":"Huevos revueltos con panceta y toston de campo",
     "precio":"750.00",
     "imgBig":"img/crepesCalabaza02.jpg",
-  "imgSmall":"img/crepesCalabaza02.jpg",
+    "imgBigModal":"img/cafe-con-leche-tostadas-modal.jpg",
+    "imgSmall":"img/crepesCalabaza02.jpg",
     "imgAlt":"Cafe c/leche + dos medialunas"
   }
 ]

@@ -408,6 +408,7 @@ section h2 {
     }
     .divProductos__div {
         width: 100%;
+        padding: 1rem;
     }
     .leerJson,
     .leerCafeteria,

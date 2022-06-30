@@ -6,12 +6,12 @@ export function desayunosMeriendas () {
         .then(function(response){
             return response.json();})
         .then(function (data){
-            leerProductos(data);
+            leerProductosDesayunos(data);
         })
         .catch(function (err){console.log("este es el error", err);})
 }
-const leerJson = document.querySelector('.leerJson');
-export  function leerProductos(data){
+
+export  function leerProductosDesayunos(data){
     console.log('data desayunos: ', data);
     /*let dataAppi = {
         nombre: data.title,
@@ -21,6 +21,7 @@ export  function leerProductos(data){
     console.log('data nombre: ', dataAppi.nombre);*/
 
     let jsonDesayuno = '';
+    const leerJson = document.querySelector('.leerJson');
     for (let i = 0; i < data.length; i++) {
         jsonDesayuno += `<button title="Ver Mas"class="btnVerMas m-2 divProductos drop-shadow-lg" 
                                             data-name="${data[i].title}" 
