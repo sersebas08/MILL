@@ -1,11 +1,24 @@
+export function modal(data){
 
-export function modal(){
-    console.log('hasta llego: ' );
+    let ventanaModal = document.querySelector('#ventanaModal');
+    let ventanaModales = document.querySelector('#ventanaModales');
 
-    /* console.log('esta es la data de cafeteria: ' , );*/
-    ventanaHombres.classList.add("modalHombre");
-    ventanaHombres.classList.remove("hidden");
+    ventanaModal.classList.add("modalHombre");
+    ventanaModal.classList.remove("hidden");
+    ventanaModales.classList.remove("hidden");
+    let html = '';
 
+    html += `<div class="divProductosModal drop-shadow-lg">
+                    <picture>
+                      <source media="(min-width: 751px)" srcset="${data.image}">
+                      <source media="(min-width: 380px)" srcset="${data.image}">
+                      <img src="${data.image}" class=" " alt="Mi imagen responsive">
+                    </picture>
+                    <h3  class="divProductosModal__h3">${data.name}</h3>
+                    <h4  class="divProductosModal__h4"><span>$ </span>${data.precio}</h4>
+                </div>`;
+
+    ventanaModales.innerHTML = html;
 
     let a = document.createElement('a');
     a.href = '#';
@@ -13,15 +26,17 @@ export function modal(){
     a.innerHTML = 'X';
     a.onclick = function () {
 
-        ventanaHombres.classList.add("hidden");
-        ventanaHombres.classList.remove("modalHombre");
+        ventanaModal.classList.add("hidden");
+        ventanaModales.classList.add("hidden");
+        ventanaModal.classList.remove("modalHombre");
         return false;
     }
-    ventanaHombres.appendChild(a);
-    console.log('hola mundo')
+    ventanaModal.appendChild(a);
+    ventanaModal.appendChild(ventanaModales);
 
 }
-let ventanaHombres = document.querySelector('#ventanaHombres');
+/*let ventanaHombres = document.querySelector('#ventanaHombres');
+
 let button = document.querySelector('.button');
 // button.style.backgroundColor = 'yellow';
-button.onclick = modal;
+button.onclick = modal;*/

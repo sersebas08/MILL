@@ -4,7 +4,7 @@ import {desayunosMeriendas} from "./desayunosMeriendas.js";
 import {platos} from "./platos.js";
 import {cafeteria} from "./cafeteria.js";
 import {ensaladas} from "./ensaladas.js";
-import {modal} from "./modal.js";
+/*import {modal} from "./modal.js";*/
 
 let principalDesayuno = document.querySelector('.principalDesayuno');
 let principalCafeteria = document.querySelector('.principalCafeteria');

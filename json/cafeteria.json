@@ -3,8 +3,8 @@
   "title":"Cafe chico",
   "text":"Cafe chico",
   "precio":"200.00",
-  "imgBig":"img/cafeChico.jpg",
-  "imgSmall":"img/cafeChico.jpg",
+  "imgBig":"img/cafeteria/cafeChico.jpg",
+  "imgSmall":"img/cafeteria/cafeChico.jpg",
   "imgAlt":"Pocillo de cafe chico"
 },
   {
@@ -12,8 +12,8 @@
     "title":"Americano",
     "text":"Americano",
     "precio":"250.00",
-    "imgBig":"img/americano.jpg",
-    "imgSmall":"img/americano.jpg",
+    "imgBig":"img/cafeteria/americano.jpg",
+    "imgSmall":"img/cafeteria/americano.jpg",
     "imgAlt":"pocillo de cafe americano"
   },
   {
@@ -21,8 +21,8 @@
     "title":"Doble",
     "text":"Doble",
     "precio":"400.00",
-    "imgBig":"img/doble.jpg",
-    "imgSmall":"img/doble.jpg",
+    "imgBig":"img/cafeteria/doble.jpg",
+    "imgSmall":"img/cafeteria/doble.jpg",
     "imgAlt":"pocillo de cafe doble"
   },
   {
@@ -30,8 +30,8 @@
     "text":"Cafe c/leche",
     "precio":"300.00",
     "id_productos":4,
-    "imgBig":"img/cafe-con-leche.jpg",
-    "imgSmall":"img/cafe-con-leche.jpg",
+    "imgBig":"img/cafeteria/cafe-con-leche.jpg",
+    "imgSmall":"img/cafeteria/cafe-con-leche.jpg",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
@@ -39,8 +39,8 @@
     "title":"Te",
     "text":"Te",
     "precio":"250.00",
-    "imgBig":"img/te.jpg",
-    "imgSmall":"img/te.jpg",
+    "imgBig":"img/cafeteria/te.jpg",
+    "imgSmall":"img/cafeteria/te.jpg",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
@@ -48,8 +48,8 @@
     "title":"Te especiales",
     "text":"Te especiales",
     "precio":"280.00",
-    "imgBig":"img/cafe-con-leche.jpg",
-    "imgSmall":"img/cafe-con-leche.jpg",
+    "imgBig":"img/cafeteria/cafe-con-leche.jpg",
+    "imgSmall":"img/cafeteria/cafe-con-leche.jpg",
     "imgAlt":"Cafe c/leche + dos medialunas"
   }
 ]

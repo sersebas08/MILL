@@ -1,6 +1,4 @@
-
-
-import {modal} from "./desayunosMeriendas.js";
+import {modal} from "./modal.js";
 
 export function platos () {
 
@@ -8,27 +6,24 @@ export function platos () {
         .then(function(response){
             return response.json();})
         .then(function (data){
-            leerProductos(data);
+            leerProductosPlatos(data);
         })
         .catch(function (err){console.log("este es el error", err);})
 }
 
-/*button.addEventListener('click', (e) => {
-    e.preventDefault();*/
-
-function leerProductos(data){
-
+export  function leerProductosPlatos(data){
+    console.log('data desayunos: ', data);
     /*let dataAppi = {
         nombre: data.title,
         precio: data.precio,
-        imgBig: data.imgBig,
-        imgSmall: data.imgSmall
-    }*/
-   /* console.log(dataAppi.nombre);*/
-    let platos = '';
+        imgBig: data.imgBig
+    }
+    console.log('data nombre: ', dataAppi.nombre);*/
+
+    let jsonPlatos = '';
     const leerPlatos = document.querySelector('.leerPlatos');
     for (let i = 0; i < data.length; i++) {
-        platos += `<button title="Ver Mas"class="btnVerMas m-2 divProductos drop-shadow-lg" 
+        jsonPlatos += `<button title="Ver Mas"class="btnVerMas m-2 divProductos drop-shadow-lg" 
                                             data-name="${data[i].title}" 
                                             data-precio="${data[i].precio}"
                                             data-img="${data[i].imgBigModal}"
@@ -47,7 +42,7 @@ function leerProductos(data){
                         </button>`;
 
     }
-    leerPlatos.innerHTML = `<div class="leerJson">${platos}</div>`;
+    leerPlatos.innerHTML = `<div class="leerJson">${jsonPlatos}</div>`;
 
     let btnVerMas = document.querySelectorAll('.btnVerMas');
     btnVerMas.forEach(function (itemns) {
@@ -62,5 +57,4 @@ function leerProductos(data){
             modal(iteral);
         });
     })
-
 }
