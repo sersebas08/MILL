@@ -12,13 +12,6 @@ export function cafeteria () {
 }
 
 export  function leerProductos(data){
-    console.log('data desayunos: ', data);
-    /*let dataAppi = {
-        nombre: data.title,
-        precio: data.precio,
-        imgBig: data.imgBig
-    }
-    console.log('data nombre: ', dataAppi.nombre);*/
 
     let jsonCafeteria = '';
     const leerCafeteria = document.querySelector('.leerCafeteria');
