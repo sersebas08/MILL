@@ -15,7 +15,7 @@ export function modal(data){
                       <img src="${data.image}" class=" " alt="Mi imagen responsive">
                     </picture>
                     <h3  class="divProductosModal__h3">${data.name}</h3>
-                    <h4  class="divProductosModal__h4"><span>$ </span>${data.precio}</h4>
+                    <h4  class="divProductosModal__h4"><span>Precio: $ </span>${data.precio}</h4>
                 </div>`;
 
     ventanaModales.innerHTML = html;

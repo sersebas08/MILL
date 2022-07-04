@@ -137,12 +137,13 @@ section h2 {
     overflow: hidden;
     font-weight: 600;
     color: gray;
-    width: 90%;
+    width: 95%;
+    margin: 1rem;
 }
 .divProductos__p {
     text-align: center;
     font-weight: 700;
-    margin-top: .5rem;
+    margin: 1rem;
 }
 .divProductos__img {
     background-size: cover;
@@ -185,6 +186,10 @@ section h2 {
     border-radius: 10px 0px 0px 10px;
 }*/
 
+.colors {
+    background: #ff000042;
+    border-radius: 5px;
+}
 
 .productoModal {
     background-color: #edf2f4;

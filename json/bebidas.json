@@ -4,6 +4,7 @@
   "text":"Agua c/s gas",
   "precio":"250.00",
   "imgBig":"img/aguaSinG.jpg",
+  "imgBigModal":"img/aguaSinG.jpg",
   "imgSmall":"img/aguaSinG.jpg",
   "imgAlt":"botella agua sin gas"
   },
@@ -13,6 +14,7 @@
     "text":"Gaseosas ",
     "precio":"250.00",
     "imgBig":"img/gaseosas.jpg",
+    "imgBigModal":"img/gaseosas.jpg",
     "imgSmall":"img/gaseosas.jpg",
     "imgAlt":"latas de gaseosas linea coca cola"
   },
@@ -22,6 +24,7 @@
     "text":"Copa de vino",
     "precio":"400.00",
     "imgBig":"img/copa-de-vino.jpg",
+    "imgBigModal":"img/copa-de-vino.jpg",
     "imgSmall":"img/copa-de-vino.jpg",
     "imgAlt":"copa de vino"
   },
@@ -31,6 +34,7 @@
     "text":"Exprimido de naranjas",
     "precio":"350.00",
     "imgBig":"img/exprimido.jpg",
+    "imgBigModal":"img/exprimido.jpg",
     "imgSmall":"img/exprimido.jpg",
     "imgAlt":"vaso de exprimido de naranja"
   },
@@ -40,6 +44,7 @@
     "text":"Limonada + menta y jengibre",
     "precio":"270.00",
     "imgBig":"img/limonada.jpg",
+    "imgBigModal":"img/limonada.jpg",
     "imgSmall":"img/limonada.jpg",
     "imgAlt":"vaso de limonada con menta y limon"
   },
@@ -49,6 +54,7 @@
     "text":"Lata de cerveza 473cm3",
     "precio":"400.00",
     "imgBig":"img/lata.jpg",
+    "imgBigModal":"img/lata.jpg",
     "imgSmall":"img/lata.jpg",
     "imgAlt":"lata de cerveza stella artois"
   },
@@ -58,6 +64,7 @@
     "text":"Licuado de frutas",
     "precio":"350.00",
     "imgBig":"img/licuados.jpg",
+    "imgBigModal":"img/licuados.jpg",
     "imgSmall":"img/licuados.jpg",
     "imgAlt":"vasos de licuados de frutas"
   },
@@ -67,6 +74,7 @@
     "text":"Chocolatada",
     "precio":"250.00",
     "imgBig":"img/chocolatada.jpg",
+    "imgBigModal":"img/chocolatada.jpg",
     "imgSmall":"img/chocolatada.jpg",
     "imgAlt":"chocolatada nesquik "
   }

@@ -21,6 +21,13 @@ uno.addEventListener('click', () => {
     principalBebidas.classList.add("hidden");
     principalPlatos.classList.add("hidden");
     principalEnsaladas.classList.add("hidden");
+    if(uno){
+        uno.style.backgroundColor = '#ff000042';
+        dos.style.backgroundColor = '';
+        tres.style.backgroundColor = '';
+        cuatro.style.backgroundColor = '';
+        cinco.style.backgroundColor = '';
+    }
 });
 
 let dos = document.querySelector('.dos');
@@ -30,6 +37,13 @@ dos.addEventListener('click', () => {
     principalBebidas.classList.add("hidden");
     principalPlatos.classList.add("hidden");
     principalEnsaladas.classList.add("hidden");
+    if(dos){
+        uno.style.backgroundColor = '';
+        dos.style.backgroundColor = '#ff000042';
+        tres.style.backgroundColor = '';
+        cuatro.style.backgroundColor = '';
+        cinco.style.backgroundColor = '';
+    }
 });
 let tres = document.querySelector('.tres');
 tres.addEventListener('click', () => {
@@ -38,6 +52,13 @@ tres.addEventListener('click', () => {
     principalBebidas.classList.remove("hidden");
     principalPlatos.classList.add("hidden");
     principalEnsaladas.classList.add("hidden");
+    if(tres){
+        uno.style.backgroundColor = '';
+        dos.style.backgroundColor = '';
+        tres.style.backgroundColor = '#ff000042';
+        cuatro.style.backgroundColor = '';
+        cinco.style.backgroundColor = '';
+    }
 });
 
 let cuatro = document.querySelector('.cuatro');
@@ -47,6 +68,13 @@ cuatro.addEventListener('click', () => {
     principalBebidas.classList.add("hidden");
     principalPlatos.classList.remove("hidden");
     principalEnsaladas.classList.add("hidden");
+    if(cuatro){
+        uno.style.backgroundColor = '';
+        dos.style.backgroundColor = '';
+        tres.style.backgroundColor = '';
+        cuatro.style.backgroundColor = '#ff000042';
+        cinco.style.backgroundColor = '';
+    }
 });
 
 let cinco = document.querySelector('.cinco');
@@ -56,6 +84,14 @@ cinco.addEventListener('click', () => {
     principalBebidas.classList.add("hidden");
     principalPlatos.classList.add("hidden");
     principalEnsaladas.classList.remove("hidden");
+    if(cinco){
+        uno.style.backgroundColor = '';
+        dos.style.backgroundColor = '';
+        tres.style.backgroundColor = '';
+        cuatro.style.backgroundColor = '';
+        cinco.style.backgroundColor = '#ff000042';
+    }
+
 });
 
 window.addEventListener('DOMContentLoaded', (e) => {

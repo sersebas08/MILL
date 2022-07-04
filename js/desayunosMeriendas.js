@@ -12,14 +12,6 @@ export function desayunosMeriendas () {
 }
 
 export  function leerProductosDesayunos(data){
-    console.log('data desayunos: ', data);
-    /*let dataAppi = {
-        nombre: data.title,
-        precio: data.precio,
-        imgBig: data.imgBig
-    }
-    console.log('data nombre: ', dataAppi.nombre);*/
-
     let jsonDesayuno = '';
     const leerJson = document.querySelector('.leerJson');
     for (let i = 0; i < data.length; i++) {
