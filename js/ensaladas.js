@@ -1,39 +1,54 @@
 
-
+import {modal} from "./modal.js";
 
 export function ensaladas () {
 
     fetch('./json/ensaladas.json')
-        .then(response => response.json())
-        .then(data => {
-            data.forEach(data => {
-                leerEnsaladas(data);
-            })
-            /*leerProductos(data);*/
-            // console.log(data)
+        .then(function(response){
+            return response.json();})
+        .then(function (data){
+            leerEnsaladas(data);
         })
         .catch(function (err){console.log("este es el error", err);})
 }
-export function leerEnsaladas(data){
-    let dataAppi = {
-        nombre: data.title,
-        precio: data.precio,
-        imgBig: data.imgBig
-    }
-    // console.log(dataAppi.nombre);
+
+export  function leerEnsaladas(data){
+
+    let jsonEnsaladas = '';
     const leerEnsaladas = document.querySelector('.leerEnsaladas');
-    leerEnsaladas.innerHTML += `<div class="divProductos drop-shadow-lg ">
+    for (let i = 0; i < data.length; i++) {
+        jsonEnsaladas += `<button title="Ver Mas"class="btnVerMas m-2 divProductos drop-shadow-lg" 
+                                            data-name="${data[i].title}" 
+                                            data-precio="${data[i].precio}"
+                                            data-img="${data[i].imgBigModal}"
+                                            >
                                 <div class="divProductos__img">
                                     <picture class="">
-                                        <source media="(min-width: 751px)" srcset="${dataAppi.imgBig}">
-                                        <source media="(min-width: 380px)" srcset="${dataAppi.imgBig}">
-                                        <img src="${dataAppi.imgBig}" class="" alt="Mi imagen responsive">
+                                        <source media="(max-width: 751px)" srcset="${data[i].imgBig}">
+                                        <source media="(min-width: 380px)" srcset="${data[i].imgBig}">
+                                        <img src="${data[i].imgBig}" class="" alt="Mi imagen responsive">
                                     </picture>
                                 </div>
                                 <div class="divProductos__div">
-                                    <h3 class="divProductos__h3">${dataAppi.nombre}</h3>
-                                    <p class="divProductos__p"><span>Precio: $</span>${dataAppi.precio}</p>
+                                    <h3 class="divProductos__h3">${data[i].title}</h3>
+                                    <p class="divProductos__p"><span>Precio: $</span>${data[i].precio}</p>
                                 </div>
-                            </div>`;
+                        </button>`;
 
+    }
+    leerEnsaladas.innerHTML = `<div class="leerJson">${jsonEnsaladas}</div>`;
+
+    let btnVerMas = document.querySelectorAll('.btnVerMas');
+    btnVerMas.forEach(function (itemns) {
+
+        itemns.addEventListener('click', function (){
+            console.log('este es mi this: ', this)
+            const iteral = {
+                precio: this.dataset.precio,
+                name: this.dataset.name,
+                image: this.dataset.img
+            };
+            modal(iteral);
+        });
+    })
 }

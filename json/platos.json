@@ -3,9 +3,9 @@
   "title":"Cafe con leche + tostadas, queso y mermelada",
   "text":"Cafe con leche con tostadas, queso y mermelada",
   "precio":"550.00",
-  "imgBig":"img/cafe-con-leche-tostadas.jpg",
-  "imgBigModal":"img/cafe-con-leche-tostadas-modal.jpg",
-  "imgSmall":"img/cafe-con-leche-tostadas.jpg",
+  "imgBig":"img/calabaza.jpg",
+  "imgBigModal":"img/calabazaModal.jpg",
+  "imgSmall":"img/calabaza.jpg",
   "imgAlt":"Cafe c/leche + dos medialunas"
 },
   {
@@ -13,9 +13,9 @@
     "title":"Cafe con leche + dos medialunas",
     "text":"Cafe con leche + dos medialunas",
     "precio":"500.00",
-    "imgBig":"img/cafe-con-leche-medialunas.jpg",
-    "imgBigModal":"img/cafe-con-leche-medialunas-modal.jpg",
-    "imgSmall":"img/cafe-con-leche-medialunas.jpg",
+    "imgBig":"img/calabaza.jpg",
+    "imgBigModal":"img/calabazaModal.jpg",
+    "imgSmall":"img/calabaza.jpg",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
@@ -23,9 +23,9 @@
     "title":"Cafe + arabe tostado de jamon y queso",
     "text":"Cafe + arabe tostado de jamon y queso",
     "precio":"550.00",
-    "imgBig":"img/tostadoCafe.jpg",
-    "imgBigModal":"img/tostadoCafe-modal.jpg",
-    "imgSmall":"img/tostadoCafe.jpg",
+    "imgBig":"img/calabaza.jpg",
+    "imgBigModal":"img/calabazaModal.jpg",
+    "imgSmall":"img/calabaza.jpg",
     "imgAlt":"cafe con tostado pan arabe jamon y queso"
   },
   {
@@ -33,9 +33,9 @@
     "title":"Cafe con leche + arabe tostado de jamon y queso",
     "text":"Cafe con leche + arabe tostado de jamon y queso",
     "precio":"600.00",
-    "imgBig":"img/tostadoCafe.jpg",
-    "imgBigModal":"img/tostadoCafe-modal.jpg",
-    "imgSmall":"img/tostadoCafe.jpg",
+    "imgBig":"img/calabaza.jpg",
+    "imgBigModal":"img/calabazaModal.jpg",
+    "imgSmall":"img/calabaza.jpg",
     "imgAlt":"cafe con tostado pan arabe jamon y queso"
   },
   {
@@ -43,9 +43,9 @@
     "title":"Granola con yogurt + cafe",
     "text":"Granola con yogurt + cafe",
     "precio":"500.00",
-    "imgBig":"img/granola01.jpg",
-    "imgBigModal":"img/granola01-modal.jpg",
-    "imgSmall":"img/granola01.jpg",
+    "imgBig":"img/calabaza.jpg",
+    "imgBigModal":"img/calabazaModal.jpg",
+    "imgSmall":"img/calabaza.jpg",
     "imgAlt":"pocillo de granola con un cafe con leche"
   },
   {
@@ -53,9 +53,9 @@
     "title":"Granola con yogurt + cafe con leche",
     "text":"Granola con yogurt + cafe con leche",
     "precio":"550.00",
-    "imgBig":"img/granola01.jpg",
-    "imgBigModal":"img/granola01-modal.jpg",
-    "imgSmall":"img/granola01.jpg",
+    "imgBig":"img/calabaza.jpg",
+    "imgBigModal":"img/calabazaModal.jpg",
+    "imgSmall":"img/calabaza.jpg",
     "imgAlt":"pocillo de granola con un cafe con leche"
   },
   {
@@ -63,9 +63,9 @@
     "title":"Tostado arabe de jamon y queso",
     "text":"Tostado arabe de jamon y queso",
     "precio":"400.00",
-    "imgBig":"img/arabeJamonToamte.jpg",
-    "imgBigModal":"img/arabeJamonToamte-modal.jpg",
-    "imgSmall":"img/arabeJamonToamte.jpg",
+    "imgBig":"img/calabaza.jpg",
+    "imgBigModal":"img/calabazaModal.jpg",
+    "imgSmall":"img/calabaza.jpg",
     "imgAlt":"sandwich pan arabe jamon y queso"
   },
   {
@@ -73,9 +73,9 @@
     "title":"Arabe de queso, tomate y huevo duro",
     "text":"Arabe de queso, tomate y huevo duro",
     "precio":"450.00",
-    "imgBig":"img/arabeJamonToamte.jpg",
-    "imgBigModal":"img/arabeJamonToamte-modal.jpg",
-    "imgSmall":"img/arabeJamonToamte.jpg",
+    "imgBig":"img/calabaza.jpg",
+    "imgBigModal":"img/calabazaModal.jpg",
+    "imgSmall":"img/calabaza.jpg",
     "imgAlt":"sandwich de pan arabe con jamon queso y tomate"
   },
   {
@@ -83,9 +83,9 @@
     "title":"Arabe de queso, huevo duro y aceitunas",
     "text":"Arabe de queso, huevo duro y aceitunas",
     "precio":"450.00",
-    "imgBig":"img/arabeJamonToamte.jpg",
-    "imgBigModal":"img/arabeJamonToamte-modal.jpg",
-    "imgSmall":"img/arabeJamonToamte.jpg",
+    "imgBig":"img/calabaza.jpg",
+    "imgBigModal":"img/calabazaModal.jpg",
+    "imgSmall":"img/calabaza.jpg",
     "imgAlt":"sandwich de pan Arabe de queso, huevo duro y aceitunas"
   },
   {
@@ -93,9 +93,9 @@
     "title":"Huevos revueltos + toston de pan casero",
     "text":"Huevos revueltos + toston de pan casero",
     "precio":"500.00",
-    "imgBig":"img/huevoRevuelto.jpg",
-    "imgBigModal":"img/huevoRevuelto-modal.jpg",
-    "imgSmall":"img/huevoRevuelto.jpg",
+    "imgBig":"img/calabaza.jpg",
+    "imgBigModal":"img/calabazaModal.jpg",
+    "imgSmall":"img/calabaza.jpg",
     "imgAlt":"huevos revueltos sobre un pan tostado"
   },
   {
@@ -103,9 +103,9 @@
     "title":"Huevos revueltos + panceta",
     "text":"Huevos revueltos + panceta",
     "precio":"750.00",
-    "imgBig":"img/huevoRevueltoPanceta.jpg",
-    "imgBigModal":"img/huevoRevueltoPanceta-modal.jpg",
-    "imgSmall":"img/huevoRevueltoPanceta.jpg",
+    "imgBig":"img/calabaza.jpg",
+    "imgBigModal":"img/calabazaModal.jpg",
+    "imgSmall":"img/calabaza.jpg",
     "imgAlt":"huevos rvueltos con panceta"
   },
   {
@@ -113,9 +113,9 @@
     "title":"Scons",
     "text":"Scons",
     "precio":"250.00",
-    "imgBig":"img/scons.jpg",
-    "imgBigModal":"img/scons-modal.jpg",
-    "imgSmall":"img/scons.jpg",
+    "imgBig":"img/calabaza.jpg",
+    "imgBigModal":"img/calabazaModal.jpg",
+    "imgSmall":"img/calabaza.jpg",
     "imgAlt":"scons"
   },
   {
@@ -123,9 +123,9 @@
     "title":"Brownie",
     "text":"Brownie",
     "precio":"300.00",
-    "imgBig":"img/brownie.jpg",
-    "imgBigModal":"img/brownie-modal.jpg",
-    "imgSmall":"img/brownie.jpg",
+    "imgBig":"img/calabaza.jpg",
+    "imgBigModal":"img/calabazaModal.jpg",
+    "imgSmall":"img/calabaza.jpg",
     "imgAlt":"brownie de chocolate"
   },
   {
@@ -133,9 +133,9 @@
     "title":"Medialuna",
     "text":"Medialuna",
     "precio":"120.00",
-    "imgBig":"img/mediaLunasSolas.jpg",
-    "imgBigModal":"img/mediaLunasSolas-modal.jpg",
-    "imgSmall":"img/mediaLunasSolas.jpg",
+    "imgBig":"img/calabaza.jpg",
+    "imgBigModal":"img/calabazaModal.jpg",
+    "imgSmall":"img/calabaza.jpg",
     "imgAlt":"Media lunas solas"
   },
   {
@@ -143,9 +143,9 @@
     "title":"Medialuna + jamon y queso",
     "text":"Medialuna + jamon y queso",
     "precio":"280.00",
-    "imgBig":"img/mediaLunas.jpg",
-    "imgBigModal":"img/mediaLunas-modal.jpg",
-    "imgSmall":"img/mediaLunas.jpg",
+    "imgBig":"img/calabaza.jpg",
+    "imgBigModal":"img/calabazaModal.jpg",
+    "imgSmall":"img/calabaza.jpg",
     "imgAlt":"Medialunas con jamon y queso"
   },
   {
@@ -153,9 +153,9 @@
     "title":"Budin (naranja, limon con amapola o marmolado)",
     "text":"Budin (naranja, limon con amapola o marmolado)",
     "precio":"300.00",
-    "imgBig":"img/budin.jpg",
-    "imgBigModal":"img/budin-modal.jpg",
-    "imgSmall":"img/budin.jpg",
+    "imgBig":"img/calabaza.jpg",
+    "imgBigModal":"img/calabazaModal.jpg",
+    "imgSmall":"img/calabaza.jpg",
     "imgAlt":"Porcion de udin con amapolas"
   },
   {
@@ -163,9 +163,9 @@
     "title":"Tarta de manzana",
     "text":"Tarta de manzana",
     "precio":"350.00",
-    "imgBig":"img/tartaManzana.jpg",
-    "imgBigModal":"img/tartaManzana-modal.jpg",
-    "imgSmall":"img/tartaManzana.jpg",
+    "imgBig":"img/calabaza.jpg",
+    "imgBigModal":"img/calabazaModal.jpg",
+    "imgSmall":"img/calabaza.jpg",
     "imgAlt":"Porcion de tarta de manzana"
   },
   {
@@ -173,9 +173,9 @@
     "title":"Pasta frola",
     "text":"Pasta frola",
     "precio":"300.00",
-    "imgBig":"img/pastaFrola.jpg",
-    "imgBigModal":"img/pastaFrola.jpg",
-    "imgSmall":"img/pastaFrola.jpg",
+    "imgBig":"img/calabaza.jpg",
+    "imgBigModal":"img/calabazaModal.jpg",
+    "imgSmall":"img/calabaza.jpg",
     "imgAlt":"Porcion de pasta frola"
   }
 ]

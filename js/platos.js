@@ -1,3 +1,4 @@
+
 import {modal} from "./modal.js";
 
 export function platos () {
@@ -12,18 +13,11 @@ export function platos () {
 }
 
 export  function leerProductosPlatos(data){
-    console.log('data desayunos: ', data);
-    /*let dataAppi = {
-        nombre: data.title,
-        precio: data.precio,
-        imgBig: data.imgBig
-    }
-    console.log('data nombre: ', dataAppi.nombre);*/
 
     let jsonPlatos = '';
     const leerPlatos = document.querySelector('.leerPlatos');
     for (let i = 0; i < data.length; i++) {
-        jsonPlatos += `<!--<button title="Ver Mas"class="btnVerMas m-2 divProductos drop-shadow-lg" 
+        jsonPlatos += `<button title="Ver Mas"class="btnVerMas m-2 divProductos drop-shadow-lg" 
                                             data-name="${data[i].title}" 
                                             data-precio="${data[i].precio}"
                                             data-img="${data[i].imgBigModal}"
@@ -39,7 +33,7 @@ export  function leerProductosPlatos(data){
                                     <h3 class="divProductos__h3">${data[i].title}</h3>
                                     <p class="divProductos__p"><span>Precio: $</span>${data[i].precio}</p>
                                 </div>
-                        </button>--><p class="text-center"> Proximamente </p>`;
+                        </button>`;
 
     }
     leerPlatos.innerHTML = `<div class="leerJson">${jsonPlatos}</div>`;
