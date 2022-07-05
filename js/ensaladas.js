@@ -1,5 +1,5 @@
 
-import {modal} from "./modal.js";
+import {modalEnsaladas} from "./ModalEnsaladas.js";
 
 export function ensaladas () {
 
@@ -17,8 +17,9 @@ export  function leerEnsaladas(data){
     let jsonEnsaladas = '';
     const leerEnsaladas = document.querySelector('.leerEnsaladas');
     for (let i = 0; i < data.length; i++) {
-        jsonEnsaladas += `<button title="Ver Mas"class="btnVerMas m-2 divProductos drop-shadow-lg" 
-                                            data-name="${data[i].title}" 
+        jsonEnsaladas += `<button title="Ver Mas"class="btnVerMasEnsaladas m-2 divProductos drop-shadow-lg" 
+                                            data-name="${data[i].title}"
+                                            data-text="${data[i].text}" 
                                             data-precio="${data[i].precio}"
                                             data-img="${data[i].imgBigModal}"
                                             >
@@ -38,17 +39,18 @@ export  function leerEnsaladas(data){
     }
     leerEnsaladas.innerHTML = `<div class="leerJson">${jsonEnsaladas}</div>`;
 
-    let btnVerMas = document.querySelectorAll('.btnVerMas');
-    btnVerMas.forEach(function (itemns) {
+    let btnVerMasEnsaladas = document.querySelectorAll('.btnVerMasEnsaladas');
+    btnVerMasEnsaladas.forEach(function (itemns) {
 
         itemns.addEventListener('click', function (){
             console.log('este es mi this: ', this)
             const iteral = {
                 precio: this.dataset.precio,
                 name: this.dataset.name,
+                text: this.dataset.text,
                 image: this.dataset.img
             };
-            modal(iteral);
+            modalEnsaladas(iteral);
         });
     })
 }

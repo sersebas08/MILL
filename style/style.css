@@ -1,5 +1,7 @@
 /*
 https://coolors.co/palette/2b2d42-8d99ae-edf2f4-ef233c-d90429
+font-family: 'Abril Fatface', cursive;
+font-family: 'Kdam Thmor Pro', sans-serif;
 */
 
 *{
@@ -7,6 +9,7 @@ https://coolors.co/palette/2b2d42-8d99ae-edf2f4-ef233c-d90429
     padding: 0;
     box-sizing: border-box;
 }
+
 section {
     width: 90%;
     margin: auto;
@@ -19,10 +22,11 @@ section h2 {
     text-align: center;
 }
 .principal__p {
-    font-size: 1.5rem;
-    font-weight: 600;
+    font-size: 2rem;
+    font-weight: 800;
     margin: 1.5rem;
     text-align: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
 }
 .leerJson {
     display: grid;
@@ -83,11 +87,16 @@ section h2 {
     margin: auto;
     background-color: #edf2f4;
     border-radius: 10px;
-    width: 85%;
+    max-width: 300px;
+}
+.divProductosModal__h2 {
+    margin: 0.8rem auto;
+    text-align: center;
+    font-weight: 600;
 }
 .divProductosModal__h3 {
-    margin: 0.8rem auto;
-    width: 75%;
+    margin: 1rem auto;
+    width: 90%;
     text-align: center;
     font-weight: 400;
 }
@@ -207,6 +216,40 @@ section h2 {
 
 }
 #modal {
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    right: 0;
+    border-radius: 1em;
+    width: 1.5em;
+    height: 1.5em;
+    background-color: rgba(255, 255, 255, .9);
+    font-size: 1em;
+    font-weight: 400;
+    text-align: center;
+    color: #1A4A5E;
+    text-decoration: none;
+    margin: 0.5rem;
+}
+.modalHombreEnsaladas {
+    position: fixed;
+    z-index: 1032;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.9);
+
+}
+#modalEnsaladas {
     position: fixed;
     z-index: 1;
     display: flex;
