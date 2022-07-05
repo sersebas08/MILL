@@ -60,6 +60,7 @@ section h2 {
     /* border-radius: 5px; */
     margin: 0;
     color: gray;
+    font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
 /*.tardes {
@@ -93,12 +94,14 @@ section h2 {
     margin: 0.8rem auto;
     text-align: center;
     font-weight: 600;
+    font-family: 'Kdam Thmor Pro', sans-serif;
 }
 .divProductosModal__h3 {
     margin: 1rem auto;
     width: 90%;
     text-align: center;
     font-weight: 400;
+    font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
 .divProductosModal__h4 {
