@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <title>MILL</title>
 
 </head>
@@ -42,13 +43,19 @@
 
     </header>
     <main>
-        <!--<div class="botones ">
-            <div class="btn1">Desayunos</div>
-            <div class="btn1">Desayunos</div>
-            <div class="btn1">Desayunos</div>
-            <div class="btn1">Desayunos</div>
-            <div class="btn1">Desayunos</div>
-        </div>-->
+        <div class="body">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">Desayunos y Meriendas</div>
+                    <div class="swiper-slide">Cafeteria</div>
+                    <div class="swiper-slide">Bebidas</div>
+                    <div class="swiper-slide">Platos</div>
+                    <div class="swiper-slide">Ensaladas</div>
+                </div>
+<!--                <div class="swiper-button-next"></div>-->
+<!--                <div class="swiper-button-prev"></div>-->
+            </div>
+        </div>
         <div class="Mañanas">
             <p class="uno drop-shadow-md">Desayunos y <span>Meriendas</span></p>
             <p class="dos drop-shadow-md">Cafeteria</p>
@@ -95,5 +102,16 @@
         <p class="bg-red-600">© 2022 Company, Inc</p>
     </footer>
     <script src="js/main.js" type="module"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
 </body>
 </html>
