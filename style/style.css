@@ -108,7 +108,7 @@ body {
 }
 
 
-.Mañanas div {
+.Mañanas p, .MañanasDos p {
     background-color: rgb(255 255 255 / 90%);
     border: 1px solid #edf2f4;
     padding: 0.5rem;
