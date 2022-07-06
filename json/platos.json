@@ -1,181 +1,232 @@
 [{
   "id_productos":1,
-  "title":"Cafe con leche + tostadas, queso y mermelada",
-  "text":"Cafe con leche con tostadas, queso y mermelada",
-  "precio":"550.00",
+  "title":"Crepes de espinaca, ricota y queso con salsa filetto o bolognesa",
+  "text":"Crepes de espinaca, ricota y queso con salsa filetto o bolognesa",
+  "precio":"750.00",
   "imgBig":"img/calabaza.jpg",
   "imgBigModal":"img/calabazaModal.jpg",
   "imgSmall":"img/calabaza.jpg",
-  "imgAlt":"Cafe c/leche + dos medialunas"
+  "imgAlt":"Crepes de espinaca, ricota y queso con salsa filetto o bolognesa"
 },
   {
     "id_productos":2,
-    "title":"Cafe con leche + dos medialunas",
-    "text":"Cafe con leche + dos medialunas",
-    "precio":"500.00",
-    "imgBig":"img/calabaza.jpg",
-    "imgBigModal":"img/calabazaModal.jpg",
-    "imgSmall":"img/calabaza.jpg",
-    "imgAlt":"Cafe c/leche + dos medialunas"
-  },
-  {
-    "id_productos":3,
-    "title":"Cafe + arabe tostado de jamon y queso",
-    "text":"Cafe + arabe tostado de jamon y queso",
-    "precio":"550.00",
-    "imgBig":"img/calabaza.jpg",
-    "imgBigModal":"img/calabazaModal.jpg",
-    "imgSmall":"img/calabaza.jpg",
-    "imgAlt":"cafe con tostado pan arabe jamon y queso"
-  },
-  {
-    "id_productos":4,
-    "title":"Cafe con leche + arabe tostado de jamon y queso",
-    "text":"Cafe con leche + arabe tostado de jamon y queso",
-    "precio":"600.00",
-    "imgBig":"img/calabaza.jpg",
-    "imgBigModal":"img/calabazaModal.jpg",
-    "imgSmall":"img/calabaza.jpg",
-    "imgAlt":"cafe con tostado pan arabe jamon y queso"
-  },
-  {
-    "id_productos":5,
-    "title":"Granola con yogurt + cafe",
-    "text":"Granola con yogurt + cafe",
-    "precio":"500.00",
-    "imgBig":"img/calabaza.jpg",
-    "imgBigModal":"img/calabazaModal.jpg",
-    "imgSmall":"img/calabaza.jpg",
-    "imgAlt":"pocillo de granola con un cafe con leche"
-  },
-  {
-    "id_productos":6,
-    "title":"Granola con yogurt + cafe con leche",
-    "text":"Granola con yogurt + cafe con leche",
-    "precio":"550.00",
-    "imgBig":"img/calabaza.jpg",
-    "imgBigModal":"img/calabazaModal.jpg",
-    "imgSmall":"img/calabaza.jpg",
-    "imgAlt":"pocillo de granola con un cafe con leche"
-  },
-  {
-    "id_productos":7,
-    "title":"Tostado arabe de jamon y queso",
-    "text":"Tostado arabe de jamon y queso",
-    "precio":"400.00",
-    "imgBig":"img/calabaza.jpg",
-    "imgBigModal":"img/calabazaModal.jpg",
-    "imgSmall":"img/calabaza.jpg",
-    "imgAlt":"sandwich pan arabe jamon y queso"
-  },
-  {
-    "id_productos":8,
-    "title":"Arabe de queso, tomate y huevo duro",
-    "text":"Arabe de queso, tomate y huevo duro",
-    "precio":"450.00",
-    "imgBig":"img/calabaza.jpg",
-    "imgBigModal":"img/calabazaModal.jpg",
-    "imgSmall":"img/calabaza.jpg",
-    "imgAlt":"sandwich de pan arabe con jamon queso y tomate"
-  },
-  {
-    "id_productos":9,
-    "title":"Arabe de queso, huevo duro y aceitunas",
-    "text":"Arabe de queso, huevo duro y aceitunas",
-    "precio":"450.00",
-    "imgBig":"img/calabaza.jpg",
-    "imgBigModal":"img/calabazaModal.jpg",
-    "imgSmall":"img/calabaza.jpg",
-    "imgAlt":"sandwich de pan Arabe de queso, huevo duro y aceitunas"
-  },
-  {
-    "id_productos":10,
-    "title":"Huevos revueltos + toston de pan casero",
-    "text":"Huevos revueltos + toston de pan casero",
-    "precio":"500.00",
-    "imgBig":"img/calabaza.jpg",
-    "imgBigModal":"img/calabazaModal.jpg",
-    "imgSmall":"img/calabaza.jpg",
-    "imgAlt":"huevos revueltos sobre un pan tostado"
-  },
-  {
-    "id_productos":11,
-    "title":"Huevos revueltos + panceta",
-    "text":"Huevos revueltos + panceta",
+    "title":"Crepes de calabaza y queso con salsa fileto o bolognesa",
+    "text":"Crepes de calabaza y queso con salsa fileto o bolognesa",
     "precio":"750.00",
     "imgBig":"img/calabaza.jpg",
     "imgBigModal":"img/calabazaModal.jpg",
     "imgSmall":"img/calabaza.jpg",
-    "imgAlt":"huevos rvueltos con panceta"
+    "imgAlt":"Crepes de calabaza y queso con salsa fileto o bolognesa"
+  },
+  {
+    "id_productos":3,
+    "title":"Fusillis con vegetales al wok",
+    "text":"Fusillis con vegetales al wok",
+    "precio":"650.00",
+    "imgBig":"img/calabaza.jpg",
+    "imgBigModal":"img/calabazaModal.jpg",
+    "imgSmall":"img/calabaza.jpg",
+    "imgAlt":"Fusillis con vegetales al wok"
+  },
+  {
+    "id_productos":4,
+    "title":"Fusillis con salsa bolognesa",
+    "text":"Fusillis con salsa bolognesa",
+    "precio":"750.00",
+    "imgBig":"img/calabaza.jpg",
+    "imgBigModal":"img/calabazaModal.jpg",
+    "imgSmall":"img/calabaza.jpg",
+    "imgAlt":"Fusillis con salsa bolognesa"
+  },
+  {
+    "id_productos":5,
+    "title":"Fusillis con queso varios y rucula",
+    "text":"Fusillis con queso varios y rucula",
+    "precio":"750.00",
+    "imgBig":"img/calabaza.jpg",
+    "imgBigModal":"img/calabazaModal.jpg",
+    "imgSmall":"img/calabaza.jpg",
+    "imgAlt":"Fusillis con queso varios y rucula"
+  },
+  {
+    "id_productos":6,
+    "title":"Discos de polenta horneada con salsa de pollo, tomates secos, hongos secos, berenjenas, cebolla y aceitunas a la crema",
+    "text":"Discos de polenta horneada con salsa de pollo, tomates secos, hongos secos, berenjenas, cebolla y aceitunas a la crema",
+    "precio":"900.00",
+    "imgBig":"img/calabaza.jpg",
+    "imgBigModal":"img/calabazaModal.jpg",
+    "imgSmall":"img/calabaza.jpg",
+    "imgAlt":"Discos de polenta horneada con salsa de pollo, tomates secos, hongos secos, berenjenas, cebolla y aceitunas"
+  },
+  {
+    "id_productos":7,
+    "title":"Deditos de polenta con hierbas, morrones, tomates confitados, hongos secos y pollo al oliva",
+    "text":"Deditos de polenta con hierbas, morrones, tomates confitados, hongos secos y pollo al oliva",
+    "precio":"850.00",
+    "imgBig":"img/calabaza.jpg",
+    "imgBigModal":"img/calabazaModal.jpg",
+    "imgSmall":"img/calabaza.jpg",
+    "imgAlt":"Deditos de polenta con hierbas, morrones, tomates confitados, hongos secos y pollo al oliva"
+  },
+  {
+    "id_productos":8,
+    "title":"Polenta horneada con bolognesa",
+    "text":"Polenta horneada con bolognesa",
+    "precio":"750.00",
+    "imgBig":"img/calabaza.jpg",
+    "imgBigModal":"img/calabazaModal.jpg",
+    "imgSmall":"img/calabaza.jpg",
+    "imgAlt":"Polenta horneada con bolognesa"
+  },
+  {
+    "id_productos":9,
+    "title":"Polenta horneada bañada en vegetales al wok",
+    "text":"Polenta horneada bañada en vegetales al wok",
+    "precio":"650.00",
+    "imgBig":"img/calabaza.jpg",
+    "imgBigModal":"img/calabazaModal.jpg",
+    "imgSmall":"img/calabaza.jpg",
+    "imgAlt":"Polenta horneada bañada en vegetales al wok"
+  },
+  {
+    "id_productos":10,
+    "title":"Wrap de pollo, queso, vegetales y tomates secos con ensalada",
+    "text":"Wrap de pollo, queso, vegetales y tomates secos con ensalada",
+    "precio":"650.00",
+    "imgBig":"img/calabaza.jpg",
+    "imgBigModal":"img/calabazaModal.jpg",
+    "imgSmall":"img/calabaza.jpg",
+    "imgAlt":"Wrap de pollo, queso, vegetales y tomates secos con ensalada"
+  },
+  {
+    "id_productos":11,
+    "title":"Wrap de jamon y queso, tomate y rucula con ensalada",
+    "text":"Wrap de jamon y queso, tomate y rucula con ensalada",
+    "precio":"600.00",
+    "imgBig":"img/calabaza.jpg",
+    "imgBigModal":"img/calabazaModal.jpg",
+    "imgSmall":"img/calabaza.jpg",
+    "imgAlt":"Wrap de jamon y queso, tomate y rucula con ensalada"
   },
   {
     "id_productos":12,
-    "title":"Scons",
-    "text":"Scons",
-    "precio":"250.00",
+    "title":"Tiritas de pollo al curry con arroz yamani",
+    "text":"Tiritas de pollo al curry con arroz yamani",
+    "precio":"750.00",
     "imgBig":"img/calabaza.jpg",
     "imgBigModal":"img/calabazaModal.jpg",
     "imgSmall":"img/calabaza.jpg",
-    "imgAlt":"scons"
+    "imgAlt":"Tiritas de pollo al curry con arroz yamani"
   },
   {
     "id_productos":13,
-    "title":"Brownie",
-    "text":"Brownie",
-    "precio":"300.00",
+    "title":"Tiritas de pollo a la mostaza con pure de papas",
+    "text":"Tiritas de pollo a la mostaza con pure de papas",
+    "precio":"750.00",
     "imgBig":"img/calabaza.jpg",
     "imgBigModal":"img/calabazaModal.jpg",
     "imgSmall":"img/calabaza.jpg",
-    "imgAlt":"brownie de chocolate"
+    "imgAlt":"Tiritas de pollo a la mostaza con puré de papas"
   },
   {
     "id_productos":14,
-    "title":"Medialuna",
-    "text":"Medialuna",
-    "precio":"120.00",
+    "title":"Wok de vegetales surtidos y arroz yamani integral",
+    "text":"Wok de vegetales surtidos y arroz yamani integral",
+    "precio":"650.00",
     "imgBig":"img/calabaza.jpg",
     "imgBigModal":"img/calabazaModal.jpg",
     "imgSmall":"img/calabaza.jpg",
-    "imgAlt":"Media lunas solas"
+    "imgAlt":"Wok de vegetales surtidos y arroz yamani integral"
   },
   {
     "id_productos":15,
-    "title":"Medialuna + jamon y queso",
-    "text":"Medialuna + jamon y queso",
-    "precio":"280.00",
+    "title":"Wok de vegetales surtidos y pasta corta (Fusillis)",
+    "text":"Wok de vegetales surtidos y pasta corta (Fusillis)",
+    "precio":"650.00",
     "imgBig":"img/calabaza.jpg",
     "imgBigModal":"img/calabazaModal.jpg",
     "imgSmall":"img/calabaza.jpg",
-    "imgAlt":"Medialunas con jamon y queso"
+    "imgAlt":"Wok de vegetales surtidos y pasta corta (Fusillis)"
   },
   {
     "id_productos":16,
-    "title":"Budin (naranja, limon con amapola o marmolado)",
-    "text":"Budin (naranja, limon con amapola o marmolado)",
-    "precio":"300.00",
+    "title":"Wok de pollo y vegetales con o sin arroz yamani",
+    "text":"Wok de pollo y vegetales con o sin arroz yamani",
+    "precio":"750.00",
     "imgBig":"img/calabaza.jpg",
     "imgBigModal":"img/calabazaModal.jpg",
     "imgSmall":"img/calabaza.jpg",
-    "imgAlt":"Porcion de udin con amapolas"
+    "imgAlt":"Wok de pollo y vegetales con o sin arroz yamani"
   },
   {
     "id_productos":17,
-    "title":"Tarta de manzana",
-    "text":"Tarta de manzana",
-    "precio":"350.00",
+    "title":"Milanesa de pollo con queso y rúcula con puré de papas",
+    "text":"Milanesa de pollo con queso y rúcula con puré de papas",
+    "precio":"750.00",
     "imgBig":"img/calabaza.jpg",
     "imgBigModal":"img/calabazaModal.jpg",
     "imgSmall":"img/calabaza.jpg",
-    "imgAlt":"Porcion de tarta de manzana"
+    "imgAlt":"Milanesa de pollo con queso y rúcula con puré de papas"
   },
   {
     "id_productos":18,
-    "title":"Pasta frola",
-    "text":"Pasta frola",
-    "precio":"300.00",
+    "title":"Milanesa de peceto con puré de papas o ensalada",
+    "text":"Milanesa de peceto con puré de papas o ensalada",
+    "precio":"900.00",
     "imgBig":"img/calabaza.jpg",
     "imgBigModal":"img/calabazaModal.jpg",
     "imgSmall":"img/calabaza.jpg",
-    "imgAlt":"Porcion de pasta frola"
+    "imgAlt":"Milanesa de peceto con puré de papas o ensalada"
+  },
+  {
+    "id_productos":19,
+    "title":"Milanesa de berenjena y ensalada",
+    "text":"Milanesa de berenjena y ensalada",
+    "precio":"700.00",
+    "imgBig":"img/calabaza.jpg",
+    "imgBigModal":"img/calabazaModal.jpg",
+    "imgSmall":"img/calabaza.jpg",
+    "imgAlt":"Milanesa berenjena y ensalada"
+  },
+  {
+    "id_productos":20,
+    "title":"Omelette de jamón y queso con mix de vegetales",
+    "text":"Omelette de jamón y queso con mix de vegetales",
+    "precio":"550.00",
+    "imgBig":"img/calabaza.jpg",
+    "imgBigModal":"img/calabazaModal.jpg",
+    "imgSmall":"img/calabaza.jpg",
+    "imgAlt":"Omelette de jamón y queso con mix de vegetales"
+  },
+  {
+    "id_productos":21,
+    "title":"Omelette de espinaca y queso con ensaladilla de zanahoria",
+    "text":"Omelette de espinaca y queso con ensaladilla de zanahoria",
+    "precio":"550.00",
+    "imgBig":"img/calabaza.jpg",
+    "imgBigModal":"img/calabazaModal.jpg",
+    "imgSmall":"img/calabaza.jpg",
+    "imgAlt":"Omelette de espinaca y queso con ensaladilla de zanahoria"
+  },
+  {
+    "id_productos":22,
+    "title":"Huevos revueltos con tostón de pan de campo",
+    "text":"Huevos revueltos con tostón de pan de campo",
+    "precio":"500.00",
+    "imgBig":"img/calabaza.jpg",
+    "imgBigModal":"img/calabazaModal.jpg",
+    "imgSmall":"img/calabaza.jpg",
+    "imgAlt":"Huevos revueltos con tostón de pan de campo"
+  },
+  {
+    "id_productos":23,
+    "title":"Huevos revueltos con panceta y tostón de campo",
+    "text":"Huevos revueltos con panceta y tostón de campo",
+    "precio":"750.00",
+    "imgBig":"img/calabaza.jpg",
+    "imgBigModal":"img/calabazaModal.jpg",
+    "imgSmall":"img/calabaza.jpg",
+    "imgAlt":"Huevos revueltos con panceta y tostón de campo"
   }
+
 ]
