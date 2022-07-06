@@ -30,7 +30,7 @@ section h2 {
     font-size: 1.6rem;
     font-weight: 800;
     margin: 1.5rem;
-    text-align: center;
+    /*text-align: center;*/
     font-family: 'Kdam Thmor Pro', sans-serif;
 }
 .leerJson {
@@ -120,12 +120,45 @@ body {
     font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
-/*.tardes {
+/*------formas de pagos-----------------*/
+
+
+.pagos {
     display: flex;
-    width: 100%;
+    align-items: center;
     justify-content: center;
-    margin: 0.5rem;
-}*/
+    flex-wrap: wrap;
+    margin: .6rem;
+}
+.pagos__p {
+    width: 100%;
+    margin: .9rem;
+    text-align: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+.pagos__div {
+    display: flex;
+    font-size: 0.7rem;
+}
+.pagos__divCredito,
+.pagos__divDebito,
+.pagos__divMercado {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+.bi {
+    border: 1px solid #a18585;
+    border-radius: 50%;
+    padding: 0.3rem;
+}
+/*------ fin formas de pagos-----------------*/
+
+
 
 .uno,
 .dos,
