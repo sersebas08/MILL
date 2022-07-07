@@ -151,7 +151,8 @@ body {
     font-size: 0.7rem;
 }
 .pagos__divCredito,
-.pagos__divDebito{
+.pagos__divDebito,
+.pagos__divMercado{
     display: flex;
     /* flex-direction: column; */
     align-items: center;
@@ -160,11 +161,12 @@ body {
     justify-content: center;
     font-family: 'Kdam Thmor Pro', sans-serif;
 }
-.pagos__divMercado {
-    background-image: url("../img/mercadoPago.png") ;
-    background-size: cover;
-    background-position: center;
-}
+/* {*/
+/*    !*background-image: url("../img/mercadoPago.png") ;*!*/
+/*    !*background-size: cover;*!*/
+/*    !*background-position: center;*!*/
+/*    !*font-size: 0;*!*/
+/*}*/
 .bi {
     border: 1px solid #a18585;
     border-radius: 50%;
