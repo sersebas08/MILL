@@ -93,7 +93,14 @@ cinco.addEventListener('click', () => {
     }
 
 });
-
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1.5,
+    spaceBetween: 5,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+});
 window.addEventListener('DOMContentLoaded', (e) => {
     desayunosMeriendas();
     cafeteria();
