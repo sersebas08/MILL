@@ -183,7 +183,55 @@ body {
     /*display: flex;
     flex-direction: column;*/
 }
-
+/* -------------  modal mill --------------- */
+.pictureModal {
+    width: 30%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.pictureModal__imgModal {
+    width: 60%;
+    margin: 1rem;
+}
+.divModalMill {
+    display: flex;
+    background-color: #edf2f4;
+    border-radius: 10px;
+    max-width: 300px;
+    flex-wrap: wrap;
+}
+.divModalMillDatos{
+   /* background: #a18585;*/
+}
+.divModalMillDatos__h2 {
+    margin: 1rem auto;
+    font-size: 2rem;
+    width: 90%;
+    text-align: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+.divModalMillDatos__h4 {
+    margin: 1rem auto;
+    width: 90%;
+    text-align: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.divModalMillDatos__h4 span {
+    font-weight: 800;
+}
+/*
+.divModalMillDatos__h4 {
+    margin: 1rem auto;
+    width: 90%;
+    text-align: center;
+    font-weight: 800;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    display: flex;
+    flex-direction: column;
+}*/
 /*------------------ Ventana modal desayunos y meriendas ---------------*/
 
 .divProductosModal {

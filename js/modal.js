@@ -35,8 +35,50 @@ export function modal(data){
     ventanaModal.appendChild(ventanaModales);
 
 }
-/*let ventanaHombres = document.querySelector('#ventanaHombres');
+
+export function modalMill (){
+    let ventanaModalEnsaladas = document.querySelector('#ventanaModalEnsaladas');
+    let ventanaModalesEnsaladas = document.querySelector('#ventanaModalesEnsaladas');
+
+    ventanaModalEnsaladas.classList.add("modalHombre");
+    ventanaModalEnsaladas.classList.remove("hidden");
+    ventanaModalesEnsaladas.classList.remove("hidden");
+    let html = '';
+
+    html += `<div class="divModalMill drop-shadow-lg">
+                    <picture class="pictureModal">
+                      <source media="(min-width: 751px)" srcset="./../img/molino.png">
+                      <source media="(min-width: 380px)" srcset="./../img/molino.png">
+                      <img src="./../img/molino.png" class="pictureModal__imgModal" alt="Mi imagen responsive">
+                    </picture>
+                    <div class="divModalMillDatos">
+                        <h2 class="divModalMillDatos__h2">Mill</h2>
+                        <h3 class="divModalMillDatos__h4"><span>Direccion</span>Raul scalabrini ortiz 801</h3>
+                        <h4 class="divModalMillDatos__h4"><span>Horarios</span></h4>
+                        <p class="divModalMillDatos__h4"><span>Lunes a viernes</span>8:00hs a 20:00hs</p>
+                        <p class="divModalMillDatos__h4"><span>Sabados</span>10:00hs a 20:00hs</p>
+                        <p class="divModalMillDatos__h4"><span>Domingos</span>10:00hs a 18:00hs</p>
+                    </div>
+                </div>`;
+
+    ventanaModalesEnsaladas.innerHTML = html;
+
+    let a = document.createElement('a');
+    a.href = '#';
+    a.id = 'modal'
+    a.innerHTML = 'X';
+    a.onclick = function () {
+
+        ventanaModalEnsaladas.classList.add("hidden");
+        ventanaModalesEnsaladas.classList.add("hidden");
+        ventanaModalEnsaladas.classList.remove("modalHombre");
+        return false;
+    }
+    ventanaModalEnsaladas.appendChild(a);
+    ventanaModalEnsaladas.appendChild(ventanaModalesEnsaladas);
+}
+let ventanaHombres = document.querySelector('#ventanaHombres');
 
 let button = document.querySelector('.button');
 // button.style.backgroundColor = 'yellow';
-button.onclick = modal;*/
+button.onclick = modalMill;
