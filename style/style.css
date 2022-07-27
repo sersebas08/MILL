@@ -35,6 +35,7 @@ section h2 {
 }
 .leerJson {
     display: grid;
+    justify-content: center;
 }
 /*.botones {
     display: flex;
