@@ -37,6 +37,16 @@ section h2 {
     display: grid;
     justify-content: center;
 }
+.estadoConexion {
+    position: absolute;
+    width: 100%;
+    background: rgba(255, 0, 0, 0.85);
+    /* padding: 0.5rem; */
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    z-index: 1000;
+}
 /*.botones {
     display: flex;
     flex-wrap: wrap;

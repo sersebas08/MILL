@@ -108,6 +108,28 @@ window.addEventListener('DOMContentLoaded', (e) => {
     platos();
     ensaladas();
 })
+const estadoConexion = document.querySelector('.estadoConexion');
+window.addEventListener('offline', event => {
+    estadoConexion.innerHTML = 'Estas navegando sin conexion a la red';
+    /*estadoConexion.style.position = 'fixed';*/
+    /*estadoConexion.style.backgroundColor = 'rgb(175 220 40)';*/
+
+})
+
+window.addEventListener('online', event => {
+    setTimeout(function (){
+        estadoConexion.innerHTML = '';
+        estadoConexion.style.backgroundColor = '';
+    }, 4000);
+    estadoConexion.innerHTML = 'Volviendo a Conectar ...';
+   /* estadoConexion.style.position = 'fixed';*/
+    estadoConexion.style.backgroundColor = '#d0e995';
+})
+
+if (!navigator.onLine){
+    console.log('Sin conexion');
+}
+
 
 
 
