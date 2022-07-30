@@ -294,6 +294,9 @@ body {
     background-color: #edf2f4;
     border-radius: 10px;
 }
+.divProductos:hover {
+    background-color: rgba(117, 121, 122, 0.1);
+}
 .divProductos__div{
     width: 65%;
     display: flex;

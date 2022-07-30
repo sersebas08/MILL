@@ -85,7 +85,8 @@ CONST.cinco.addEventListener('click', () => {
     }
 
 });
-var swiper = new Swiper(".mySwiper", {
+let swiper;
+swiper = new Swiper(".mySwiper", {
     slidesPerView: 1.5,
     spaceBetween: 5,
     pagination: {
@@ -93,7 +94,7 @@ var swiper = new Swiper(".mySwiper", {
         clickable: true,
     },
 });
-window.addEventListener('DOMContentLoaded', (e) => {
+window.addEventListener('DOMContentLoaded', () => {
     desayunosMeriendas();
     cafeteria();
     bebidas();
@@ -101,14 +102,14 @@ window.addEventListener('DOMContentLoaded', (e) => {
     ensaladas();
 })
 
-window.addEventListener('offline', event => {
+window.addEventListener('offline', () => {
     CONST.estadoConexion.innerHTML = 'Estas navegando sin conexion a la red';
     /*estadoConexion.style.position = 'fixed';*/
     /*estadoConexion.style.backgroundColor = 'rgb(175 220 40)';*/
 
 })
 
-window.addEventListener('online', event => {
+window.addEventListener('online', () => {
     setTimeout(function (){
         CONST.estadoConexion.innerHTML = '';
         CONST.estadoConexion.style.backgroundColor = '';
