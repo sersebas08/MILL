@@ -279,11 +279,6 @@ body {
     border-radius: 5px;
 }
 
-
-
-
-
-
 .divProductos {
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -295,7 +290,7 @@ body {
     border-radius: 10px;
 }
 .divProductos:hover {
-    background-color: rgba(117, 121, 122, 0.1);
+    background-color: rgba(194, 202, 204, 0.1);
 }
 .divProductos__div{
     width: 65%;
