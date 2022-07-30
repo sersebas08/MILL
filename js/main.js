@@ -4,92 +4,84 @@ import {desayunosMeriendas} from "./desayunosMeriendas.js";
 import {platos} from "./platos.js";
 import {cafeteria} from "./cafeteria.js";
 import {ensaladas} from "./ensaladas.js";
+import CONST from "./constants.js";
 /*import {modal} from "./modal.js";*/
 
-let principalDesayuno = document.querySelector('.principalDesayuno');
-let principalCafeteria = document.querySelector('.principalCafeteria');
-let principalBebidas = document.querySelector('.principalBebidas');
-let principalPlatos = document.querySelector('.principalPlatos');
-let principalEnsaladas = document.querySelector('.principalEnsaladas');
 
-
-
-let uno = document.querySelector('.uno');
-uno.addEventListener('click', () => {
-    principalCafeteria.classList.add("hidden");
-    principalDesayuno.classList.remove("hidden");
-    principalBebidas.classList.add("hidden");
-    principalPlatos.classList.add("hidden");
-    principalEnsaladas.classList.add("hidden");
-    if(uno){
-        uno.style.backgroundColor = '#ff000042';
-        dos.style.backgroundColor = '';
-        tres.style.backgroundColor = '';
-        cuatro.style.backgroundColor = '';
-        cinco.style.backgroundColor = '';
+CONST.uno.addEventListener('click', () => {
+    CONST.principalCafeteria.classList.add("hidden");
+    CONST.principalDesayuno.classList.remove("hidden");
+    CONST.principalBebidas.classList.add("hidden");
+    CONST.principalPlatos.classList.add("hidden");
+    CONST.principalEnsaladas.classList.add("hidden");
+    if(CONST.uno){
+        CONST.uno.style.backgroundColor = '#ff000042';
+        CONST.dos.style.backgroundColor = '';
+        CONST.tres.style.backgroundColor = '';
+        CONST.cuatro.style.backgroundColor = '';
+        CONST.cinco.style.backgroundColor = '';
     }
 });
 
-let dos = document.querySelector('.dos');
-dos.addEventListener('click', () => {
-    principalCafeteria.classList.remove("hidden");
-    principalDesayuno.classList.add("hidden");
-    principalBebidas.classList.add("hidden");
-    principalPlatos.classList.add("hidden");
-    principalEnsaladas.classList.add("hidden");
-    if(dos){
-        uno.style.backgroundColor = '';
-        dos.style.backgroundColor = '#ff000042';
-        tres.style.backgroundColor = '';
-        cuatro.style.backgroundColor = '';
-        cinco.style.backgroundColor = '';
-    }
-});
-let tres = document.querySelector('.tres');
-tres.addEventListener('click', () => {
-    principalCafeteria.classList.add("hidden");
-    principalDesayuno.classList.add("hidden");
-    principalBebidas.classList.remove("hidden");
-    principalPlatos.classList.add("hidden");
-    principalEnsaladas.classList.add("hidden");
-    if(tres){
-        uno.style.backgroundColor = '';
-        dos.style.backgroundColor = '';
-        tres.style.backgroundColor = '#ff000042';
-        cuatro.style.backgroundColor = '';
-        cinco.style.backgroundColor = '';
+CONST.dos.addEventListener('click', () => {
+    CONST.principalCafeteria.classList.remove("hidden");
+    CONST.principalDesayuno.classList.add("hidden");
+    CONST.principalBebidas.classList.add("hidden");
+    CONST.principalPlatos.classList.add("hidden");
+    CONST.principalEnsaladas.classList.add("hidden");
+    if(CONST.dos){
+        CONST.uno.style.backgroundColor = '';
+        CONST.dos.style.backgroundColor = '#ff000042';
+        CONST.tres.style.backgroundColor = '';
+        CONST.cuatro.style.backgroundColor = '';
+        CONST.cinco.style.backgroundColor = '';
     }
 });
 
-let cuatro = document.querySelector('.cuatro');
-cuatro.addEventListener('click', () => {
-    principalCafeteria.classList.add("hidden");
-    principalDesayuno.classList.add("hidden");
-    principalBebidas.classList.add("hidden");
-    principalPlatos.classList.remove("hidden");
-    principalEnsaladas.classList.add("hidden");
-    if(cuatro){
-        uno.style.backgroundColor = '';
-        dos.style.backgroundColor = '';
-        tres.style.backgroundColor = '';
-        cuatro.style.backgroundColor = '#ff000042';
-        cinco.style.backgroundColor = '';
+CONST.tres.addEventListener('click', () => {
+    CONST.principalCafeteria.classList.add("hidden");
+    CONST.principalDesayuno.classList.add("hidden");
+    CONST.principalBebidas.classList.remove("hidden");
+    CONST.principalPlatos.classList.add("hidden");
+    CONST.principalEnsaladas.classList.add("hidden");
+    if(CONST.tres){
+        CONST.uno.style.backgroundColor = '';
+        CONST.dos.style.backgroundColor = '';
+        CONST.tres.style.backgroundColor = '#ff000042';
+        CONST.cuatro.style.backgroundColor = '';
+        CONST.cinco.style.backgroundColor = '';
     }
 });
 
-let cinco = document.querySelector('.cinco');
-cinco.addEventListener('click', () => {
-    principalCafeteria.classList.add("hidden");
-    principalDesayuno.classList.add("hidden");
-    principalBebidas.classList.add("hidden");
-    principalPlatos.classList.add("hidden");
-    principalEnsaladas.classList.remove("hidden");
-    if(cinco){
-        uno.style.backgroundColor = '';
-        dos.style.backgroundColor = '';
-        tres.style.backgroundColor = '';
-        cuatro.style.backgroundColor = '';
-        cinco.style.backgroundColor = '#ff000042';
+
+CONST.cuatro.addEventListener('click', () => {
+    CONST.principalCafeteria.classList.add("hidden");
+    CONST.principalDesayuno.classList.add("hidden");
+    CONST.principalBebidas.classList.add("hidden");
+    CONST.principalPlatos.classList.remove("hidden");
+    CONST.principalEnsaladas.classList.add("hidden");
+    if(CONST.cuatro){
+        CONST.uno.style.backgroundColor = '';
+        CONST.dos.style.backgroundColor = '';
+        CONST.tres.style.backgroundColor = '';
+        CONST.cuatro.style.backgroundColor = '#ff000042';
+        CONST.cinco.style.backgroundColor = '';
+    }
+});
+
+
+CONST.cinco.addEventListener('click', () => {
+    CONST.principalCafeteria.classList.add("hidden");
+    CONST.principalDesayuno.classList.add("hidden");
+    CONST.principalBebidas.classList.add("hidden");
+    CONST.principalPlatos.classList.add("hidden");
+    CONST.principalEnsaladas.classList.remove("hidden");
+    if(CONST.cinco){
+        CONST.uno.style.backgroundColor = '';
+        CONST.dos.style.backgroundColor = '';
+        CONST.tres.style.backgroundColor = '';
+        CONST.cuatro.style.backgroundColor = '';
+        CONST.cinco.style.backgroundColor = '#ff000042';
     }
 
 });
@@ -108,9 +100,9 @@ window.addEventListener('DOMContentLoaded', (e) => {
     platos();
     ensaladas();
 })
-const estadoConexion = document.querySelector('.estadoConexion');
+
 window.addEventListener('offline', event => {
-    estadoConexion.innerHTML = 'Estas navegando sin conexion a la red';
+    CONST.estadoConexion.innerHTML = 'Estas navegando sin conexion a la red';
     /*estadoConexion.style.position = 'fixed';*/
     /*estadoConexion.style.backgroundColor = 'rgb(175 220 40)';*/
 
@@ -118,12 +110,12 @@ window.addEventListener('offline', event => {
 
 window.addEventListener('online', event => {
     setTimeout(function (){
-        estadoConexion.innerHTML = '';
-        estadoConexion.style.backgroundColor = '';
+        CONST.estadoConexion.innerHTML = '';
+        CONST.estadoConexion.style.backgroundColor = '';
     }, 4000);
-    estadoConexion.innerHTML = 'Volviendo a Conectar ...';
+    CONST.estadoConexion.innerHTML = 'Volviendo a Conectar ...';
    /* estadoConexion.style.position = 'fixed';*/
-    estadoConexion.style.backgroundColor = '#d0e995';
+    CONST.estadoConexion.style.backgroundColor = '#d0e995';
 })
 
 if (!navigator.onLine){
