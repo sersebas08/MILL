@@ -272,12 +272,33 @@ body {
     font-weight: 800;
     font-family: 'Kdam Thmor Pro', sans-serif;
 }
-.divProductosModal picture {
-    margin: auto;
-}
+/*.divProductosModal picture {
+
+}*/
 .divProductosModal picture img{
     border-radius: 5px;
+    cursor: pointer;
 }
+.divProductosModal picture {
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+.divProductosModal picture img {
+    /*position: absolute;*/
+    z-index: -1;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+    transition: transform 200ms;
+
+}
+.divProductosModal picture:hover img {
+    transform: scale(1.05);
+}
+
 
 .divProductos {
     white-space: nowrap;
@@ -289,9 +310,9 @@ body {
     background-color: #edf2f4;
     border-radius: 10px;
 }
-.divProductos:hover {
+/*.divProductos:hover {
     background-color: rgba(194, 202, 204, 0.1);
-}
+}*/
 .divProductos__div{
     width: 65%;
     display: flex;
@@ -324,6 +345,35 @@ body {
     background-size: cover;
     background-position: center;
     width: 30%;
+
+}
+
+.divProductos__img picture img{
+    border-radius: 5px;
+    cursor: pointer;
+}
+.divProductos__img picture {
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+
+}
+/*.divProductos__img picture:hover {
+    background-color: rgba(194, 202, 204, 0.1);
+}*/
+.divProductos__img picture img {
+    /*position: absolute;*/
+    z-index: -1;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+    transition: transform 200ms;
+
+}
+.divProductos__img picture:hover img {
+    transform: scale(1.05);
 
 }
 /*.divProductos__img picture img {

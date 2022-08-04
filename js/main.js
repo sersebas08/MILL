@@ -8,6 +8,7 @@ import {vistas} from "./vistas.js";
 import CONST from "./constants.js";
 
 /*import {modal} from "./modal.js";*/
+
 window.addEventListener('DOMContentLoaded', () => {
     desayunosMeriendas();
     cafeteria();
@@ -41,7 +42,7 @@ window.addEventListener('online', () => {
         CONST.estadoConexion.innerHTML = '';
         CONST.estadoConexion.style.backgroundColor = '';
     }, 4000);
-    CONST.estadoConexion.innerHTML = 'Volviendo a Conectar ...';
+    CONST.estadoConexion.innerHTML = 'Conectando ...';
    /* estadoConexion.style.position = 'fixed';*/
     CONST.estadoConexion.style.backgroundColor = '#d0e995';
 })
