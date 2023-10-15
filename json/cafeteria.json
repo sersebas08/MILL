@@ -33,9 +33,9 @@
     "text":"Cafe c/leche",
     "precio":"300.00",
     "id_productos":4,
-    "imgBig":"img/cafeteria/cafe-con-leche.jpg",
-    "imgBigModal":"img/cafeteria/cafe-con-leche-modal.jpg",
-    "imgSmall":"img/cafeteria/cafe-con-leche.jpg",
+    "imgBig":"img/cafeteria/cafe-con-leche.png",
+    "imgBigModal":"img/cafeteria/cafe-con-leche.png",
+    "imgSmall":"img/cafeteria/cafe-con-leche.png",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
@@ -43,9 +43,9 @@
     "title":"Te",
     "text":"Te",
     "precio":"250.00",
-    "imgBig":"img/cafeteria/te.jpg",
-    "imgBigModal":"img/cafeteria/te-modal.jpg",
-    "imgSmall":"img/cafeteria/te.jpg",
+    "imgBig":"img/cafeteria/te.png",
+    "imgBigModal":"img/cafeteria/te.png",
+    "imgSmall":"img/cafeteria/te.png",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
@@ -53,9 +53,9 @@
     "title":"Te especiales",
     "text":"Te especiales",
     "precio":"2##0.00",
-    "imgBig":"img/cafeteria/cafe-con-leche.jpg",
-    "imgBigModal":"img/cafeteria/te-modal.jpg",
-    "imgSmall":"img/cafeteria/cafe-con-leche.jpg",
+    "imgBig":"img/cafeteria/te-especial.png",
+    "imgBigModal":"img/cafeteria/te-especial.png",
+    "imgSmall":"img/cafeteria/te-especial.png",
     "imgAlt":"Cafe c/leche + dos medialunas"
   }
 ]
