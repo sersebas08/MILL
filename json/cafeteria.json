@@ -23,9 +23,9 @@
     "title":"Doble",
     "text":"Doble",
     "precio":"400.00",
-    "imgBig":"img/cafeteria/doble.jpg",
-    "imgBigModal":"img/cafeteria/doble-modal.jpg",
-    "imgSmall":"img/cafeteria/doble.jpg",
+    "imgBig":"img/cafeteria/doble.png",
+    "imgBigModal":"img/cafeteria/doble.png",
+    "imgSmall":"img/cafeteria/doble.png",
     "imgAlt":"pocillo de cafe doble"
   },
   {
