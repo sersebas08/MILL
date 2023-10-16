@@ -13,9 +13,9 @@
     "title":"Carson",
     "text":"Surtidos de verdes, pollo marinado, aderezo de palta, queso dambo, limon y pimienta negra",
     "precio":"650.00",
-    "imgBig":"img/calabaza.jpg",
-    "imgBigModal":"img/calabazaModal.jpg",
-    "imgSmall":"img/calabaza.jpg",
+    "imgBig":"img/ensaladas/surtidos.png",
+    "imgBigModal":"img/ensaladas/surtidos.png",
+    "imgSmall":"img/ensaladas/surtidos.png",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
@@ -23,9 +23,9 @@
     "title":"Sakamoto",
     "text":"Pollo wokeado en salsa de soja, sesamo, tomate cherry y arroz yamani",
     "precio":"700.00",
-    "imgBig":"img/calabaza.jpg",
-    "imgBigModal":"img/calabazaModal.jpg",
-    "imgSmall":"img/calabaza.jpg",
+    "imgBig":"img/ensaladas/wokeado.png",
+    "imgBigModal":"img/ensaladas/wokeado.png",
+    "imgSmall":"img/ensaladas/wokeado.png",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
