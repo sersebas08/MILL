@@ -3,9 +3,9 @@
   "title":"Cafe chico",
   "text":"Cafe chico",
   "precio":"200.00",
-  "imgBig":"img/cafeteria/cafeChico.jpg",
-  "imgBigModal":"img/cafeteria/cafeChico-modal.jpg",
-  "imgSmall":"img/cafeteria/cafeChico.jpg",
+  "imgBig":"img/cafeteria/americano.png",
+  "imgBigModal":"img/cafeteria/americano.png",
+  "imgSmall":"img/cafeteria/americano.png",
   "imgAlt":"Pocillo de cafe chico"
 },
   {
@@ -13,9 +13,9 @@
     "title":"Americano",
     "text":"Americano",
     "precio":"250.00",
-    "imgBig":"img/cafeteria/americano.jpg",
-    "imgBigModal":"img/cafeteria/americano-modal.jpg",
-    "imgSmall":"img/cafeteria/americano.jpg",
+    "imgBig":"img/cafeteria/cafeChico.png",
+    "imgBigModal":"img/cafeteria/cafeChico.png",
+    "imgSmall":"img/cafeteria/cafeChico.png",
     "imgAlt":"pocillo de cafe americano"
   },
   {
