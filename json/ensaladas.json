@@ -43,9 +43,9 @@
     "title":"Ensalada completa con pollo",
     "text":"Pollo, mix de verdes, tomate, zanahoria, remolacha, huevo duro y arroz yamani",
     "precio":"700.00",
-    "imgBig":"img/calabaza.jpg",
-    "imgBigModal":"img/calabazaModal.jpg",
-    "imgSmall":"img/calabaza.jpg",
+    "imgBig":"img/ensaladas/pollo.png",
+    "imgBigModal":"img/ensaladas/pollo.png",
+    "imgSmall":"img/ensaladas/pollo.png",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
@@ -53,9 +53,9 @@
     "title":"Cesar",
     "text":"Lechuga, queso, croutones y salsa cesar",
     "precio":"600.00",
-    "imgBig":"img/calabaza.jpg",
-    "imgBigModal":"img/calabazaModal.jpg",
-    "imgSmall":"img/calabaza.jpg",
+    "imgBig":"img/ensaladas/cesar.png",
+    "imgBigModal":"img/ensaladas/cesar.png",
+    "imgSmall":"img/ensaladas/cesar.png",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
@@ -63,9 +63,9 @@
     "title":"Cesar con pollo",
     "text":"Pollo, lechuga, queso, croutones y salsa cesar",
     "precio":"700.00",
-    "imgBig":"img/calabaza.jpg",
-    "imgBigModal":"img/calabazaModal.jpg",
-    "imgSmall":"img/calabaza.jpg",
+    "imgBig":"img/ensaladas/cesarpollo.png",
+    "imgBigModal":"img/ensaladas/cesarpollo.png",
+    "imgSmall":"img/ensaladas/cesarpollo.png",
     "imgAlt":"Cafe c/leche + dos medialunas"
   }
 ]
