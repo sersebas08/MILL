@@ -57,7 +57,7 @@ export function modalMill (){
                         <h4 class="divModalMillDatos__h4"><span>Horarios</span></h4>
                         <p class="divModalMillDatos__h4"><span>Lunes a viernes</span>8:00hs a 20:00hs</p>
                         <p class="divModalMillDatos__h4"><span>Sabados</span>10:00hs a 20:00hs</p>
-                        <p class="divModalMillDatos__h4"><span>Domingos</span>10:00hs a 18:00hs</p>
+                        <p class="divModalMillDatos__h4"><span>Domingos</span>Cerrados</p>
                     </div>
                 </div>`;
 

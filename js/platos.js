@@ -17,7 +17,7 @@ export  function leerProductosPlatos(data){
     let jsonPlatos = '';
     const leerPlatos = document.querySelector('.leerPlatos');
     for (let i = 0; i < data.length; i++) {
-        jsonPlatos += `<button title="Ver Mas" class="btnVerMas m-2 divProductos drop-shadow-lg" 
+        jsonPlatos += `<button title="Ver Mas"class="btnVerMas m-2 divProductos drop-shadow-lg"  
                                             data-name="${data[i].title}" 
                                             data-precio="${data[i].precio}"
                                             data-img="${data[i].imgBigModal}"

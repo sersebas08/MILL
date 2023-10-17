@@ -17,7 +17,7 @@ export  function leerEnsaladas(data){
     let jsonEnsaladas = '';
     const leerEnsaladas = document.querySelector('.leerEnsaladas');
     for (let i = 0; i < data.length; i++) {
-        jsonEnsaladas += `<button title="Ver Mas"class="btnVerMasEnsaladas m-2 divProductos drop-shadow-lg" 
+        jsonEnsaladas += `<button title="Ver Mas" class="btnVerMasEnsaladas m-2 divProductos drop-shadow-lg" 
                                             data-name="${data[i].title}"
                                             data-text="${data[i].text}" 
                                             data-precio="${data[i].precio}"
