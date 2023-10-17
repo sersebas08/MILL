@@ -33,9 +33,9 @@
     "title":"Ensalada completa",
     "text":"Mix de verdes, tomate, zanahoria, remolacha, huevo duro y arroz yamani",
     "precio":"600.00",
-    "imgBig":"img/calabaza.jpg",
-    "imgBigModal":"img/calabazaModal.jpg",
-    "imgSmall":"img/calabaza.jpg",
+    "imgBig":"img/ensaladas/mixverdes.png",
+    "imgBigModal":"img/ensaladas/mixverdes.png",
+    "imgSmall":"img/ensaladas/mixverdes.png",
     "imgAlt":"Cafe c/leche + dos medialunas"
   },
   {
