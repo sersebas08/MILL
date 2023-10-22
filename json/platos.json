@@ -3,9 +3,9 @@
   "title":"Crepes de espinaca, ricota y queso con salsa filetto o bolognesa",
   "text":"Crepes de espinaca, ricota y queso con salsa filetto o bolognesa",
   "precio":"750.00",
-  "imgBig":"img/ensaladas/kunami.png",
-  "imgBigModal":"img/ensaladas/kunami.png",
-  "imgSmall":"img/ensaladas/kunami.png",
+  "imgBig":"img/platos/crepes.png",
+  "imgBigModal":"img/platos/crepes.png",
+  "imgSmall":"img/platos/crepes.png",
   "imgAlt":"Crepes de espinaca, ricota y queso con salsa filetto o bolognesa"
 },
   {
@@ -13,9 +13,9 @@
     "title":"Crepes de calabaza y queso con salsa fileto o bolognesa",
     "text":"Crepes de calabaza y queso con salsa fileto o bolognesa",
     "precio":"750.00",
-    "imgBig":"img/ensaladas/kunami.png",
-    "imgBigModal":"img/ensaladas/kunami.png",
-    "imgSmall":"img/ensaladas/kunami.png",
+    "imgBig":"img/platos/crepesCalabaza.png",
+    "imgBigModal":"img/platos/crepesCalabaza.png",
+    "imgSmall":"img/platos/crepesCalabaza.png",
     "imgAlt":"Crepes de calabaza y queso con salsa fileto o bolognesa"
   },
   {
@@ -23,9 +23,9 @@
     "title":"Fusillis con vegetales al wok",
     "text":"Fusillis con vegetales al wok",
     "precio":"650.00",
-    "imgBig":"img/ensaladas/kunami.png",
-    "imgBigModal":"img/ensaladas/kunami.png",
-    "imgSmall":"img/ensaladas/kunami.png",
+    "imgBig":"img/platos/fusillis.png",
+    "imgBigModal":"img/platos/fusillis.png",
+    "imgSmall":"img/platos/fusillis.png",
     "imgAlt":"Fusillis con vegetales al wok"
   },
   {
@@ -33,9 +33,9 @@
     "title":"Fusillis con salsa bolognesa",
     "text":"Fusillis con salsa bolognesa",
     "precio":"750.00",
-    "imgBig":"img/ensaladas/kunami.png",
-    "imgBigModal":"img/ensaladas/kunami.png",
-    "imgSmall":"img/ensaladas/kunami.png",
+    "imgBig":"img/platos/fusilliBolo.png",
+    "imgBigModal":"img/platos/fusilliBolo.png",
+    "imgSmall":"img/platos/fusilliBolo.png",
     "imgAlt":"Fusillis con salsa bolognesa"
   },
   {
@@ -43,9 +43,9 @@
     "title":"Fusillis con queso varios y rucula",
     "text":"Fusillis con queso varios y rucula",
     "precio":"750.00",
-    "imgBig":"img/ensaladas/kunami.png",
-    "imgBigModal":"img/ensaladas/kunami.png",
-    "imgSmall":"img/ensaladas/kunami.png",
+    "imgBig":"img/platos/fusilliQueso.png",
+    "imgBigModal":"img/platos/fusilliQueso.png",
+    "imgSmall":"img/platos/fusilliQueso.png",
     "imgAlt":"Fusillis con queso varios y rucula"
   },
   {
