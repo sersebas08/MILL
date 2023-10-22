@@ -23,7 +23,7 @@ export function modal(data){
     let a = document.createElement('a');
     a.href = '#';
     a.id = 'modal'
-    a.innerHTML = 'X';
+    a.innerHTML = 'CERRAR';
     a.onclick = function () {
 
         ventanaModal.classList.add("hidden");
@@ -66,7 +66,7 @@ export function modalMill (){
     let a = document.createElement('a');
     a.href = '#';
     a.id = 'modal'
-    a.innerHTML = 'X';
+    a.innerHTML = 'CERRAR';
     a.onclick = function () {
 
         ventanaModalEnsaladas.classList.add("hidden");
