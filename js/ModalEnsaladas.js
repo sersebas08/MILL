@@ -24,7 +24,7 @@ export function modalEnsaladas(data){
     let a = document.createElement('a');
     a.href = '#';
     a.id = 'modalEnsaladas'
-    a.innerHTML = 'X';
+    a.innerHTML = 'CERRAR';
     a.onclick = function () {
 
         ventanaModalEnsaladas.classList.add("hidden");
