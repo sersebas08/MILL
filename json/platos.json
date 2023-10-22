@@ -53,9 +53,9 @@
     "title":"Discos de polenta horneada con salsa de pollo, tomates secos, hongos secos, berenjenas, cebolla y aceitunas a la crema",
     "text":"Discos de polenta horneada con salsa de pollo, tomates secos, hongos secos, berenjenas, cebolla y aceitunas a la crema",
     "precio":"900.00",
-    "imgBig":"img/ensaladas/kunami.png",
-    "imgBigModal":"img/ensaladas/kunami.png",
-    "imgSmall":"img/ensaladas/kunami.png",
+    "imgBig":"img/platos/polenta.png",
+    "imgBigModal":"img/platos/polenta.png",
+    "imgSmall":"img/platos/polenta.png",
     "imgAlt":"Discos de polenta horneada con salsa de pollo, tomates secos, hongos secos, berenjenas, cebolla y aceitunas"
   },
   {
@@ -63,9 +63,9 @@
     "title":"Deditos de polenta con hierbas, morrones, tomates confitados, hongos secos y pollo al oliva",
     "text":"Deditos de polenta con hierbas, morrones, tomates confitados, hongos secos y pollo al oliva",
     "precio":"850.00",
-    "imgBig":"img/ensaladas/kunami.png",
-    "imgBigModal":"img/ensaladas/kunami.png",
-    "imgSmall":"img/ensaladas/kunami.png",
+    "imgBig":"img/platos/dedosPolenta.png",
+    "imgBigModal":"img/platos/dedosPolenta.png",
+    "imgSmall":"img/platos/dedosPolenta.png",
     "imgAlt":"Deditos de polenta con hierbas, morrones, tomates confitados, hongos secos y pollo al oliva"
   },
   {
@@ -73,9 +73,9 @@
     "title":"Polenta horneada con bolognesa",
     "text":"Polenta horneada con bolognesa",
     "precio":"750.00",
-    "imgBig":"img/ensaladas/kunami.png",
-    "imgBigModal":"img/ensaladas/kunami.png",
-    "imgSmall":"img/ensaladas/kunami.png",
+    "imgBig":"img/platos/polentaHorno.png",
+    "imgBigModal":"img/platos/polentaHorno.png",
+    "imgSmall":"img/platos/polentaHorno.png",
     "imgAlt":"Polenta horneada con bolognesa"
   },
   {
@@ -83,9 +83,9 @@
     "title":"Polenta horneada bañada en vegetales al wok",
     "text":"Polenta horneada bañada en vegetales al wok",
     "precio":"650.00",
-    "imgBig":"img/ensaladas/kunami.png",
-    "imgBigModal":"img/ensaladas/kunami.png",
-    "imgSmall":"img/ensaladas/kunami.png",
+    "imgBig":"img/platos/polentaWok.png",
+    "imgBigModal":"img/platos/polentaWok.png",
+    "imgSmall":"img/platos/polentaWok.png",
     "imgAlt":"Polenta horneada bañada en vegetales al wok"
   },
   {
@@ -93,9 +93,9 @@
     "title":"Wrap de pollo, queso, vegetales y tomates secos con ensalada",
     "text":"Wrap de pollo, queso, vegetales y tomates secos con ensalada",
     "precio":"650.00",
-    "imgBig":"img/ensaladas/kunami.png",
-    "imgBigModal":"img/ensaladas/kunami.png",
-    "imgSmall":"img/ensaladas/kunami.png",
+    "imgBig":"img/platos/wrap.png",
+    "imgBigModal":"img/platos/wrap.png",
+    "imgSmall":"img/platos/wrap.png",
     "imgAlt":"Wrap de pollo, queso, vegetales y tomates secos con ensalada"
   },
   {
