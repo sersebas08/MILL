@@ -17,8 +17,9 @@ export  function leerProductosPlatos(data){
     let jsonPlatos = '';
     const leerPlatos = document.querySelector('.leerPlatos');
     for (let i = 0; i < data.length; i++) {
-        jsonPlatos += `<button title="Ver Mas"class="btnVerMas m-2 divProductos drop-shadow-lg"  
-                                            data-name="${data[i].title}" 
+        jsonPlatos += `<button title="Ver Mas" class="btnVerMas m-2 divProductos  shadow" 
+                                            data-name="${data[i].title}"
+                                            data-text="${data[i].text}" 
                                             data-precio="${data[i].precio}"
                                             data-img="${data[i].imgBigModal}"
                                             >
@@ -46,6 +47,7 @@ export  function leerProductosPlatos(data){
             const iteral = {
                 precio: this.dataset.precio,
                 name: this.dataset.name,
+                text: this.dataset.text,
                 image: this.dataset.img
             };
             modal(iteral);

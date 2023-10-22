@@ -26,6 +26,7 @@ section h2 {
     margin: 1rem;
     text-align: center;
 }
+
 .principal__p {
     font-size: 1.6rem;
     font-weight: 800;
@@ -301,6 +302,7 @@ body {
 
 
 .divProductos {
+    width: 100%;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -524,139 +526,176 @@ body {
     .Maña__uno {
         font-size: 1.3rem;
     }
-    .divProductos {
-        /*grid-template-columns: 1fr;*/
-        width: 100%;
-    }
+    /*.divProductos {*/
+    /*    grid-template-columns: 1fr;*/
+    /*    width: 100%;*/
+    /*}*/
+    /*.leerJson button {*/
+    /*    width: 45%;*/
+    /*}*/
     /*.divProductos__img {*/
-    /*    width: 40%;*/
+    /*    width: 100%;*/
     /*}*/
-    /*.divProductos__div {*/
-    /*    width: 60%;*/
+    /*.divProductos__div{*/
+    /*    width: 100%;*/
+    /*    padding: .5rem;*/
     /*}*/
-    .leerJson,
-    .leerCafeteria,
-    .leerEnsaladas,
-    .leerBebidas,
-    .leerPlatos {
-        display: flex;
-        flex-wrap: wrap;
-    }
+    /*.leerJson,*/
+    /*.leerCafeteria,*/
+    /*.leerEnsaladas,*/
+    /*.leerBebidas,*/
+    /*.leerPlatos {*/
+    /*    display: flex;*/
+    /*    flex-wrap: wrap;*/
+    /*}*/
 }
 @media (min-width: 601px) and (max-width: 700px){
 
     .Maña__uno {
         font-size: 1.3rem;
     }
-    .leerJson button {
-        width: 45%;
-    }
-    .divProductos__img {
-        width: 100%;
-    }
-    .divProductos__div{
-        width: 100%;
-        padding: .5rem;
-    }
+    /*.leerJson button {*/
+    /*    width: 45%;*/
+    /*}*/
+    /*.divProductos__img {*/
+    /*    width: 100%;*/
+    /*}*/
+    /*.divProductos__div{*/
+    /*    width: 100%;*/
+    /*    padding: .5rem;*/
+    /*}*/
 
-    .leerJson,
-    .leerCafeteria,
-    .leerEnsaladas,
-    .leerBebidas,
-    .leerPlatos {
-        display: flex;
-        flex-wrap: wrap;
-    }
+    /*.leerJson,*/
+    /*.leerCafeteria,*/
+    /*.leerEnsaladas,*/
+    /*.leerBebidas,*/
+    /*.leerPlatos {*/
+    /*    display: flex;*/
+    /*    flex-wrap: wrap;*/
+    /*}*/
 }
 @media (min-width: 701px) and (max-width: 800px){
     .Maña__uno {
         font-size: 1.3rem;
     }
-    .divProductos {
-        grid-template-columns: 1fr;
-        width: 25%;
-        gap: 10px;
-    }
-    .divProductos__img {
-        width: 100%;
-    }
-    .divProductos__div {
-        width: 100%;
-        padding: .5rem;
-    }
-    .leerJson,
-    .leerCafeteria,
-    .leerEnsaladas,
-    .leerBebidas,
-    .leerPlatos {
-        display: flex;
-        flex-wrap: wrap;
-    }
+    /*.divProductos {*/
+    /*    grid-template-columns: 1fr;*/
+    /*    width: 25%;*/
+    /*    gap: 10px;*/
+    /*}*/
+    /*.divProductos__img {*/
+    /*    width: 100%;*/
+    /*}*/
+    /*.divProductos__div {*/
+    /*    width: 100%;*/
+    /*    padding: .5rem;*/
+    /*}*/
+    /*.leerJson,*/
+    /*.leerCafeteria,*/
+    /*.leerEnsaladas,*/
+    /*.leerBebidas,*/
+    /*.leerPlatos {*/
+    /*    display: flex;*/
+    /*    flex-wrap: wrap;*/
+    /*}*/
+
 }
 @media (min-width: 801px) and (max-width: 900px){
     .Maña__uno {
         font-size: 1.3rem;
     }
-    .divProductos {
-        grid-template-columns: 1fr;
-        width: 25%;
-        gap: 10px;
-    }
-    .divProductos__img {
-        width: 100%;
-    }
-    .divProductos__div {
-        width: 100%;
-        padding: .5rem;
-    }
-    .leerJson,
-    .leerCafeteria,
-    .leerEnsaladas,
-    .leerBebidas,
-    .leerPlatos {
-        display: flex;
-        flex-wrap: wrap;
-    }
+    /*.divProductos {*/
+    /*    grid-template-columns: 1fr;*/
+    /*    width: 25%;*/
+    /*    gap: 10px;*/
+    /*}*/
+    /*.divProductos__img {*/
+    /*    width: 100%;*/
+    /*}*/
+    /*.divProductos__div {*/
+    /*    width: 100%;*/
+    /*    padding: .5rem;*/
+    /*}*/
+    /*.leerJson,*/
+    /*.leerCafeteria,*/
+    /*.leerEnsaladas,*/
+    /*.leerBebidas,*/
+    /*.leerPlatos {*/
+    /*    display: flex;*/
+    /*    flex-wrap: wrap;*/
+    /*}*/
 }
 @media (min-width: 901px) and (max-width: 1000px){
     .Maña__uno {
         font-size: 1.3rem;
     }
-    .divProductos {
-        grid-template-columns: 1fr;
-        width: 20%;
-        gap: 10px;
+    #platos {
+        display: grid;
+        justify-content: center;
     }
-    .divProductos__img {
-        width: 100%;
-    }
-    .divProductos__div {
-        width: 100%;
-        padding: .5rem;
-    }
-    .leerJson,
-    .leerCafeteria,
-    .leerEnsaladas,
-    .leerBebidas,
-    .leerPlatos {
-        display: flex;
-        flex-wrap: wrap;
-    }
+    /*.divProductos {*/
+    /*    grid-template-columns: 1fr;*/
+    /*    width: 20%;*/
+    /*    gap: 10px;*/
+    /*}*/
+    /*.divProductos__img {*/
+    /*    width: 100%;*/
+    /*}*/
+    /*.divProductos__div {*/
+    /*    width: 100%;*/
+    /*    padding: .5rem;*/
+    /*}*/
+    /*.leerJson,*/
+    /*.leerCafeteria,*/
+    /*.leerEnsaladas,*/
+    /*.leerBebidas,*/
+    /*.leerPlatos {*/
+    /*    display: flex;*/
+    /*    flex-wrap: wrap;*/
+    /*}*/
 }
 @media (min-width: 1001px) and (max-width: 1200px){
     .Maña__uno {
         font-size: 1.3rem;
     }
+    /*.divProductos {*/
+    /*    grid-template-columns: 1fr;*/
+    /*    width: 20%;*/
+    /*}*/
+    /*.divProductos__img {*/
+    /*    width: 100%;*/
+    /*}*/
+    /*.divProductos__div {*/
+    /*    width: 100%;*/
+    /*    padding: .5rem;*/
+    /*}*/
+    /*.leerJson,*/
+    /*.leerCafeteria,*/
+    /*.leerEnsaladas,*/
+    /*.leerBebidas,*/
+    /*.leerPlatos {*/
+    /*    display: flex;*/
+    /*    flex-wrap: wrap;*/
+    /*}*/
     .divProductos {
         grid-template-columns: 1fr;
-        width: 20%;
+        width: 16%;
+    }
+    section {
+        width: 80%;
+        margin: auto;
+    }
+    .divProductos__img picture img {
+        width: 100%;
+        height: 165px;
+        border-radius: 10px 0px 0px 10px;
     }
     .divProductos__img {
         width: 100%;
     }
     .divProductos__div {
         width: 100%;
-        padding: .5rem;
+        padding: 1rem;
     }
     .leerJson,
     .leerCafeteria,
