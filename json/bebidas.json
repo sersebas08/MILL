@@ -3,9 +3,9 @@
   "title":"Agua c/s gas",
   "text":"Agua c/s gas",
   "precio":"250.00",
-  "imgBig":"img/aguaSinG.jpg",
-  "imgBigModal":"img/aguaSinG.jpg",
-  "imgSmall":"img/aguaSinG.jpg",
+  "imgBig":"img/aguaSinG.png",
+  "imgBigModal":"img/aguaSinG.png",
+  "imgSmall":"img/aguaSinG.png",
   "imgAlt":"botella agua sin gas"
   },
   {
@@ -13,9 +13,9 @@
     "title":"Gaseosas ",
     "text":"Gaseosas ",
     "precio":"250.00",
-    "imgBig":"img/gaseosas.jpg",
-    "imgBigModal":"img/gaseosas.jpg",
-    "imgSmall":"img/gaseosas.jpg",
+    "imgBig":"img/gaseosas.png",
+    "imgBigModal":"img/gaseosas.png",
+    "imgSmall":"img/gaseosas.png",
     "imgAlt":"latas de gaseosas linea coca cola"
   },
   {
@@ -23,9 +23,9 @@
     "title":"Copa de vino",
     "text":"Copa de vino",
     "precio":"400.00",
-    "imgBig":"img/copa-de-vino.jpg",
-    "imgBigModal":"img/copa-de-vino.jpg",
-    "imgSmall":"img/copa-de-vino.jpg",
+    "imgBig":"img/copaVino.png",
+    "imgBigModal":"img/copaVino.png",
+    "imgSmall":"img/copaVino.png",
     "imgAlt":"copa de vino"
   },
   {
