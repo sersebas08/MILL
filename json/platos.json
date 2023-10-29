@@ -103,9 +103,9 @@
     "title":"Wrap de jamon y queso, tomate y rucula con ensalada",
     "text":"Wrap de jamon y queso, tomate y rucula con ensalada",
     "precio":"600.00",
-    "imgBig":"img/ensaladas/kunami.png",
-    "imgBigModal":"img/ensaladas/kunami.png",
-    "imgSmall":"img/ensaladas/kunami.png",
+    "imgBig":"img/platos/wrapJyQ.png",
+    "imgBigModal":"img/platos/wrapJyQ.png",
+    "imgSmall":"img/platos/wrapJyQ.png",
     "imgAlt":"Wrap de jamon y queso, tomate y rucula con ensalada"
   },
   {
@@ -113,9 +113,9 @@
     "title":"Tiritas de pollo al curry con arroz yamani",
     "text":"Tiritas de pollo al curry con arroz yamani",
     "precio":"750.00",
-    "imgBig":"img/ensaladas/kunami.png",
-    "imgBigModal":"img/ensaladas/kunami.png",
-    "imgSmall":"img/ensaladas/kunami.png",
+    "imgBig":"img/platos/TiritasPollo.png",
+    "imgBigModal":"img/platos/TiritasPollo.png",
+    "imgSmall":"img/platos/TiritasPollo.png",
     "imgAlt":"Tiritas de pollo al curry con arroz yamani"
   },
   {
@@ -123,9 +123,9 @@
     "title":"Tiritas de pollo a la mostaza con pure de papas",
     "text":"Tiritas de pollo a la mostaza con pure de papas",
     "precio":"750.00",
-    "imgBig":"img/ensaladas/kunami.png",
-    "imgBigModal":"img/ensaladas/kunami.png",
-    "imgSmall":"img/ensaladas/kunami.png",
+    "imgBig":"img/platos/TiritasPolloMostaza.png",
+    "imgBigModal":"img/platos/TiritasPolloMostaza.png",
+    "imgSmall":"img/platos/TiritasPolloMostaza.png",
     "imgAlt":"Tiritas de pollo a la mostaza con puré de papas"
   },
   {
@@ -133,39 +133,39 @@
     "title":"Wok de vegetales surtidos y arroz yamani integral",
     "text":"Wok de vegetales surtidos y arroz yamani integral",
     "precio":"650.00",
-    "imgBig":"img/ensaladas/kunami.png",
-    "imgBigModal":"img/ensaladas/kunami.png",
-    "imgSmall":"img/ensaladas/kunami.png",
+    "imgBig":"img/platos/wockYamani.png",
+    "imgBigModal":"img/platos/wockYamani.png",
+    "imgSmall":"img/platos/wockYamani.png",
     "imgAlt":"Wok de vegetales surtidos y arroz yamani integral"
   },
   {
     "id_productos":15,
-    "title":"Wok de vegetales surtidos y pasta corta (Fusillis)",
-    "text":"Wok de vegetales surtidos y pasta corta (Fusillis)",
+    "title":"Wok de vegetales surtidos y pasta corta (Fusilli)",
+    "text":"Wok de vegetales surtidos y pasta corta (Fusilli)",
     "precio":"650.00",
-    "imgBig":"img/ensaladas/kunami.png",
-    "imgBigModal":"img/ensaladas/kunami.png",
-    "imgSmall":"img/ensaladas/kunami.png",
-    "imgAlt":"Wok de vegetales surtidos y pasta corta (Fusillis)"
+    "imgBig":"img/platos/fusilliCortos.png",
+    "imgBigModal":"img/platos/fusilliCortos.png",
+    "imgSmall":"img/platos/fusilliCortos.png",
+    "imgAlt":"Wok de vegetales surtidos y pasta corta (Fusilli)"
   },
   {
     "id_productos":16,
     "title":"Wok de pollo y vegetales con o sin arroz yamani",
     "text":"Wok de pollo y vegetales con o sin arroz yamani",
     "precio":"750.00",
-    "imgBig":"img/ensaladas/kunami.png",
-    "imgBigModal":"img/ensaladas/kunami.png",
-    "imgSmall":"img/ensaladas/kunami.png",
+    "imgBig":"img/platos/wockPollo.png",
+    "imgBigModal":"img/platos/wockPollo.png",
+    "imgSmall":"img/platos/wockPollo.png",
     "imgAlt":"Wok de pollo y vegetales con o sin arroz yamani"
   },
   {
     "id_productos":17,
-    "title":"Milanesa de pollo con queso y rúcula con puré de papas",
-    "text":"Milanesa de pollo con queso y rúcula con puré de papas",
+    "title":"Milanesa de pollo con queso, rúcula y con puré de papas",
+    "text":"Milanesa de pollo con queso, rúcula y con puré de papas",
     "precio":"750.00",
-    "imgBig":"img/ensaladas/kunami.png",
-    "imgBigModal":"img/ensaladas/kunami.png",
-    "imgSmall":"img/ensaladas/kunami.png",
+    "imgBig":"img/platos/milanesaPollo.png",
+    "imgBigModal":"img/platos/milanesaPollo.png",
+    "imgSmall":"img/platos/milanesaPollo.png",
     "imgAlt":"Milanesa de pollo con queso y rúcula con puré de papas"
   },
   {
@@ -173,9 +173,9 @@
     "title":"Milanesa de peceto con puré de papas o ensalada",
     "text":"Milanesa de peceto con puré de papas o ensalada",
     "precio":"900.00",
-    "imgBig":"img/ensaladas/kunami.png",
-    "imgBigModal":"img/ensaladas/kunami.png",
-    "imgSmall":"img/ensaladas/kunami.png",
+    "imgBig":"img/platos/milanesaCarne.png",
+    "imgBigModal":"img/platos/milanesaCarne.png",
+    "imgSmall":"img/platos/milanesaCarne.png",
     "imgAlt":"Milanesa de peceto con puré de papas o ensalada"
   },
   {
@@ -183,9 +183,9 @@
     "title":"Milanesa de berenjena y ensalada",
     "text":"Milanesa de berenjena y ensalada",
     "precio":"700.00",
-    "imgBig":"img/ensaladas/kunami.png",
-    "imgBigModal":"img/ensaladas/kunami.png",
-    "imgSmall":"img/ensaladas/kunami.png",
+    "imgBig":"img/platos/bere.png",
+    "imgBigModal":"img/platos/bere.png",
+    "imgSmall":"img/platos/bere.png",
     "imgAlt":"Milanesa berenjena y ensalada"
   },
   {
@@ -193,9 +193,9 @@
     "title":"Omelette de jamón y queso con mix de vegetales",
     "text":"Omelette de jamón y queso con mix de vegetales",
     "precio":"550.00",
-   "imgBig":"img/ensaladas/kunami.png",
-    "imgBigModal":"img/ensaladas/kunami.png",
-    "imgSmall":"img/ensaladas/kunami.png",
+    "imgBig":"img/platos/omellete.png",
+    "imgBigModal":"img/platos/omellete.png",
+    "imgSmall":"img/platos/omellete.png",
     "imgAlt":"Omelette de jamón y queso con mix de vegetales"
   },
   {
@@ -203,9 +203,9 @@
     "title":"Omelette de espinaca y queso con ensaladilla de zanahoria",
     "text":"Omelette de espinaca y queso con ensaladilla de zanahoria",
     "precio":"550.00",
-    "imgBig":"img/ensaladas/kunami.png",
-    "imgBigModal":"img/ensaladas/kunami.png",
-    "imgSmall":"img/ensaladas/kunami.png",
+    "imgBig":"img/platos/omelleteVerdura.png",
+    "imgBigModal":"img/platos/omelleteVerdura.png",
+    "imgSmall":"img/platos/omelleteVerdura.png",
     "imgAlt":"Omelette de espinaca y queso con ensaladilla de zanahoria"
   },
   {
@@ -213,9 +213,9 @@
     "title":"Huevos revueltos con tostón de pan de campo",
     "text":"Huevos revueltos con tostón de pan de campo",
     "precio":"500.00",
-    "imgBig":"img/ensaladas/kunami.png",
-    "imgBigModal":"img/ensaladas/kunami.png",
-    "imgSmall":"img/ensaladas/kunami.png",
+    "imgBig":"img/platos/huevos.png",
+    "imgBigModal":"img/platos/huevos.png",
+    "imgSmall":"img/platos/huevos.png",
     "imgAlt":"Huevos revueltos con tostón de pan de campo"
   },
   {
@@ -223,9 +223,9 @@
     "title":"Huevos revueltos con panceta y tostón de campo",
     "text":"Huevos revueltos con panceta y tostón de campo",
     "precio":"750.00",
-    "imgBig":"img/ensaladas/kunami.png",
-    "imgBigModal":"img/ensaladas/kunami.png",
-    "imgSmall":"img/ensaladas/kunami.png",
+    "imgBig":"img/platos/huevosPanceta.png",
+    "imgBigModal":"img/platos/huevosPanceta.png",
+    "imgSmall":"img/platos/huevosPanceta.png",
     "imgAlt":"Huevos revueltos con panceta y tostón de campo"
   }
 
