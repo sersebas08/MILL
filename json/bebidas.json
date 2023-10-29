@@ -33,9 +33,9 @@
     "title":"Exprimido de naranjas",
     "text":"Exprimido de naranjas",
     "precio":"350.00",
-    "imgBig":"img/exprimido.jpg",
-    "imgBigModal":"img/exprimido.jpg",
-    "imgSmall":"img/exprimido.jpg",
+    "imgBig":"img/exprimido.png",
+    "imgBigModal":"img/exprimido.png",
+    "imgSmall":"img/exprimido.png",
     "imgAlt":"vaso de exprimido de naranja"
   },
   {
@@ -43,9 +43,9 @@
     "title":"Limonada + menta y jengibre",
     "text":"Limonada + menta y jengibre",
     "precio":"270.00",
-    "imgBig":"img/limonada.jpg",
-    "imgBigModal":"img/limonada.jpg",
-    "imgSmall":"img/limonada.jpg",
+    "imgBig":"img/limonada.png",
+    "imgBigModal":"img/limonada.png",
+    "imgSmall":"img/limonada.png",
     "imgAlt":"vaso de limonada con menta y limon"
   },
   {
