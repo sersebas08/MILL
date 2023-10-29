@@ -20,11 +20,11 @@ export function modal(data){
 
     ventanaModales.innerHTML = html;
 
-    let a = document.createElement('a');
-    a.href = '#';
-    a.id = 'modal'
-    a.innerHTML = 'CERRAR';
-    a.onclick = function () {
+    // let a = document.createElement('a');
+    // a.href = '#';
+    // a.id = 'modal'
+    // a.innerHTML = 'CERRAR';
+    ventanaModal.onclick = function () {
 
         ventanaModal.classList.add("hidden");
         ventanaModales.classList.add("hidden");
@@ -63,11 +63,11 @@ export function modalMill (){
 
     ventanaModalesEnsaladas.innerHTML = html;
 
-    let a = document.createElement('a');
-    a.href = '#';
-    a.id = 'modal'
-    a.innerHTML = 'CERRAR';
-    a.onclick = function () {
+    // let a = document.createElement('a');
+    // a.href = '#';
+    // a.id = 'modal'
+    // a.innerHTML = 'CERRAR';
+    ventanaModalEnsaladas.onclick = function () {
 
         ventanaModalEnsaladas.classList.add("hidden");
         ventanaModalesEnsaladas.classList.add("hidden");

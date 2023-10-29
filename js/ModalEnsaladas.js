@@ -21,11 +21,11 @@ export function modalEnsaladas(data){
 
     ventanaModalesEnsaladas.innerHTML = html;
 
-    let a = document.createElement('a');
-    a.href = '#';
-    a.id = 'modalEnsaladas'
-    a.innerHTML = 'CERRAR';
-    a.onclick = function () {
+    // let a = document.createElement('a');
+    // a.href = '#';
+    // a.id = 'modalEnsaladas'
+    // a.innerHTML = 'CERRAR';
+    ventanaModalEnsaladas.onclick = function () {
 
         ventanaModalEnsaladas.classList.add("hidden");
         ventanaModalesEnsaladas.classList.add("hidden");
