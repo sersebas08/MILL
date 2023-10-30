@@ -53,9 +53,9 @@
     "title":"Lata de cerveza 473cm3",
     "text":"Lata de cerveza 473cm3",
     "precio":"400.00",
-    "imgBig":"img/lata.jpg",
-    "imgBigModal":"img/lata.jpg",
-    "imgSmall":"img/lata.jpg",
+    "imgBig":"img/lata.png",
+    "imgBigModal":"img/lata.png",
+    "imgSmall":"img/lata.png",
     "imgAlt":"lata de cerveza stella artois"
   },
   {
@@ -63,9 +63,9 @@
     "title":"Licuado de frutas",
     "text":"Licuado de frutas",
     "precio":"350.00",
-    "imgBig":"img/licuados.jpg",
-    "imgBigModal":"img/licuados.jpg",
-    "imgSmall":"img/licuados.jpg",
+    "imgBig":"img/licuados.png",
+    "imgBigModal":"img/licuados.png",
+    "imgSmall":"img/licuados.png",
     "imgAlt":"vasos de licuados de frutas"
   },
   {
@@ -73,9 +73,9 @@
     "title":"Chocolatada",
     "text":"Chocolatada",
     "precio":"250.00",
-    "imgBig":"img/chocolatada.jpg",
-    "imgBigModal":"img/chocolatada.jpg",
-    "imgSmall":"img/chocolatada.jpg",
+    "imgBig":"img/chocolatada.png",
+    "imgBigModal":"img/chocolatada.png",
+    "imgSmall":"img/chocolatada.png",
     "imgAlt":"chocolatada nesquik "
   }
 ]
