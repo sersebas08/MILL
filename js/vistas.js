@@ -8,11 +8,11 @@ export function vistas () {
         CONST.principalPlatos.classList.add("hidden");
         CONST.principalEnsaladas.classList.add("hidden");
         if(CONST.uno){
-            CONST.uno.style.backgroundColor = '#ff000042';
-            CONST.dos.style.backgroundColor = '';
-            CONST.tres.style.backgroundColor = '';
-            CONST.cuatro.style.backgroundColor = '';
-            CONST.cinco.style.backgroundColor = '';
+            CONST.unos.style.backgroundColor = '#ff000042';
+            CONST.doss.style.backgroundColor = '';
+            CONST.tress.style.backgroundColor = '';
+            CONST.cuatros.style.backgroundColor = '';
+            CONST.cincos.style.backgroundColor = '';
         }
     });
 
@@ -23,11 +23,11 @@ export function vistas () {
         CONST.principalPlatos.classList.add("hidden");
         CONST.principalEnsaladas.classList.add("hidden");
         if(CONST.dos){
-            CONST.uno.style.backgroundColor = '';
-            CONST.dos.style.backgroundColor = '#ff000042';
-            CONST.tres.style.backgroundColor = '';
-            CONST.cuatro.style.backgroundColor = '';
-            CONST.cinco.style.backgroundColor = '';
+            CONST.unos.style.backgroundColor = '';
+            CONST.doss.style.backgroundColor = '#ff000042';
+            CONST.tress.style.backgroundColor = '';
+            CONST.cuatros.style.backgroundColor = '';
+            CONST.cincos.style.backgroundColor = '';
         }
     });
 
@@ -38,11 +38,11 @@ export function vistas () {
         CONST.principalPlatos.classList.add("hidden");
         CONST.principalEnsaladas.classList.add("hidden");
         if(CONST.tres){
-            CONST.uno.style.backgroundColor = '';
-            CONST.dos.style.backgroundColor = '';
-            CONST.tres.style.backgroundColor = '#ff000042';
-            CONST.cuatro.style.backgroundColor = '';
-            CONST.cinco.style.backgroundColor = '';
+            CONST.unos.style.backgroundColor = '';
+            CONST.doss.style.backgroundColor = '';
+            CONST.tress.style.backgroundColor = '#ff000042';
+            CONST.cuatros.style.backgroundColor = '';
+            CONST.cincos.style.backgroundColor = '';
         }
     });
 
@@ -54,11 +54,11 @@ export function vistas () {
         CONST.principalPlatos.classList.remove("hidden");
         CONST.principalEnsaladas.classList.add("hidden");
         if(CONST.cuatro){
-            CONST.uno.style.backgroundColor = '';
-            CONST.dos.style.backgroundColor = '';
-            CONST.tres.style.backgroundColor = '';
-            CONST.cuatro.style.backgroundColor = '#ff000042';
-            CONST.cinco.style.backgroundColor = '';
+            CONST.unos.style.backgroundColor = '';
+            CONST.doss.style.backgroundColor = '';
+            CONST.tress.style.backgroundColor = '';
+            CONST.cuatros.style.backgroundColor = '#ff000042';
+            CONST.cincos.style.backgroundColor = '';
         }
     });
 
@@ -70,11 +70,11 @@ export function vistas () {
         CONST.principalPlatos.classList.add("hidden");
         CONST.principalEnsaladas.classList.remove("hidden");
         if(CONST.cinco){
-            CONST.uno.style.backgroundColor = '';
-            CONST.dos.style.backgroundColor = '';
-            CONST.tres.style.backgroundColor = '';
-            CONST.cuatro.style.backgroundColor = '';
-            CONST.cinco.style.backgroundColor = '#ff000042';
+            CONST.unos.style.backgroundColor = '';
+            CONST.doss.style.backgroundColor = '';
+            CONST.tress.style.backgroundColor = '';
+            CONST.cuatros.style.backgroundColor = '';
+            CONST.cincos.style.backgroundColor = '#ff000042';
         }
 
     });
