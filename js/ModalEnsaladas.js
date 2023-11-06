@@ -17,7 +17,11 @@ export function modalEnsaladas(data){
                     <h2 class="divProductosModal__h2">${data.name}</h2>
                     <h3 class="divProductosModal__h3">${data.text}</h3>
                     <h4 class="divProductosModal__h4"><span>Precio: $ </span>${data.precio}</h4>
-                </div>`;
+                </div>
+                <div>
+                     <p class="text-light text-center letraChica">las imagenes son de iliustración</p>              
+                </div>
+                    `;
 
     ventanaModalesEnsaladas.innerHTML = html;
 

@@ -15,6 +15,9 @@ font-family: 'Kdam Thmor Pro', sans-serif;
     border-image-source: linear-gradient(to bottom right, #f78ae0, #6638f0);
     border-image-slice: 4;*/
 }
+.letraChica {
+    font-size: .7rem;
+}
 section {
     width: 90%;
     margin: auto;

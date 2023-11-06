@@ -16,6 +16,9 @@ export function modal(data){
                     </picture>
                     <h3  class="divProductosModal__h3">${data.name}</h3>
                     <h4  class="divProductosModal__h4"><span>Precio: $ </span>${data.precio}</h4>
+                </div>
+                <div>
+                     <p class="text-light text-center letraChica">las imagenes son de iliustración</p>              
                 </div>`;
 
     ventanaModales.innerHTML = html;
