@@ -522,14 +522,14 @@ body {
 @media (min-width: 400px) and (max-width: 500px){
 
     .Maña__uno {
-        font-size: 1.3rem;
+        font-size: .8rem;
     }
 }
 
 @media (min-width: 501px) and (max-width: 600px){
 
     .Maña__uno {
-        font-size: 1.3rem;
+        font-size: .8rem;
     }
     /*.divProductos {*/
     /*    grid-template-columns: 1fr;*/
