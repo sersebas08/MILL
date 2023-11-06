@@ -53,7 +53,7 @@ export function modalMill (){
                     </picture>
                     <div class="divModalMillDatos">
                         <h2 class="divModalMillDatos__h2">Mill</h2>
-                        <h3 class="divModalMillDatos__h4"><span>Direccion</span>Raul scalabrini ortiz 801</h3>
+                        <h3 class="divModalMillDatos__h4"><span>Dirección</span>Raul scalabrini ortiz 801</h3>
                         <h4 class="divModalMillDatos__h4"><span>Horarios</span></h4>
                         <p class="divModalMillDatos__h4"><span>Lunes a viernes</span>8:00hs a 20:00hs</p>
                         <p class="divModalMillDatos__h4"><span>Sabados</span>10:00hs a 20:00hs</p>
