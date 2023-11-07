@@ -19,7 +19,7 @@ export function modalEnsaladas(data){
                     <h4 class="divProductosModal__h4"><span>Precio: $ </span>${data.precio}</h4>
                 </div>
                 <div>
-                     <p class="text-light text-center letraChica">las imagenes son de iliustración</p>              
+                     <p class="text-light text-center letraChica">Las fotos publicadas son ilustraciones, no imágenes reales.</p>              
                 </div>
                     `;
 
