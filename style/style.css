@@ -52,7 +52,11 @@ section h2 {
     z-index: 1000;
 }
 .menu {
-    background: #0e0e0e;
+    /*background: #0e0e0e;*/
+}
+.menu__ancla {
+    font-size: 1.5rem;
+    font-weight: 800;
 }
 /*.botones {
     display: flex;
